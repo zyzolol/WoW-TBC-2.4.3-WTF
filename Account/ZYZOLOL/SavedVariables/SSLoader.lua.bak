@@ -1,0 +1,63 @@
+
+SSLoader_AddOns = {
+	["SSEoS"] = {
+		["cmd"] = {
+			["SSEoS"] = "SSES_SlashHandler",
+		},
+		["loadInBG"] = {
+			"Eye of the Storm", -- [1]
+		},
+		["cmdSlashes"] = {
+			["SSEoS"] = {
+				"/sses", -- [1]
+				"/sseos", -- [2]
+				"/sseots", -- [3]
+			},
+		},
+		["onLoad"] = "SSES_OnLoad",
+	},
+	["SSAV"] = {
+		["cmd"] = {
+			["SSAV"] = "SSAV_SlashHandler",
+		},
+		["loadInBG"] = {
+			"Alterac Valley", -- [1]
+		},
+		["onLoad"] = "SSAV_OnLoad",
+		["cmdSlashes"] = {
+			["SSAV"] = {
+				"/ssav", -- [1]
+			},
+		},
+		["onEvent"] = "SSAV_OnEvent",
+		["loadOnMsg"] = "SSAV",
+	},
+	["SSWSG"] = {
+		["cmd"] = {
+			["SSWSG"] = "SSWSG_SlashHandler",
+		},
+		["loadInBG"] = {
+			"Warsong Gulch", -- [1]
+		},
+		["cmdSlashes"] = {
+			["SSWSG"] = {
+				"/sswsg", -- [1]
+			},
+		},
+		["onLoad"] = "SSWSG_OnLoad",
+	},
+	["SSAB"] = {
+		["cmd"] = {
+			["SSAB"] = "SSAB_SlashHandler",
+		},
+		["loadInBG"] = {
+			"Arathi Basin", -- [1]
+		},
+		["cmdSlashes"] = {
+			["SSAB"] = {
+				"/ssab", -- [1]
+			},
+		},
+		["onLoad"] = "SSAB_OnLoad",
+	},
+}

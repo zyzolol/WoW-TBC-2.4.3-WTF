@@ -1,0 +1,7 @@
+
+PratPerCharDB = {
+	["namespaces"] = {
+		["PratChannelReordering"] = {
+		},
+	},
+}

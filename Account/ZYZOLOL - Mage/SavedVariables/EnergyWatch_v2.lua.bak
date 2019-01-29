@@ -1,0 +1,11 @@
+
+EnergyWatch_Save = {
+	["Subtletyhero of Outland"] = {
+		["show"] = 0,
+		["alpha"] = 1,
+		["status"] = 0,
+		["text"] = "Energy",
+		["sound"] = "",
+		["scale"] = 1,
+	},
+}

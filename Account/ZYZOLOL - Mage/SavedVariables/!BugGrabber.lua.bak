@@ -1,0 +1,16 @@
+
+BugGrabberDB = {
+	["throttle"] = true,
+	["limit"] = 500,
+	["errors"] = {
+		{
+			["message"] = "<event>ADDON_ACTION_BLOCKED:AddOn 'Ace2' tried to call the protected function 'orig()'.\n<in C code>: in function `orig'\nAceComm-2.0-91091 (Ace2):2017: in function <Interface\\AddOns\\Ace2\\AceComm-2.0\\AceComm-2.0.lua:2013>\n(tail call): ?:\nInterface\\FrameXML\\StaticPopup.lua:1077: in function `OnHide':\nInterface\\FrameXML\\StaticPopup.lua:2687: in function `StaticPopup_OnHide':\n<string>:\"*:OnHide\":1: in function <[string \"*:OnHide\"]:1>\n<in C code>: in function `Hide'\nInterface\\FrameXML\\StaticPopup.lua:2537: in function `StaticPopup_Hide':\nInterface\\FrameXML\\UIParent.lua:460: in function `UIParent_OnEvent':\n<string>:\"*:OnEvent\":1: in function <[string \"*:OnEvent\"]:1>\n\n  ---",
+			["type"] = "event",
+			["time"] = "2017/11/27 10:59:06",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [1]
+	},
+	["save"] = true,
+	["session"] = 1,
+}

@@ -1,0 +1,707 @@
+
+QuestHelper_Version = "0.59"
+QuestHelper_SaveVersion = 10
+QuestHelper_Locale = "enUS"
+QuestHelper_Quests = {
+	["0.59 on 2.4.3"] = {
+		{
+			[62] = {
+				["Gaining Mirren's Trust"] = {
+					["hash"] = 2512729126,
+				},
+			},
+			[49] = {
+				["Sprinkle's Secret Ingredient"] = {
+					["hash"] = 2815040761,
+				},
+			},
+			[69] = {
+				["Bloody Imp-ossible!"] = {
+					["hash"] = 2597131670,
+					["id"] = 10924,
+				},
+				["Torching Sunfury Hold"] = {
+					["hash"] = 1901539264,
+				},
+				["The Sunfury Garrison"] = {
+					["hash"] = 1171069859,
+				},
+				["Unlocking the Compendium"] = {
+					["hash"] = 342383351,
+				},
+				["Help Mama Wheeler"] = {
+					["hash"] = 2346917841,
+				},
+				["A Lingering Suspicion"] = {
+					["hash"] = 1748184502,
+				},
+				["In A Scrap With The Legion"] = {
+					["hash"] = 4124845370,
+				},
+			},
+			[66] = {
+				["Safety Is Job One"] = {
+					["hash"] = 294539692,
+					["id"] = 10216,
+				},
+				["Undercutting the Competition"] = {
+					["hash"] = 917319928,
+					["id"] = 10165,
+				},
+			},
+			[70] = {
+				["Call to Arms: Eye of the Storm"] = {
+					["hash"] = 3079155320,
+					["id"] = 11337,
+				},
+				["Concerted Efforts"] = {
+					["hash"] = 169822126,
+					["id"] = 8371,
+				},
+				["The Vials of Eternity"] = {
+					["hash"] = 4071112497,
+					["id"] = 10445,
+				},
+				["Learning to Fly"] = {
+					["hash"] = 50142079,
+					["id"] = 11497,
+				},
+				["Assessing the Situation"] = {
+					["hash"] = 2266696123,
+					["id"] = 9840,
+				},
+				["The Cipher of Damnation - Borak's Charge"] = {
+					["hash"] = 381503041,
+				},
+				["The Master's Terrace"] = {
+					["hash"] = 562639635,
+				},
+				["Shutting Down Manaforge Duro"] = {
+					["hash"] = 4040449649,
+				},
+				["Crisis at the Sunwell"] = {
+					["hash"] = 1109536711,
+				},
+				["Spirits of Auchindoun"] = {
+					["hash"] = 3900904030,
+					["id"] = 11505,
+				},
+				["Eminence Among the Violet Eye"] = {
+					["hash"] = 2793679431,
+				},
+				["The Shade of Aran"] = {
+					["hash"] = 3809353139,
+					["id"] = 9640,
+				},
+				["Distinguished Service"] = {
+					["hash"] = 2809408077,
+					["id"] = 10739,
+				},
+			},
+			[67] = {
+				["Levixus the Soul Caller"] = {
+					["hash"] = 124536479,
+				},
+				["What Book? I Don't See Any Book."] = {
+					["hash"] = 1818175703,
+					["id"] = 10231,
+				},
+			},
+			[64] = {
+				["A Cure for Zahlia"] = {
+					["hash"] = 128004919,
+				},
+				["Leader of the Darkcrest"] = {
+					["hash"] = 2586454527,
+					["id"] = 9730,
+				},
+			},
+			[68] = {
+				["Wanted: Annihilator Servo!"] = {
+					["hash"] = 2432835415,
+				},
+				["Buying Time"] = {
+					["hash"] = 1432432287,
+				},
+				["Deceive thy Enemy"] = {
+					["hash"] = 127865648,
+					["id"] = 10820,
+				},
+			},
+			[65] = {
+				["Lost in Action"] = {
+					["hash"] = 2040216853,
+				},
+				["Losing Gracefully"] = {
+					["hash"] = 581841998,
+					["id"] = 10169,
+				},
+				["Firewing Signets"] = {
+					["hash"] = 2931047565,
+					["id"] = 10412,
+				},
+				["Ishanah"] = {
+					["hash"] = 3006152586,
+				},
+			},
+		}, -- [1]
+	},
+}
+QuestHelper_Objectives = {
+	["0.59 on 2.4.3"] = {
+		["monster"] = {
+			["Lisaile Fireweaver"] = {
+			},
+			["Bibilfaz Featherwhistle"] = {
+			},
+			["Gurric"] = {
+			},
+			["Bilko Driftspark"] = {
+			},
+			["Halu"] = {
+			},
+			["Maddix"] = {
+			},
+			["Alexandra Constantine"] = {
+			},
+			["Teloren"] = {
+			},
+			["Ohura"] = {
+			},
+			["Vana Grey"] = {
+			},
+			["Sprinkle"] = {
+			},
+			["Raider Bork"] = {
+			},
+			["Gan'arg Engineer"] = {
+			},
+			["Sharth Voldoun"] = {
+			},
+			["Surristrasz"] = {
+			},
+			["Palena Silvercloud"] = {
+			},
+			["Ariena Stormfeather"] = {
+			},
+			["Dyslix Silvergrub"] = {
+			},
+			["Ethereal Crypt Raider"] = {
+				["quest"] = true,
+			},
+			["Suralais Farwind"] = {
+			},
+			["Flightmaster Krill Bitterhue"] = {
+			},
+			["Sunfury Archer"] = {
+			},
+			["Ramdor the Mad"] = {
+			},
+			["Nexus Stalker"] = {
+				["quest"] = true,
+			},
+			["Mo'arg Doomsmith"] = {
+			},
+			["First Sergeant Hola'mahi"] = {
+			},
+			["Sha'nir"] = {
+			},
+			["Firewing Bloodwarder"] = {
+			},
+			["Grennik"] = {
+			},
+			["Kiz Coilspanner"] = {
+			},
+			["Ethereal Spellbinder"] = {
+				["quest"] = true,
+			},
+			["Caylais Moonfeather"] = {
+			},
+			["Gyll"] = {
+			},
+			["Nexus-Prince Haramad"] = {
+			},
+			["Arcane Annihilator"] = {
+			},
+			["Thorgrum Borrelson"] = {
+			},
+			["Magistrix Fyalenn"] = {
+			},
+			["Arzo Safeflight"] = {
+			},
+			["Ethereal Sorcerer"] = {
+				["quest"] = true,
+			},
+			["Alieshor"] = {
+			},
+			["Kael'thas Sunstrider"] = {
+			},
+			["Rafae"] = {
+			},
+			["Nizzle"] = {
+			},
+			["Fyldren Moonfeather"] = {
+			},
+			["Marksman Regiment's Cooking Pot"] = {
+			},
+			["Darla Harris"] = {
+			},
+			["Levixus"] = {
+			},
+			["Baneflight"] = {
+			},
+			["Mama Wheeler"] = {
+			},
+			["Munci"] = {
+			},
+			["Rajah Haghazed"] = {
+				["quest"] = true,
+			},
+			["Shellei Brondir"] = {
+			},
+			["\"Dirty\" Larry"] = {
+			},
+			["Tormented Soul"] = {
+			},
+			["Ilsa Blusterbrew"] = {
+			},
+			["Pricilla Winterwind"] = {
+			},
+			["Mirren Longbeard"] = {
+			},
+			["Warden Hamoot"] = {
+			},
+			["Firewing Defender"] = {
+			},
+			["Gryth Thurden"] = {
+			},
+			["Borak, Son of Oronok"] = {
+			},
+			["Baldruc"] = {
+			},
+			["Kirin'Var Spectre"] = {
+			},
+			["Nutral"] = {
+			},
+			["Kara Thricestar"] = {
+			},
+			["Felicia Maline"] = {
+			},
+			["Legion Communicator"] = {
+			},
+			["Rip Pedalslam"] = {
+			},
+			["Sindrayl"] = {
+			},
+			["Mishellena"] = {
+			},
+			["Faldorf Bitterchill"] = {
+			},
+			["Custodian Dieworth"] = {
+			},
+			["Kamsis"] = {
+			},
+			["Lady Vashj"] = {
+			},
+			["Firewing Warlock"] = {
+			},
+			["Tomas Riverwell"] = {
+			},
+			["Furgu"] = {
+			},
+			["Dungar Longdrink"] = {
+			},
+			["Alliance Brigadier General"] = {
+			},
+			["Felguard Legionnaire"] = {
+			},
+			["Daelyshia"] = {
+			},
+			["Furnan Skysoar"] = {
+			},
+			["Greer Orehammer"] = {
+			},
+			["Morlia Doomwing"] = {
+			},
+			["Maaka"] = {
+			},
+			["Maethrya"] = {
+			},
+			["Exorcist Sullivan"] = {
+			},
+			["Kip Trawlskip"] = {
+			},
+			["Gan'arg Tinkerer"] = {
+			},
+			["Archmage Leryda"] = {
+			},
+			["Lanie Reed"] = {
+			},
+			["Socrethar"] = {
+				["id"] = 20132,
+				["levelw"] = 3,
+				["level"] = 72,
+				["pos"] = {
+					{
+						59, -- [1]
+						0.2968666142933852, -- [2]
+						0.1448718573038395, -- [3]
+						1.43, -- [4]
+					}, -- [1]
+				},
+			},
+			["Skizzle Slickslide"] = {
+			},
+			["Kirin'Var Ghost"] = {
+			},
+			["Tormented Citizen"] = {
+			},
+			["Penumbrius"] = {
+			},
+			["Stonegazer"] = {
+			},
+			["Spellreaver Marathelle"] = {
+			},
+			["Derek Rammel"] = {
+			},
+			["Stephanos"] = {
+			},
+			["Ishanah"] = {
+			},
+			["Amish Wildhammer"] = {
+			},
+			["Archmage Alturus"] = {
+			},
+			["Fhyn Leafshadow"] = {
+			},
+			["Weeder Greenthumb Discovered"] = {
+			},
+			["Gorrim"] = {
+			},
+			["Papa Wheeler"] = {
+			},
+			["Mo'arg Engineer"] = {
+			},
+			["Watcher Jhang"] = {
+			},
+			["Altruis the Sufferer"] = {
+			},
+			["Spymaster Thalodien"] = {
+			},
+			["Amerun Leafshade"] = {
+			},
+			["Image of Archmage Vargoth"] = {
+			},
+			["Kuma"] = {
+			},
+			["Laando"] = {
+			},
+			["Bernie Heisten"] = {
+			},
+			["Galendror Whitewing"] = {
+			},
+			["Danica Saint"] = {
+			},
+			["Lieutenant-Sorcerer Morran"] = {
+			},
+			["Manaforge Duro Shut Down"] = {
+			},
+			["Shade of Aran"] = {
+			},
+			["Vesprystus"] = {
+			},
+			["Samuel Clearbook"] = {
+			},
+			["Cloud Skydancer"] = {
+			},
+			["Khaelyn Steelwing"] = {
+			},
+			["Exarch Larethor"] = {
+			},
+			["Baritanas Skyriver"] = {
+			},
+			["Aludane Whitecloud"] = {
+			},
+			["Nethestrasz"] = {
+			},
+			["Gryfe"] = {
+			},
+			["Runetog Wildhammer"] = {
+			},
+			["Rodney Wells"] = {
+			},
+			["Harpax"] = {
+			},
+			["Sab'aoth"] = {
+			},
+			["Soridormi"] = {
+			},
+			["Borgus Stoutarm"] = {
+			},
+			["James Ormsby"] = {
+			},
+			["Nexus-Prince Shaffar"] = {
+			},
+			["Krexcil"] = {
+			},
+			["Koren"] = {
+			},
+			["Warmage Adami"] = {
+			},
+			["Shadow of Aran"] = {
+			},
+			["Cedrik Prose"] = {
+			},
+			["Doomforge Engineer"] = {
+				["quest"] = true,
+			},
+			["Aedan Moran"] = {
+			},
+			["Doomforge Attendant"] = {
+				["quest"] = true,
+			},
+			["Thor"] = {
+			},
+			["Bragok"] = {
+			},
+			["Guthrum Thunderfist"] = {
+			},
+			["Firewing Courier"] = {
+			},
+			["Cid Flounderfix"] = {
+			},
+			["Thyssiana"] = {
+			},
+			["Brubeck Stormfoot"] = {
+			},
+			["Jarrodenus"] = {
+			},
+			["The Spirit of Gnomeregan"] = {
+			},
+			["Bera Stonehammer"] = {
+			},
+		},
+		["reputation"] = {
+			["The Violet Eye"] = {
+				["quest"] = true,
+			},
+		},
+		["item"] = {
+			[""] = {
+				["id"] = 30633,
+			},
+			["Jump-a-tron 4000 Key"] = {
+				["id"] = 27808,
+			},
+			["Mag'har Grainbread"] = {
+				["id"] = 27855,
+			},
+			["Alterac Valley Mark of Honor"] = {
+				["quest"] = true,
+			},
+			["Ethermead"] = {
+				["id"] = 29395,
+			},
+			["Mark of Sargeras"] = {
+				["id"] = 30809,
+			},
+			["Spirit Shard"] = {
+				["id"] = 28558,
+			},
+			["Wild Thornroot"] = {
+				["id"] = 17026,
+			},
+			["Smoked Talbuk Venison"] = {
+				["id"] = 27854,
+			},
+			["Northwind Cleft Key"] = {
+				["id"] = 25509,
+			},
+			["Warsong Gulch Mark of Honor"] = {
+				["quest"] = true,
+				["id"] = 20558,
+			},
+			["Greater Planar Essence"] = {
+				["id"] = 22446,
+			},
+			["Lesser Planar Essence"] = {
+				["id"] = 22447,
+			},
+			["Rune Thread"] = {
+				["id"] = 14341,
+			},
+			["Heliotrope Oculus"] = {
+			},
+			["Small Prismatic Shard"] = {
+				["id"] = 22448,
+			},
+			["Arcane Rune"] = {
+				["id"] = 29736,
+			},
+			["Shadow Labyrinth Key"] = {
+				["id"] = 27991,
+			},
+			["Hearthstone"] = {
+				["id"] = 6948,
+			},
+			["Third Fragment of the Cipher of Damnation"] = {
+			},
+			["Annihilator Servo"] = {
+			},
+			["Vashj's Vial Remnant"] = {
+				["quest"] = true,
+			},
+			["The Book of the Dead"] = {
+			},
+			["Eye of the Storm Mark of Honor"] = {
+				["quest"] = true,
+			},
+			["Violet Tragan"] = {
+			},
+			["Stonegazer's Blood"] = {
+			},
+			["Loathsome Remnant"] = {
+			},
+			["Warp Chaser Blood"] = {
+				["quest"] = true,
+			},
+			["Reins of the Striped Nightsaber"] = {
+				["id"] = 8629,
+			},
+			["Flintweed Seed"] = {
+				["id"] = 22147,
+			},
+			["Mithril-Bark Cloak"] = {
+				["id"] = 28328,
+			},
+			["Shaffar's Wrappings"] = {
+				["quest"] = true,
+			},
+			["Reins of the Swift Mistsaber"] = {
+				["id"] = 18767,
+			},
+			["Cowl of the Guiltless"] = {
+				["id"] = 28206,
+			},
+			["Badge of Justice"] = {
+				["id"] = 29434,
+			},
+			["Maul"] = {
+				["id"] = 924,
+			},
+			["Bottled Nethergon Vapor"] = {
+				["id"] = 32905,
+			},
+			["Primal Nether"] = {
+				["id"] = 23572,
+			},
+			["The Master's Key"] = {
+				["id"] = 24490,
+			},
+			["Mark of Honor Hold"] = {
+				["id"] = 24579,
+			},
+			["Super Healing Potion"] = {
+				["id"] = 22829,
+			},
+			["Auchenai Key"] = {
+				["id"] = 30633,
+			},
+			["Formula: Enchant Cloak - Spell Penetration"] = {
+				["id"] = 28274,
+			},
+			["Netherweave Cloth"] = {
+				["id"] = 21877,
+			},
+			["Firewing Signet"] = {
+				["quest"] = true,
+			},
+			["Star's Tears"] = {
+				["id"] = 32453,
+			},
+			["Runed Fel Iron Rod"] = {
+				["id"] = 22461,
+			},
+			["Purified Draenic Water"] = {
+				["id"] = 27860,
+			},
+			["Medivh's Journal"] = {
+				["quest"] = true,
+			},
+			["Seal of the Exorcist"] = {
+				["id"] = 28555,
+			},
+			["Nethergarde Bitter"] = {
+			},
+			["Kael's Vial Remnant"] = {
+				["quest"] = true,
+			},
+			["Arathi Basin Mark of Honor"] = {
+				["quest"] = true,
+				["id"] = 20559,
+			},
+			["Warpforged Key"] = {
+				["id"] = 30634,
+			},
+			["Bolt of Netherweave"] = {
+				["id"] = 21840,
+			},
+		},
+		["event"] = {
+			["Secure a Spirit Tower"] = {
+				["quest"] = true,
+			},
+			["Victory in the Eye of the Storm"] = {
+				["quest"] = true,
+			},
+			["Beat Down \"Dirty\" Larry and Get Information"] = {
+				["quest"] = true,
+			},
+		},
+	},
+}
+QuestHelper_FlightInstructors = {
+	["0.59 on 2.4.3"] = {
+	},
+}
+QuestHelper_FlightRoutes = {
+	["0.59 on 2.4.3"] = {
+	},
+}
+QuestHelper_Pref = {
+	["track"] = true,
+	["filter_zone"] = false,
+	["scale"] = 1,
+	["comm"] = false,
+	["locale"] = "enUS",
+	["track_level"] = true,
+	["hide"] = false,
+	["show_ants"] = true,
+	["track_size"] = 8,
+	["perf_scale"] = 1,
+	["level"] = 2,
+	["map_button"] = true,
+	["solo"] = false,
+	["filter_level"] = true,
+	["filter_blocked"] = false,
+	["track_minimized"] = false,
+	["cart_wp"] = true,
+	["track_qcolour"] = true,
+	["tomtom_wp"] = true,
+	["tooltip"] = true,
+	["share"] = true,
+	["filter_watched"] = false,
+	["track_ocolour"] = true,
+	["filter_done"] = false,
+	["flight_time"] = true,
+	["track_scale"] = 1,
+}
+QuestHelper_UID = "xyB4mg03HVjloRVjQxLhUoSjmEqqKsXK"
+QuestHelper_SaveDate = 1512887879
+QuestHelper_SeenRealms = {
+	["Ares"] = true,
+}
+QuestHelper_Errors = {
+	["crashes"] = {
+	},
+}

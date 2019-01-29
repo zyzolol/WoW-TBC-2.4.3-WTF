@@ -1,0 +1,31 @@
+
+Omen2DB = {
+	["global"] = {
+	},
+	["profileKeys"] = {
+		["Subletygodx - Ares"] = "Subletygodx - Ares",
+	},
+	["profiles"] = {
+		["Subletygodx - Ares"] = {
+			["PositionY"] = 160.5439910888672,
+			["options"] = {
+				["Modules"] = {
+					["LastActive"] = "SingleTarget",
+				},
+				["Skin"] = {
+					["Scale"] = 110,
+				},
+				["HardOff"] = false,
+				["Show"] = true,
+				["Lock"] = true,
+			},
+			["PositionW"] = 225.0001068115234,
+			["PositionX"] = 1246.17724609375,
+			["PositionH"] = 150.0000305175781,
+		},
+	},
+}
+Omen2DefaultProfile = {
+	false, -- [1]
+	"Modders: In your SavedVars, replace the first argument of this table with the profile you want loaded by default, like 'Default'.", -- [2]
+}

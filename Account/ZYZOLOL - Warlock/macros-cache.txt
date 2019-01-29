@@ -1,0 +1,107 @@
+MACRO 36 "Buff" INV_Misc_QuestionMark
+#showtooltip Demon Armor
+/castsequence [target=player] Fel Armor, Detect Invisibility, Unending Breath
+END
+MACRO 27 "Curse of Agony" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/petattack [target=Earthbind Totem ] [harm]
+/cast [mod:ctrl] Curse of Agony; [nomod] Corruption 
+END
+MACRO 29 "Death Coil" Spell_Shadow_DeathCoil
+#showtooltip Death Coil
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Death Coil
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+END
+MACRO 33 "Devour" Spell_Nature_Purge
+/cast [target=mouseover, exists, harm, pet:felhunter][target=target, exists, nodead, pet:felhunter][] Devour Magic
+END
+MACRO 26 "Drain Soul" Spell_Shadow_Haunting
+#showtooltip 
+/console cameraSmoothTrackingStyle 0
+/cast [nochanneling:Drain Soul] Drain Soul(Rank 1)
+/console cameraSmoothTrackingStyle 0
+END
+MACRO 8 "Fear" Spell_Shadow_Possession
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Fear
+/focus [target=mouseover, exists, harm][target=target, exists, nodead, harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petfollow
+END
+MACRO 18 "FOCUS" Ability_Druid_ChallangingRoar
+/focus
+END
+MACRO 30 "FOCUSCOIL" Spell_Shadow_DeathCoil
+#showtooltip Death Coil
+/cast [target=focus, exists, harm] Death Coil
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/petattack [target=Earthbind Totem ] [harm]
+END
+MACRO 20 "FOCUSFEAR" Spell_Shadow_Possession
+#showtooltip Fear
+/cast [target=focus, exists, harm] Fear
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petfollow
+END
+MACRO 32 "FOCUSILENCE" Spell_Shadow_MindRot
+#showtooltip
+/cast [target=focus, exists, harm, pet:felhunter]Spell Lock; [target=focus, exists, harm, pet:succubus] Seduction
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+END
+MACRO 16 "Immolate" Spell_Fire_Immolation
+#showtooltip Immolate
+/use Scryer's Bloodgem
+/target [target=Spitfire Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/cast [exists, harm] Immolate
+/petattack
+END
+MACRO 38 "Life Tap" INV_Misc_QuestionMark
+#showtooltip Life Tap
+/stopcasting
+/cast Life Tap
+END
+MACRO 28 "PvP" Spell_Shadow_RagingScream
+#showtooltip Demon Armor
+/castsequence [target=player] Demon Armor, Detect Invisibility, Unending Breath
+END
+MACRO 39 "SAC" INV_Misc_QuestionMark
+/cast Sacrifice
+END
+MACRO 35 "Searing Pain" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/petattack [target=Earthbind Totem ] [harm]
+/cast [mod:ctrl] Searing Pain; [nomod] Shadowburn
+END
+MACRO 34 "SELFDEVOUR" Spell_Nature_Purge
+#showtooltip Devour Magic
+/cast [mod:ctrl, target=party1][nomod, target=player] Devour Magic
+END
+MACRO 12 "Shadow Bolt" INV_Misc_QuestionMark
+#showtooltip Shadow bolt
+/use Xi'ri's Gift
+/use Scryer's Bloodgem
+/target [target=Spitfire Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/cast [mod:ctrl] Soul Fire; [nomod] Shadow Bolt
+END
+MACRO 31 "Silence" INV_Misc_QuestionMark
+/petattack [target=Grounding Totem] [harm]
+/cast [target=mouseover, exists, harm, pet:felhunter][target=target, exists, pet:felhunter][] Spell Lock
+/cast [target=mouseover, exists, harm, pet:succubus][target=target, exists, pet:succubus][] Seduction
+END

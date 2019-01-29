@@ -1,0 +1,28 @@
+
+Omen2DB = {
+	["global"] = {
+	},
+	["profileKeys"] = {
+		["Amazingx - Ares"] = "Amazingx - Ares",
+	},
+	["profiles"] = {
+		["Amazingx - Ares"] = {
+			["PositionY"] = 198.9187469482422,
+			["options"] = {
+				["Show"] = true,
+				["Modules"] = {
+					["LastActive"] = "SingleTarget",
+				},
+				["HardOff"] = false,
+				["Lock"] = true,
+			},
+			["PositionW"] = 246,
+			["PositionX"] = 1376.556518554688,
+			["PositionH"] = 193,
+		},
+	},
+}
+Omen2DefaultProfile = {
+	false, -- [1]
+	"Modders: In your SavedVars, replace the first argument of this table with the profile you want loaded by default, like 'Default'.", -- [2]
+}

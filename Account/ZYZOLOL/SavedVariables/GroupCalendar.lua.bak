@@ -1,0 +1,80 @@
+
+gGroupCalendar_Settings = {
+	["ShowEventsInLocalTime"] = false,
+	["StartOnMonday"] = false,
+	["Debug"] = false,
+	["TwentyFourHourTime"] = false,
+	["PlayerSettings"] = {
+		["Ares_Subtlety"] = {
+			["UI"] = {
+				["LockWindow"] = false,
+			},
+			["Channel"] = {
+				["AutoConfig"] = true,
+				["UseGuildChannel"] = 1,
+			},
+			["SavedTemplates"] = {
+			},
+			["Security"] = {
+				["Player"] = {
+				},
+				["MinTrustedRank"] = 1,
+			},
+		},
+	},
+	["Format"] = 3,
+	["DebugSettings"] = {
+	},
+	["RealmSettings"] = {
+		["Ares"] = {
+			["GuildRanks"] = {
+				["TeamBSquared"] = {
+					"Founder", -- [1]
+					"Officer", -- [2]
+					"Raider", -- [3]
+					"Trial", -- [4]
+					"Member", -- [5]
+					"Officer Alt", -- [6]
+					"Alt", -- [7]
+					[0] = "Guild Master",
+				},
+			},
+		},
+	},
+}
+gGroupCalendar_Database = {
+	["Format"] = 19,
+	["Backups"] = {
+	},
+	["Databases"] = {
+		["Ares_Subtlety"] = {
+			["PlayerClassCode"] = "R",
+			["Guild"] = "TeamBSquared",
+			["PlayerLevel"] = 70,
+			["IsPlayerOwned"] = true,
+			["UserName"] = "Subtlety",
+			["LocalUsers"] = {
+			},
+			["Events"] = {
+				[6597] = {
+					{
+						["mMinLevel"] = 0,
+						["mTime"] = 477,
+						["mClosed"] = false,
+						["mManualConfirm"] = false,
+						["mType"] = "RSKara",
+						["mAttendanceMode"] = "ROLE",
+						["mPrivate"] = true,
+						["mRoleConfirm"] = true,
+						["mDate"] = 6597,
+						["mID"] = 1,
+					}, -- [1]
+				},
+			},
+			["Faction"] = "Alliance",
+			["PlayerRaceCode"] = "H",
+			["CurrentEventID"] = 1,
+			["Realm"] = "Ares",
+		},
+	},
+}

@@ -1,0 +1,209 @@
+
+NecrosisConfig = {
+	["TimerType"] = 1,
+	["CurseSpellPosition"] = {
+		1, -- [1]
+		2, -- [2]
+		3, -- [3]
+		4, -- [4]
+		5, -- [5]
+		6, -- [6]
+		7, -- [7]
+		8, -- [8]
+		9, -- [9]
+	},
+	["SoulshardContainer"] = 4,
+	["ShadowTranceAlert"] = true,
+	["BuffSpellPosition"] = {
+		1, -- [1]
+		2, -- [2]
+		3, -- [3]
+		4, -- [4]
+		5, -- [5]
+		6, -- [6]
+		7, -- [7]
+		8, -- [8]
+		9, -- [9]
+		-10, -- [10]
+		11, -- [11]
+	},
+	["SpellTimerJust"] = "LEFT",
+	["CurseMenuDecalage"] = {
+		["y"] = -26,
+		["x"] = 1,
+	},
+	["NecrosisToolTip"] = 1,
+	["StonePosition"] = {
+		1, -- [1]
+		2, -- [2]
+		3, -- [3]
+		4, -- [4]
+		5, -- [5]
+		6, -- [6]
+		7, -- [7]
+		8, -- [8]
+	},
+	["ChatType"] = true,
+	["NecrosisAngle"] = 180,
+	["PetName"] = {
+		[2] = "Juk'krast",
+	},
+	["CreatureAlert"] = true,
+	["DemonSpellPosition"] = {
+		1, -- [1]
+		2, -- [2]
+		3, -- [3]
+		4, -- [4]
+		5, -- [5]
+		6, -- [6]
+		7, -- [7]
+		8, -- [8]
+		9, -- [9]
+		10, -- [10]
+	},
+	["SensListe"] = 1,
+	["NecrosisLockServ"] = true,
+	["NecrosisColor"] = "Violet",
+	["DestroyCount"] = 6,
+	["DestroyShard"] = true,
+	["FramePosition"] = {
+		["NecrosisButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"BOTTOMLEFT", -- [3]
+			910.070556640625, -- [4]
+			303.947021484375, -- [5]
+		},
+		["NecrosisCreatureAlertButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			-60, -- [4]
+			0, -- [5]
+		},
+		["NecrosisAntiFearButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			-20, -- [4]
+			0, -- [5]
+		},
+		["NecrosisFirestoneButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			-121, -- [4]
+			-100, -- [5]
+		},
+		["NecrosisBuffMenuButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			17, -- [4]
+			-100, -- [5]
+		},
+		["NecrosisHealthstoneButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			-53, -- [4]
+			-100, -- [5]
+		},
+		["NecrosisBacklashButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			60, -- [4]
+			0, -- [5]
+		},
+		["NecrosisPetMenuButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			87, -- [4]
+			-100, -- [5]
+		},
+		["NecrosisMountButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			53, -- [4]
+			-100, -- [5]
+		},
+		["NecrosisSoulstoneButton"] = {
+			"CENTER", -- [1]
+			"NecrosisButton", -- [2]
+			"CENTER", -- [3]
+			-13.59674739837647, -- [4]
+			41.84648513793945, -- [5]
+		},
+		["NecrosisSpellTimerButton"] = {
+			"TOP", -- [1]
+			"UIParent", -- [2]
+			"TOP", -- [3]
+			290.2011108398438, -- [4]
+			-80.14250946044922, -- [5]
+		},
+		["NecrosisCurseMenuButton"] = {
+			"CENTER", -- [1]
+			"NecrosisButton", -- [2]
+			"CENTER", -- [3]
+			35.59675216674805, -- [4]
+			-25.86255073547363, -- [5]
+		},
+		["NecrosisSpellstoneButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			-87, -- [4]
+			-100, -- [5]
+		},
+		["NecrosisShadowTranceButton"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			20, -- [4]
+			0, -- [5]
+		},
+	},
+	["NecrosisButtonScale"] = 90,
+	["NoDragAll"] = false,
+	["Version"] = 20080401.1,
+	["Language"] = "enUS",
+	["ShowCount"] = 1,
+	["ShowSpellTimers"] = 1,
+	["BanishScale"] = 100,
+	["Circle"] = 1,
+	["SpellTimerPos"] = 1,
+	["PetMenuDecalage"] = {
+		["y"] = 26,
+		["x"] = 1,
+	},
+	["CurseMenuPos"] = {
+		["y"] = 0,
+		["x"] = 1,
+		["direction"] = 1,
+	},
+	["ShadowTranceScale"] = 100,
+	["CountType"] = 1,
+	["ItemSwitchCombat"] = {
+		[3] = "Bonecreeper Stylus",
+		[5] = "Major Soulstone",
+	},
+	["PetMenuPos"] = {
+		["y"] = 0,
+		["x"] = 1,
+		["direction"] = 1,
+	},
+	["ChatMsg"] = true,
+	["BuffMenuPos"] = {
+		["y"] = 0,
+		["x"] = 1,
+		["direction"] = 1,
+	},
+	["BuffMenuDecalage"] = {
+		["y"] = 26,
+		["x"] = 1,
+	},
+	["MainSpell"] = 41,
+}

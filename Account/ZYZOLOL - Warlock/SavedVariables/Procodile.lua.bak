@@ -1,0 +1,14 @@
+
+ProcodileDB = {
+	["profileKeys"] = {
+		["Amazingx - Ares"] = "Amazingx - Ares",
+	},
+	["char"] = {
+		["Amazingx - Ares"] = {
+			["movablecooldowns"] = false,
+			["sinkOptions"] = {
+				["sink20OutputSink"] = "RaidWarning",
+			},
+		},
+	},
+}

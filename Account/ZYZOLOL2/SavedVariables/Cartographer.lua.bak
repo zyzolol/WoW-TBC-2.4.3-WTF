@@ -1,0 +1,29 @@
+
+CartographerDB = {
+	["namespaces"] = {
+		["Notes"] = {
+			["account"] = {
+				["pois"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["POI"] = {
+			["profiles"] = {
+				["Default"] = {
+					["pois"] = {
+						["version"] = 3,
+					},
+				},
+			},
+		},
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["GuildPositions"] = true,
+		},
+	},
+	["account"] = {
+		["firstTimeWoW21"] = true,
+	},
+}

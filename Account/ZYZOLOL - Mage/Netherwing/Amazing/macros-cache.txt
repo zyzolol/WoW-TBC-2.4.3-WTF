@@ -1,0 +1,96 @@
+MACRO 16777248 "+TC+" Ability_Creature_Cursed_04
+/use Tainted Core
+/y <------- TAINTED CORE TO: %t ! ! !
+/s <------- TAINTED CORE TO: %t ! ! !
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
+END
+MACRO 16777236 "1Target" Spell_Holy_EmpowerChampion
+/cast [target=Rethik] Unending Breath
+END
+MACRO 16777237 "2Target" Spell_Holy_EmpowerChampion
+/target [target=arena2]
+END
+MACRO 16777238 "3Target" Spell_Holy_EmpowerChampion
+/target [target=arena3]
+END
+MACRO 16777259 "Arcane Explosion" INV_Misc_QuestionMark
+#showtooltip
+/cast Arcane Explosion
+END
+MACRO 16777235 "Blizzard" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast !Blizzard
+/petattack [target=Grounding Totem] [harm]
+END
+MACRO 16777250 "Blizzard R1" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast !Blizzard(Rank 1)
+/petattack [target=Grounding Totem] [harm]
+END
+MACRO 16777252 "Cone of Cold" INV_Misc_QuestionMark
+#showtooltip
+/cast Cone of Cold
+END
+MACRO 16777253 "Fireblast" INV_Misc_QuestionMark
+#showtooltip
+/cast Fire Blast
+END
+MACRO 16777257 "Food" INV_Misc_QuestionMark
+#showtooltip
+/cast Conjure Food(Rank 8)
+/cast Conjure Food(Rank 7)
+/cast Conjure Food(Rank 6)
+/cast Conjure Food(Rank 5)
+/cast Conjure Food(Rank 4)
+/cast Conjure Food(Rank 3)
+/cast Conjure Food(Rank 2)
+/cast Conjure Food(Rank 1)
+/run UIErrorsFrame:Clear()
+END
+MACRO 16777251 "IceBlock" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Ice Block
+END
+MACRO 16777255 "ManaGems" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=60 Conjure Mana Emerald, Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
+END
+MACRO 16777254 "Petnova" INV_Misc_QuestionMark
+#showtooltip Summon Water Elemental
+/cast [nopet] Summon Water Elemental
+/click PetActionButton5
+/petpassive
+/petassist
+END
+MACRO 16777240 "Regen" INV_Misc_QuestionMark
+/use Conjured Manna Biscuit
+/use Purified Draenic Water
+/use Telaari Grapes
+END
+MACRO 16777243 "Shadowfury" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover, exists][nomod, target=target] Curse of Recklessness; [mod:ctrl, target=focus] Curse of Recklessness
+END
+MACRO 16777256 "UseManaGems" INV_Misc_QuestionMark
+#showtooltip
+/use Mana Emerald
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate
+/run UIErrorsFrame:Clear();
+END
+MACRO 16777258 "Water" INV_Misc_QuestionMark
+/cast Conjure Water(Rank 9)
+/cast Conjure Water(Rank 8)
+/cast Conjure Water(Rank 7)
+/cast Conjure Water(Rank 6)
+/cast Conjure Water(Rank 5)
+/cast Conjure Water(Rank 4)
+/cast Conjure Water(Rank 3)
+/cast Conjure Water(Rank 2)
+/cast Conjure Water(Rank 1)
+END

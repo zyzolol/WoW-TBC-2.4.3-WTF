@@ -1,0 +1,66 @@
+
+gGroupCalendar_Settings = {
+	["ShowEventsInLocalTime"] = false,
+	["StartOnMonday"] = false,
+	["Debug"] = false,
+	["TwentyFourHourTime"] = false,
+	["PlayerSettings"] = {
+		["Ares_Beztworld"] = {
+			["UI"] = {
+				["LockWindow"] = false,
+			},
+			["Channel"] = {
+				["AutoConfig"] = true,
+				["UseGuildChannel"] = 1,
+				["GuildAdmin"] = false,
+			},
+			["SavedTemplates"] = {
+			},
+			["Security"] = {
+				["Player"] = {
+				},
+				["MinTrustedRank"] = 1,
+			},
+		},
+	},
+	["Format"] = 3,
+	["DebugSettings"] = {
+	},
+	["RealmSettings"] = {
+		["Ares"] = {
+			["GuildRanks"] = {
+				["KNIGHTS OF RUSSIA"] = {
+					"Commander", -- [1]
+					"Captain", -- [2]
+					"Soldier", -- [3]
+					"Alt", -- [4]
+					[0] = "Stalin",
+				},
+			},
+		},
+	},
+}
+gGroupCalendar_Database = {
+	["Format"] = 19,
+	["Backups"] = {
+		["Ares_Beztworld"] = {
+		},
+	},
+	["Databases"] = {
+		["Ares_Beztworld"] = {
+			["PlayerClassCode"] = "M",
+			["Guild"] = "KNIGHTS OF RUSSIA",
+			["PlayerLevel"] = 70,
+			["IsPlayerOwned"] = true,
+			["UserName"] = "Beztworld",
+			["LocalUsers"] = {
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["PlayerRaceCode"] = "G",
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+	},
+}

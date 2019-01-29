@@ -1,0 +1,17 @@
+
+AucAdvancedConfig = {
+	["profile.Default"] = {
+	},
+}
+AucAdvancedData = {
+	["UtilSearchUI"] = {
+		["Nightbane-Horde"] = {
+		},
+		["profile.Nightbane-Horde"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+	},
+	["Stats"] = {
+	},
+}

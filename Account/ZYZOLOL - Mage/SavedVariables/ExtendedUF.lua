@@ -1,0 +1,166 @@
+
+ExtendedUFDB = {
+	["profileKeys"] = {
+		["Bmtest - Ares"] = "Bmtest - Ares",
+		["Subtletyy - Nightbane"] = "Subtletyy - Nightbane",
+		["Noone - Netherwing - Open Beta"] = "Noone - Netherwing - Open Beta",
+		["Subtletyhero - Outland"] = "Subtletyhero - Outland",
+		["Berserkingx - Netherwing - Open Beta"] = "Berserkingx - Netherwing - Open Beta",
+		["Engitrainer - Ares"] = "Engitrainer - Ares",
+		["Amazingx - Ares"] = "Amazingx - Ares",
+		["Tryhard - Netherwing - Developer"] = "Tryhard - Netherwing - Developer",
+		["Herbz - Netherwing"] = "Herbz - Netherwing",
+		["Subtlety - Netherwing Open Beta"] = "Subtlety - Netherwing Open Beta",
+		["Iheroyouzero - Netherwing - Open Beta"] = "Iheroyouzero - Netherwing - Open Beta",
+		["Subtlety - Ares"] = "Subtlety - Ares",
+		["Resist - Netherwing - Open Beta"] = "Resist - Netherwing - Open Beta",
+		["Resserx - Ares"] = "Resserx - Ares",
+		["Ahkjselkjsej - Netherwing"] = "Ahkjselkjsej - Netherwing",
+		["Subtlety - Netherwing"] = "Subtlety - Netherwing",
+		["Amazingx - Netherwing"] = "Amazingx - Netherwing",
+		["Noone - Netherwing"] = "Noone - Netherwing",
+		["Deadlyx - Ares"] = "Deadlyx - Ares",
+		["Retpalameme - Netherwing - Open Beta"] = "Retpalameme - Netherwing - Open Beta",
+		["Subletygodx - Ares"] = "Subletygodx - Ares",
+		["Subtlety - Netherwing - Open Beta"] = "Subtlety - Netherwing - Open Beta",
+		["Pillarhugger - Netherwing - Open Beta"] = "Pillarhugger - Netherwing - Open Beta",
+	},
+	["profiles"] = {
+		["Bmtest - Ares"] = {
+			["version"] = 101,
+		},
+		["Subtletyy - Nightbane"] = {
+			["version"] = 101,
+		},
+		["Noone - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+		["Subtletyhero - Outland"] = {
+			["version"] = 101,
+		},
+		["Berserkingx - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+		["Engitrainer - Ares"] = {
+			["version"] = 101,
+		},
+		["Amazingx - Ares"] = {
+			["showFocusClassIcon"] = false,
+			["showTargetClassIcon"] = false,
+			["showPartyClassIcon"] = false,
+			["smallTextOutline"] = false,
+			["version"] = 101,
+			["statusText"] = {
+				["playerMP"] = "[PercentHP]",
+				["targetMP"] = "[PercentHP]",
+				["partyHP"] = "[PercentHP]",
+				["focusMP"] = "[PercentHP]",
+				["targetHP"] = "[PercentHP]",
+				["partyMP"] = "[PercentHP]",
+				["playerHP"] = "[PercentHP]",
+				["focusHP"] = "[PercentHP]",
+			},
+			["showTargetofParty"] = false,
+			["showFocusStatusText"] = false,
+			["showPartyCastbar"] = false,
+		},
+		["Tryhard - Netherwing - Developer"] = {
+			["version"] = 101,
+		},
+		["Herbz - Netherwing"] = {
+			["version"] = 101,
+		},
+		["Subtlety - Netherwing Open Beta"] = {
+			["version"] = 101,
+		},
+		["Iheroyouzero - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+		["Subtlety - Ares"] = {
+			["showFocusClassIcon"] = false,
+			["showTargetClassIcon"] = false,
+			["showPartyClassIcon"] = false,
+			["smallTextOutline"] = false,
+			["version"] = 101,
+			["showPartyCastbar"] = false,
+			["statusText"] = {
+				["playerMP"] = "[PercentMP]",
+				["partyHP"] = "[PercentHP]",
+				["petHP"] = "[PercentHP]",
+				["focusHP"] = "[PercentHP]",
+				["petMP"] = "[PercentMP]",
+				["targetHP"] = "[PercentHP]",
+				["partyMP"] = "[PercentMP]",
+				["focusMP"] = "[PercentMP]",
+				["targetMP"] = "[PercentMP]",
+			},
+			["showFocusStatusText"] = true,
+			["showTargetofParty"] = false,
+		},
+		["Resist - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+		["Resserx - Ares"] = {
+			["version"] = 101,
+		},
+		["Ahkjselkjsej - Netherwing"] = {
+			["version"] = 101,
+		},
+		["Subtlety - Netherwing"] = {
+			["version"] = 101,
+		},
+		["Amazingx - Netherwing"] = {
+			["statusText"] = {
+				["playerMP"] = "[PercentMP]",
+				["partyHP"] = "[PercentHP]",
+				["petHP"] = "[PercentHP]",
+				["focusHP"] = "[PercentHP]",
+				["petMP"] = "[PercentMP]",
+				["playerHP"] = "[PercentHP]",
+				["targetHP"] = "[PercentHP]",
+				["partyMP"] = "[PercentMP]",
+				["targetMP"] = "[PercentMP]",
+				["focusMP"] = "[PercentMP]",
+			},
+			["showFocusStatusText"] = true,
+			["showPartyCastbar"] = false,
+			["version"] = 101,
+			["showTargetofParty"] = false,
+		},
+		["Noone - Netherwing"] = {
+			["version"] = 101,
+		},
+		["Deadlyx - Ares"] = {
+			["version"] = 101,
+		},
+		["Retpalameme - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+		["Subletygodx - Ares"] = {
+			["showTargetClassIcon"] = false,
+			["smallTextOutline"] = false,
+			["showFocusClassIcon"] = false,
+			["showPartyCastbar"] = false,
+			["statusText"] = {
+				["playerMP"] = "[percentMP]",
+				["partyHP"] = "[percentHP]",
+				["petHP"] = "[percentHP]",
+				["focusHP"] = "[percentHP]",
+				["petMP"] = "[percentMP]",
+				["targetHP"] = "[percentHP]",
+				["partyMP"] = "[percentMP]",
+				["targetMP"] = "[percentMP]",
+				["focusMP"] = "[percentMP]",
+			},
+			["showTargetofParty"] = false,
+			["showFocusStatusText"] = true,
+			["version"] = 101,
+		},
+		["Subtlety - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+		["Pillarhugger - Netherwing - Open Beta"] = {
+			["version"] = 101,
+		},
+	},
+}

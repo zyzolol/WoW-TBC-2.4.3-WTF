@@ -1,0 +1,13 @@
+
+GladdyXZ = {
+	["profileKeys"] = {
+		["Deadlyx - Ares"] = "Deadlyx - Ares",
+	},
+	["profiles"] = {
+		["Deadlyx - Ares"] = {
+			["locked"] = true,
+			["y"] = 420.9144768646656,
+			["x"] = 1130.889288062492,
+		},
+	},
+}

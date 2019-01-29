@@ -1,0 +1,10 @@
+
+ErrorMonsterDB = {
+	["profileKeys"] = {
+		["Deadlyx - Ares"] = "Deadlyx - Ares",
+	},
+	["profiles"] = {
+		["Deadlyx - Ares"] = {
+		},
+	},
+}

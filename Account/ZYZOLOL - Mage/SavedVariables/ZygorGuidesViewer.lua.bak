@@ -1,0 +1,27 @@
+
+ZygorGuidesViewerSettings = {
+	["currentProfile"] = {
+		["Amazingx - Netherwing"] = "char",
+	},
+	["profiles"] = {
+		["char/Amazingx - Netherwing"] = {
+			["visible"] = true,
+			["iconScale"] = 0.5,
+			["minimapnotedesc"] = true,
+			["step"] = 1,
+			["minimode"] = false,
+			["section"] = 3,
+			["opacitymain"] = 1,
+			["starting"] = false,
+			["iconAlpha"] = 1,
+			["autoskip"] = true,
+			["debug"] = true,
+			["minicons"] = true,
+			["showgoals"] = true,
+			["filternotes"] = true,
+			["hidecompleted"] = false,
+			["opacitymini"] = 1,
+			["autosizemini"] = true,
+		},
+	},
+}

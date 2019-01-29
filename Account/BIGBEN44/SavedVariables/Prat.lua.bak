@@ -1,0 +1,128 @@
+
+PratDB = {
+	["namespaces"] = {
+		["PratChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["LocalDefense"] = {
+							["b"] = 0.7529411764705882,
+							["g"] = 0.7529411764705882,
+							["r"] = 1,
+						},
+						["General"] = {
+							["b"] = 0.7529411764705882,
+							["g"] = 0.7529411764705882,
+							["r"] = 1,
+						},
+						["Trade"] = {
+							["b"] = 0.7529411764705882,
+							["g"] = 0.7529411764705882,
+							["r"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["PratPresets"] = {
+			["profiles"] = {
+				["Default"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["PratKeyBindings"] = {
+			["profiles"] = {
+				["Default"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["PlayerNames"] = {
+			["realms"] = {
+				["Ares - Alliance"] = {
+					["classes"] = {
+						["Eyho"] = "Druid",
+						["Charcoal"] = "Warrior",
+						["Vegoclimber"] = "Hunter",
+						["Haraldo"] = "Mage",
+						["Kalisi"] = "Shaman",
+						["Playcray"] = "Paladin",
+						["Churchill"] = "Paladin",
+						["Arigold"] = "Rogue",
+						["Roosevelt"] = "Mage",
+						["Pajkatt"] = "Hunter",
+						["Skrrskrr"] = "Priest",
+						["Berlusconi"] = "Rogue",
+						["Amazingx"] = "Warlock",
+						["Subletygodx"] = "Rogue",
+						["Keineliebex"] = "Druid",
+					},
+					["levels"] = {
+						["Eyho"] = 70,
+						["Charcoal"] = 70,
+						["Vegoclimber"] = 70,
+						["Haraldo"] = 67,
+						["Kalisi"] = 70,
+						["Playcray"] = 60,
+						["Churchill"] = 70,
+						["Arigold"] = 60,
+						["Roosevelt"] = 70,
+						["Pajkatt"] = 70,
+						["Skrrskrr"] = 70,
+						["Berlusconi"] = 70,
+						["Amazingx"] = 70,
+						["Subletygodx"] = 70,
+						["Keineliebex"] = 70,
+					},
+				},
+			},
+		},
+		["minimap"] = {
+			["profiles"] = {
+				["Default"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["PratChatFrames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["initialized"] = true,
+				},
+			},
+		},
+		["PratPopupMessage"] = {
+			["profiles"] = {
+				["Default"] = {
+					["sink10OutputSink"] = "Popup",
+				},
+			},
+		},
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["PratChatLangButton"] = true,
+			["PratChatLink"] = true,
+			["CustomFilters"] = true,
+			["PratAddonMsgs"] = true,
+			["PratSubstitutions"] = true,
+			["PratClear"] = true,
+			["PratAltNames"] = true,
+			["PratSounds"] = true,
+			["PratFiltering"] = true,
+			["PratChatTabs"] = true,
+			["PratChatLog"] = true,
+			["Alias"] = true,
+			["PratChannelReordering"] = true,
+		},
+	},
+}
+PratFuDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

@@ -1,0 +1,745 @@
+
+QuestHelper_Version = "0.50"
+QuestHelper_SaveVersion = 8
+QuestHelper_Locale = "enUS"
+QuestHelper_Quests = {
+	{
+		[63] = {
+			["The Blood is Life"] = {
+				["hash"] = 2961842184,
+				["id"] = 9589,
+			},
+			["Familiar Fungi"] = {
+				["hash"] = 3260556763,
+				["id"] = 9708,
+			},
+			["The Sporelings' Plight"] = {
+				["hash"] = 2021595306,
+				["id"] = 9739,
+			},
+			["Heart of Rage"] = {
+				["hash"] = 307309823,
+				["id"] = 9607,
+			},
+		},
+		[65] = {
+			["Stalk the Stalker"] = {
+				["hash"] = 4216396517,
+				["id"] = 9719,
+			},
+			["Bring Me A Shrubbery!"] = {
+				["hash"] = 52371057,
+				["id"] = 9715,
+			},
+			["Oh, It's On!"] = {
+				["hash"] = 1464998955,
+				["id"] = 9717,
+			},
+		},
+		[60] = {
+			["Hellfire Fortifications"] = {
+				["hash"] = 3084202055,
+				["id"] = 10106,
+			},
+		},
+		[62] = {
+			["Concerns About Tuurem"] = {
+				["hash"] = 3999930176,
+				["id"] = 10104,
+			},
+			["Gathering the Reagents"] = {
+				["hash"] = 2779980316,
+				["id"] = 9801,
+			},
+		},
+		[64] = {
+			["Stinger Venom"] = {
+				["hash"] = 181409642,
+				["id"] = 9830,
+			},
+			["Maktu's Revenge"] = {
+				["hash"] = 1974737143,
+				["id"] = 9905,
+			},
+			["Overlord Gorefist"] = {
+				["hash"] = 1409560432,
+				["id"] = 9839,
+			},
+			["The Terror of Marshlight Lake"] = {
+				["hash"] = 2744391144,
+				["id"] = 9902,
+			},
+			["Now That We're Still Friends..."] = {
+				["hash"] = 896150388,
+				["id"] = 9727,
+			},
+		},
+	}, -- [1]
+}
+QuestHelper_Objectives = {
+	["monster"] = {
+		["Nurguni"] = {
+		},
+		["Andrew Hilbert"] = {
+		},
+		["Bibilfaz Featherwhistle"] = {
+		},
+		["Vernon Hale"] = {
+		},
+		["Diseased Ghoul"] = {
+		},
+		["Dekin"] = {
+		},
+		["Diseased Flayer"] = {
+		},
+		["Halu"] = {
+		},
+		["Keena"] = {
+		},
+		["Maddix"] = {
+		},
+		["Rotted One"] = {
+		},
+		["Horgus the Ravager"] = {
+		},
+		["Alexandra Constantine"] = {
+		},
+		["Cloud Skydancer"] = {
+		},
+		["Ohura"] = {
+		},
+		["Gunny"] = {
+		},
+		["Vivianna"] = {
+		},
+		["Lindea Rabonne"] = {
+		},
+		["Warrant Officer Tracy Proudwell"] = {
+		},
+		["Rotting Ghoul"] = {
+		},
+		["Ghaz'an"] = {
+		},
+		["Merchant Felagunne"] = {
+		},
+		["T'shu"] = {
+		},
+		["Unstable Corpse"] = {
+		},
+		["Ariena Stormfeather"] = {
+		},
+		["Zizzek"] = {
+		},
+		["Dyslix Silvergrub"] = {
+		},
+		["Engineer Combs"] = {
+		},
+		["Suralais Farwind"] = {
+		},
+		["Gorbold Steelhand"] = {
+		},
+		["Flightmaster Krill Bitterhue"] = {
+		},
+		["Gunder Thornbush"] = {
+		},
+		["Lah'Mawhani"] = {
+		},
+		["Andarl"] = {
+		},
+		["Laughing Skull Enforcer"] = {
+		},
+		["Nizzle"] = {
+		},
+		["Dalria"] = {
+		},
+		["Underbog Lurker"] = {
+		},
+		["Watcher Leesa'oh"] = {
+		},
+		["Brubeck Stormfoot"] = {
+		},
+		["Maktu"] = {
+		},
+		["Ziggurat Protector"] = {
+		},
+		["Savanne"] = {
+		},
+		["Blimo Gadgetspring"] = {
+		},
+		["Grennik"] = {
+		},
+		["Zora Guthrek"] = {
+		},
+		["Ranik"] = {
+		},
+		["Gzhun'tt"] = {
+		},
+		["Thorn Eater Ghoul"] = {
+		},
+		["Kiz Coilspanner"] = {
+		},
+		["Amy Davenport"] = {
+		},
+		["Caylais Moonfeather"] = {
+		},
+		["Brain Eater"] = {
+		},
+		["Gyll"] = {
+		},
+		["Pol Snowhoof"] = {
+		},
+		["Lorelae Wintersong"] = {
+		},
+		["Laughing Skull Rogue"] = {
+		},
+		["Terrorclaw"] = {
+			["quest"] = true,
+		},
+		["Thorgrum Borrelson"] = {
+		},
+		["Shadi Mistrunner"] = {
+		},
+		["Marshlight Bleeder"] = {
+		},
+		["Thyssiana"] = {
+		},
+		["Anguished Dead"] = {
+		},
+		["Plague Ghoul"] = {
+		},
+		["Syurana"] = {
+		},
+		["Alieshor"] = {
+		},
+		["Ango'rosh Mauler"] = {
+			["quest"] = true,
+		},
+		["Underbog Shambler"] = {
+		},
+		["Helenia Olden"] = {
+		},
+		["Voloren"] = {
+		},
+		["Egyéb2 Vendor"] = {
+		},
+		["Drac Roughcut"] = {
+		},
+		["Fyldren Moonfeather"] = {
+		},
+		["Lorekeeper Polkelt"] = {
+		},
+		["Overlord Gorefist"] = {
+			["quest"] = true,
+		},
+		["Bloodscale Enchantress"] = {
+			["quest"] = true,
+		},
+		["Tari'qa"] = {
+		},
+		["Darla Harris"] = {
+		},
+		["Jandia"] = {
+		},
+		["Mragesh"] = {
+			["quest"] = true,
+		},
+		["Deathskitter"] = {
+		},
+		["Blackfang Tarantula"] = {
+		},
+		["Ikuti"] = {
+		},
+		["Coldmist Widow"] = {
+		},
+		["Crypt Fiend"] = {
+		},
+		["Kireena"] = {
+		},
+		["Dreadfang Lurker"] = {
+		},
+		["Dreadfang Widow"] = {
+		},
+		["Martine Tramblay"] = {
+		},
+		["Engineer Torquespindle"] = {
+		},
+		["Reagent"] = {
+		},
+		["Kersok Prond"] = {
+		},
+		["Jabbering Ghoul"] = {
+		},
+		["Cedrik Prose"] = {
+		},
+		["Nessa Shadowsong"] = {
+		},
+		["Lau'Tiki"] = {
+		},
+		["Munci"] = {
+		},
+		["Gryfe"] = {
+		},
+		["Baritanas Skyriver"] = {
+		},
+		["Jon-Jon the Crow"] = {
+		},
+		["Shellei Brondir"] = {
+		},
+		["Kerlonian Evershade"] = {
+		},
+		["Fetid Corpse"] = {
+		},
+		["Reanimated Corpse"] = {
+		},
+		["Puluu"] = {
+		},
+		["Magistrate Barthilas"] = {
+		},
+		["Foulmane"] = {
+		},
+		["Micha Yance"] = {
+		},
+		["Rotting Cadaver"] = {
+		},
+		["Ravenclaw Drudger"] = {
+		},
+		["Flesh Eater"] = {
+		},
+		["Capture The Overlook"] = {
+			["quest"] = true,
+		},
+		["Fetid Zombie"] = {
+		},
+		["The Ravenian"] = {
+		},
+		["Lord Malathrom"] = {
+		},
+		["Mangled Cadaver"] = {
+		},
+		["Zanzil Hunter"] = {
+		},
+		["Gryth Thurden"] = {
+		},
+		["Shandrina"] = {
+		},
+		["Bog Overlord"] = {
+		},
+		["Felicia Doan"] = {
+		},
+		["Eliza"] = {
+		},
+		["Baldruc"] = {
+		},
+		["Christopher Hewen"] = {
+		},
+		["Hammon Karwn"] = {
+		},
+		["Fenglow Stinger"] = {
+		},
+		["Cannibal Ghoul"] = {
+		},
+		["Nutral"] = {
+		},
+		["Hungarfen"] = {
+		},
+		["Felicia Maline"] = {
+		},
+		["Fleshflayer Ghoul"] = {
+		},
+		["Vesprystus"] = {
+		},
+		["Soulless Ghoul"] = {
+		},
+		["Kilxx"] = {
+		},
+		["Edna Mullby"] = {
+		},
+		["Juno Dufrain"] = {
+		},
+		["Rip Pedalslam"] = {
+		},
+		["Amish Wildhammer"] = {
+		},
+		["Mishellena"] = {
+		},
+		["Insane Ghoul"] = {
+		},
+		["PlayBoy Fun Vendor"] = {
+		},
+		["Blighted Zombie"] = {
+		},
+		["Kulwia"] = {
+		},
+		["Burbik Gearspanner"] = {
+		},
+		["Bone Chewer"] = {
+		},
+		["Slavering Ghoul"] = {
+		},
+		["Trader Endernor"] = {
+		},
+		["Capture the Stadium"] = {
+			["quest"] = true,
+		},
+		["Ghoul Ravener"] = {
+		},
+		["Zanzil Zombie"] = {
+		},
+		["Gibbering Ghoul"] = {
+		},
+		["Furgu"] = {
+		},
+		["Dungar Longdrink"] = {
+		},
+		["Searing Ghoul"] = {
+		},
+		["Zurjaya"] = {
+		},
+		["Fillius Fizzlespinner"] = {
+		},
+		["Daelyshia"] = {
+		},
+		["Daniel Bartlett"] = {
+		},
+		["Anchorite Ahuurn"] = {
+		},
+		["Androl Oakhand"] = {
+		},
+		["Furnan Skysoar"] = {
+		},
+		["Ziz"] = {
+		},
+		["Vendor-Tron 1000"] = {
+		},
+		["Wik'Tar"] = {
+		},
+		["Sewa Mistrunner"] = {
+		},
+		["Zansoa"] = {
+		},
+		["Laughing Skull Legionnaire"] = {
+		},
+		["Ergh of the Stillpine"] = {
+		},
+		["Khara Deepwater"] = {
+		},
+		["Diktynna"] = {
+		},
+		["Ullanna"] = {
+		},
+		["Threlc"] = {
+		},
+		["Terellia"] = {
+		},
+		["Bloodscale Slavedriver"] = {
+			["quest"] = true,
+		},
+		["Bog Giant"] = {
+		},
+		["Svalbrad Farmountain"] = {
+		},
+		["Tansy Puddlefizz"] = {
+		},
+		["Lanie Reed"] = {
+		},
+		["Catherine Leland"] = {
+		},
+		["Lizbeth Cromwell"] = {
+		},
+		["Chucky \"Ten Thumbs\""] = {
+		},
+		["Shankys"] = {
+		},
+		["Rathis Tomber"] = {
+		},
+		["Olirea"] = {
+		},
+		["Qia"] = {
+		},
+		["Maury \"Club Foot\" Wilkins"] = {
+		},
+		["Stephanos"] = {
+		},
+		["Merchant Fallel Stargazer"] = {
+		},
+		["Parnis"] = {
+		},
+		["Oran Blusterbrew"] = {
+		},
+		["Fhyn Leafshadow"] = {
+		},
+		["Old Man Heming"] = {
+		},
+		["Gorrim"] = {
+		},
+		["Ravaged Cadaver"] = {
+		},
+		["Teloren"] = {
+		},
+		["Mythrin'dir"] = {
+		},
+		["Mishta"] = {
+		},
+		["Harn Longcast"] = {
+		},
+		["Shadowmoon Adept"] = {
+		},
+		["Underbog Lord"] = {
+		},
+		["Kuma"] = {
+		},
+		["Laando"] = {
+		},
+		["Shadowmoon Summoner"] = {
+		},
+		["Plague Spreader"] = {
+		},
+		["Jarrodenus"] = {
+		},
+		["Merchant Frostwalker"] = {
+		},
+		["Felika"] = {
+		},
+		["Underbat"] = {
+		},
+		["Gina MacGregor"] = {
+		},
+		["Banalash"] = {
+		},
+		["Nerrist"] = {
+		},
+		["Khaelyn Steelwing"] = {
+		},
+		["Sindrayl"] = {
+		},
+		["Shimra"] = {
+		},
+		["Capture Broken Hill"] = {
+			["quest"] = true,
+		},
+		["Mai'Lahii"] = {
+		},
+		["Boneflayer Ghoul"] = {
+		},
+		["Sheendra Tallgrass"] = {
+		},
+		["Force Commander Danath Trollbane"] = {
+		},
+		["Harpax"] = {
+		},
+		["Jase Farlane"] = {
+		},
+		["Engineer Brightbuckle"] = {
+		},
+		["Borgus Stoutarm"] = {
+		},
+		["Vendo-O-Tron D-Luxe"] = {
+		},
+		["Gigget Zipcoil"] = {
+		},
+		["Krexcil"] = {
+		},
+		["Katoom the Angler"] = {
+		},
+		["Maethrya"] = {
+		},
+		["Stuart Fleming"] = {
+		},
+		["The Black Stalker"] = {
+		},
+		["Bragok"] = {
+		},
+		["Runetog Wildhammer"] = {
+		},
+		["Khn'nix"] = {
+		},
+		["Thor"] = {
+		},
+		["Amerun Leafshade"] = {
+		},
+		["Guthrum Thunderfist"] = {
+		},
+		["Fazu"] = {
+		},
+		["Fahssn"] = {
+		},
+		["Christoph Jeffcoat"] = {
+		},
+		["Gretta Ganter"] = {
+		},
+		["Coldmist Stalker"] = {
+		},
+		["Freezing Ghoul"] = {
+		},
+		["Bera Stonehammer"] = {
+		},
+	},
+	["item"] = {
+		["Knothide Leather Scraps"] = {
+			["id"] = 25649,
+		},
+		["Arcane Powder"] = {
+			["id"] = 17020,
+		},
+		["Mote of Life"] = {
+			["id"] = 22575,
+		},
+		["Pulsating Crystalline Shard"] = {
+			["id"] = 4743,
+		},
+		["Conjured Cinnamon Roll"] = {
+			["id"] = 22895,
+		},
+		["Netherweb Spider Silk"] = {
+		},
+		["Smoked Talbuk Venison"] = {
+			["id"] = 27854,
+		},
+		["Conjured Crystal Water"] = {
+			["id"] = 8079,
+		},
+		["Buzzard Bites"] = {
+			["id"] = 27651,
+		},
+		["Ravager Egg Omelet"] = {
+			["id"] = 28501,
+		},
+		["Unidentified Plant Parts"] = {
+			["id"] = 24401,
+		},
+		["Fel Orc Blood Vial"] = {
+			["quest"] = true,
+		},
+		["Edible Fern"] = {
+			["id"] = 24540,
+		},
+		["Spore Bat Eye"] = {
+			["id"] = 24426,
+			["quest"] = true,
+		},
+		["Sanguine Hibiscus"] = {
+			["quest"] = true,
+		},
+		["Marshlight Bleeder Venom"] = {
+			["id"] = 24485,
+			["quest"] = true,
+		},
+		["Mature Spore Sac"] = {
+			["id"] = 24290,
+			["quest"] = true,
+		},
+		["Potion of Water Breathing"] = {
+			["id"] = 25539,
+		},
+		["Runecloth"] = {
+			["id"] = 14047,
+		},
+		["Mushroom Sample"] = {
+			["id"] = 24238,
+			["quest"] = true,
+		},
+		["Argent Dawn Commission"] = {
+			["id"] = 12846,
+		},
+		["Brain of the Black Stalker"] = {
+			["quest"] = true,
+		},
+		["Eternium Lockbox"] = {
+			["id"] = 5760,
+		},
+		["Conjured Manna Biscuit"] = {
+		},
+		["Hypnotist's Watch"] = {
+			["id"] = 25786,
+		},
+		["Nightcrawlers"] = {
+		},
+		["Needle Shrike"] = {
+		},
+		["Fel Scales"] = {
+			["id"] = 25700,
+		},
+		["Twitching Leg"] = {
+			["id"] = 25436,
+		},
+		["Underspore Frond"] = {
+			["quest"] = true,
+		},
+		["Netherweave Cloth"] = {
+			["id"] = 21877,
+		},
+		["Fractured Carapace"] = {
+			["id"] = 25434,
+		},
+		["Sunspring Carp"] = {
+			["id"] = 27858,
+		},
+		["Mana Ruby"] = {
+			["id"] = 8008,
+		},
+		["Jaggal Clam Meat"] = {
+			["id"] = 24477,
+		},
+		["Scroll of Spirit V"] = {
+			["id"] = 27501,
+		},
+		["Fen Strider Tentacle"] = {
+			["id"] = 24427,
+			["quest"] = true,
+		},
+		["Knothide Leather"] = {
+			["id"] = 21887,
+		},
+		["Recipe: Buzzard Bites"] = {
+			["id"] = 27684,
+		},
+		["Filtered Draenic Water"] = {
+			["id"] = 28399,
+		},
+		["Demonic Rune"] = {
+			["id"] = 12662,
+		},
+		["Helboar Bacon"] = {
+			["id"] = 29292,
+		},
+	},
+	["event"] = {
+		["Fully Investigate The Blood Furnace"] = {
+			["quest"] = true,
+		},
+	},
+}
+QuestHelper_FlightInstructors = {
+}
+QuestHelper_FlightRoutes = {
+}
+QuestHelper_Pref = {
+	["track"] = true,
+	["filter_zone"] = false,
+	["scale"] = 1,
+	["comm"] = false,
+	["locale"] = "enUS",
+	["track_level"] = true,
+	["hide"] = false,
+	["show_ants"] = true,
+	["track_size"] = 8,
+	["perf_scale"] = 1,
+	["level"] = 2,
+	["map_button"] = true,
+	["solo"] = false,
+	["filter_level"] = true,
+	["filter_blocked"] = false,
+	["track_minimized"] = false,
+	["cart_wp"] = true,
+	["track_qcolour"] = true,
+	["tomtom_wp"] = true,
+	["tooltip"] = true,
+	["share"] = true,
+	["filter_watched"] = false,
+	["track_ocolour"] = true,
+	["filter_done"] = false,
+	["flight_time"] = true,
+	["track_scale"] = 1,
+}
+QuestHelper_UID = "PCRkZC0P48CvSJ52RXh9TqWtqu2TCWbI"
+QuestHelper_SaveDate = 1548526870

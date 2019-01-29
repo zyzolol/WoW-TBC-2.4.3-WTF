@@ -1,0 +1,104 @@
+MACRO 16777236 "1Target" Spell_Holy_EmpowerChampion
+/target [target=arena1]
+END
+MACRO 16777237 "2Target" Spell_Holy_EmpowerChampion
+/target [target=arena2]
+END
+MACRO 16777238 "3Target" Spell_Holy_EmpowerChampion
+/target [target=arena3]
+END
+MACRO 16777242 "Banish" INV_Misc_QuestionMark
+#showtooltip Banish
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Banish
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack
+END
+MACRO 16777224 "Curse of Element" Spell_Shadow_ChillTouch
+#showtooltip Curse of the Elements
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Curse of the Elements
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack
+END
+MACRO 16777225 "Curse of Exhaust" Spell_Shadow_GrimWard
+#showtooltip Curse of Exhaustion
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Curse of Exhaustion
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack
+END
+MACRO 16777222 "Curse of Tongues" Spell_Shadow_CurseOfTounges
+#showtooltip Curse of Tongues
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Curse of Tongues
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petattack
+END
+MACRO 16777232 "Dismiss" Spell_Shadow_SacrificialShield
+#showtooltip
+/cast [pet:imp] PetDismiss; [pet:succubus] PetDismiss; [pet:voidwalker] Sacrifice; [pet:felhunter] PetDismiss
+END
+MACRO 16777228 "Drain Life" Spell_Shadow_LifeDrain02
+#showtooltip Drain Life
+/console cameraSmoothTrackingStyle 0
+/cast [exists, harm, nodead] Drain Life
+/console cameraSmoothTrackingStyle 0
+/petattack
+END
+MACRO 16777229 "Drain Mana" Spell_Shadow_SiphonMana
+#showtooltip Drain Mana
+/console cameraSmoothTrackingStyle 0
+/cast [exists, harm, nodead] Drain Mana
+/console cameraSmoothTrackingStyle 0
+/petattack
+END
+MACRO 16777239 "Health Funnel" INV_Misc_QuestionMark
+#showtooltip Health Funnel
+/cast [nochanneling, nodead] Health Funnel
+/petfollow
+END
+MACRO 16777234 "Hellfire R1" INV_Misc_QuestionMark
+#showtooltip Hellfire
+/stopcasting
+/cast !Hellfire(Rank 1)
+END
+MACRO 16777241 "Incinerate" INV_Misc_QuestionMark
+/cast [mod:ctrl] Shadowburn;[nomod] Incinerate
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/petattack [target=Earthbind Totem ]
+/petattack
+END
+MACRO 16777235 "Rain of Fire R1" Spell_Shadow_RainOfFire
+#showtooltip
+/stopcasting
+/cast [mod:alt] !Rain of Fire(Rank 5); !Rain of Fire(Rank 1)
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack
+END
+MACRO 16777240 "Regen" INV_Misc_QuestionMark
+/castsequence Purified Draenic Water, Telaari Grapes
+END
+MACRO 16777243 "Shadowfury" INV_Misc_QuestionMark
+#showtooltip
+/cast !Shadowfury
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+END
+MACRO 16777226 "Siphon Life" Spell_Shadow_Requiem
+#showtooltip Siphon Life
+/cast [exists, harm] Siphon Life
+/petattack
+END
+MACRO 16777220 "Soul Fire" Spell_Fire_Fireball02
+#showtooltip Soul Fire
+/cast [exists, harm] Soul Fire
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/petattack [target=Earthbind Totem ] [harm]
+/petattack
+END

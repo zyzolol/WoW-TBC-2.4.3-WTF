@@ -1,0 +1,10 @@
+
+LightHeadedDB = {
+	["profileKeys"] = {
+		["Amazingx - Netherwing"] = "Amazingx - Netherwing",
+	},
+	["profiles"] = {
+		["Amazingx - Netherwing"] = {
+		},
+	},
+}

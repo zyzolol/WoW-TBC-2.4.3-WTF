@@ -1,0 +1,10 @@
+
+Icicledb = {
+	["profileKeys"] = {
+		["Deadlyx - Ares"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

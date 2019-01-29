@@ -1,0 +1,11 @@
+
+ExtendedUFDB = {
+	["profileKeys"] = {
+		["Deadlyx - Ares"] = "Deadlyx - Ares",
+	},
+	["profiles"] = {
+		["Deadlyx - Ares"] = {
+			["version"] = 101,
+		},
+	},
+}

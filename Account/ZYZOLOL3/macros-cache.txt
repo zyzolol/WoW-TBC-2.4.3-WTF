@@ -1,0 +1,103 @@
+MACRO 24 "Bandage" Spell_Holy_SealOfSacrifice
+#showtooltip Heavy Netherweave Bandage
+/use [target=player] Heavy Netherweave Bandage
+END
+MACRO 43 "Blink" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Blink
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+END
+MACRO 41 "Cold Snap" INV_Misc_QuestionMark
+#showtooltip Ice Block
+/castsequence reset=2 Cold Snap, Ice Block
+END
+MACRO 34 "Decurse" INV_Misc_QuestionMark
+#showtooltip Remove Lesser Curse
+/cast [target=mouseover, exists][nomod, target=target] Remove Lesser Curse; [mod:ctrl, target=focus] Remove Lesser Curse
+END
+MACRO 42 "F+R1" INV_Misc_QuestionMark
+#showtooltip Frostbolt(Rank 1)
+/petattack [target=Grounding Totem] [harm]
+/cast [target=mouseover, exists][nomod, target=target] Frostbolt(Rank 1); [mod:ctrl, target=focus] Frostbolt(Rank 1)
+END
+MACRO 40 "FireBlast" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/cast [mod:shift] Fire Blast; Cone of Cold
+/petattack
+END
+MACRO 32 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Counterspell
+/stopcasting
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/cast [target=focus, exists, harm] Counterspell
+END
+MACRO 18 "FOCUS" Ability_Druid_ChallangingRoar
+/focus
+END
+MACRO 38 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Spellsteal
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/cast [target=focus, exists, harm] Spellsteal
+/cancelaura Hand of Sacrifice
+/cancelaura Mana Shield
+END
+MACRO 20 "FOCUSFEAR" INV_Misc_QuestionMark
+#showtooltip Polymorph
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/cast [target=focus, exists, harm] Polymorph
+END
+MACRO 12 "Frostbolt" INV_Misc_QuestionMark
+#showtooltip Frostbolt
+/use 13
+/use 14
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/cast [target=mouseover, exists][nomod, target=target] Frostbolt; [mod:ctrl, target=focus] Frostbolt(Rank 1)
+/petattack
+END
+MACRO 39 "Ice Block" INV_Misc_QuestionMark
+#showtooltip Ice Block
+/stopcasting
+/cast Ice Block
+/cancelaura Ice Block
+END
+MACRO 27 "Ice Lance" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem, harm]
+/cast [target=mouseover, exists]Ice Lance;[nomod, target=target, exists]Ice Lance;[mod:shift] Scorch; Ice Lance
+/petpassive
+/petfollow
+END
+MACRO 8 "Polymorph" INV_Misc_QuestionMark
+#showtooltip Polymorph
+/petattack [target=Grounding Totem] [harm]
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Polymorph
+/focus [target=mouseover, exists, harm][target=target, exists, harm]
+END
+MACRO 28 "PvE" Spell_Shadow_RagingScream
+#showtooltip Molten Armor
+/castsequence [target=player] Mage Armor, Arcane Intellect, Dampen Magic
+END
+MACRO 36 "PvP" INV_Misc_QuestionMark
+#showtooltip Ice Armor
+/castsequence [target=player] Ice Armor, Arcane Intellect, Dampen Magic
+END
+MACRO 31 "Silence" INV_Misc_QuestionMark
+#showtooltip Counterspell
+/stopcasting
+/petattack [target=Grounding Totem] [harm]
+/cast [target=mouseover, exists, harm][target=target, exists][] Counterspell
+END
+MACRO 37 "Spellsteal" INV_Misc_QuestionMark
+#showtooltip Spellsteal
+/petattack [target=Grounding Totem] [harm]
+/cast [target=mouseover, exists, harm][target=target, exists][] Spellsteal
+/cancelaura Hand of Sacrifice
+/cancelaura Mana Shield
+END

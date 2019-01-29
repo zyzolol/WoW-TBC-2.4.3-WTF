@@ -1,0 +1,1322 @@
+
+QuestHelper_Version = "0.59"
+QuestHelper_SaveVersion = 10
+QuestHelper_Locale = "enUS"
+QuestHelper_Quests = {
+	["0.59 on 2.4.3"] = {
+		{
+			{
+				["Instant 60"] = {
+					["hash"] = 483986975,
+					["id"] = 100202,
+					["start"] = "Sten Stoutarm",
+					["finish"] = "Alexandra Constantine",
+				},
+			}, -- [1]
+			[60] = {
+				["Force Commander Danath"] = {
+					["start"] = "Marshal Isildor",
+					["id"] = 10254,
+					["hash"] = 1649155893,
+				},
+				["Visit the Armorer"] = {
+					["hash"] = 1,
+					["id"] = 100208,
+					["start"] = "Aelin Vargos",
+					["finish"] = "Chero",
+				},
+				["Visit the Weapon Vendor"] = {
+					["hash"] = 1,
+					["id"] = 100206,
+					["start"] = "Overy",
+					["finish"] = "Aelin Vargos",
+				},
+				["The Dark Portal"] = {
+					["hash"] = 1,
+					["id"] = 100210,
+					["start"] = "Chero",
+					["finish"] = "Watch Commander Relthorn Netherwane",
+				},
+				["Visit the Trainer"] = {
+					["hash"] = 1045825183,
+					["id"] = 100204,
+					["start"] = "Alexandra Constantine",
+					["finish"] = "Overy",
+				},
+			},
+			[62] = {
+				["The Longbeards"] = {
+					["start"] = "Sid Limbardi",
+					["id"] = 9558,
+					["hash"] = 3234277255,
+				},
+			},
+			[61] = {
+				["Waste Not, Want Not"] = {
+					["start"] = "Dumphry",
+					["id"] = 10055,
+					["hash"] = 1105337960,
+				},
+				["Through the Dark Portal"] = {
+					["hash"] = 3043961089,
+					["id"] = 10119,
+					["start"] = "Watch Commander Relthorn Netherwane",
+					["finish"] = "Commander Duron",
+				},
+				["An Old Gift"] = {
+					["start"] = "Father Malgor Devidicus",
+					["id"] = 10058,
+					["hash"] = 2043879257,
+				},
+				["Unyielding Souls"] = {
+					["start"] = "Honor Guard Wesilow",
+					["id"] = 10050,
+					["hash"] = 4213454332,
+				},
+				["Journey to Honor Hold"] = {
+					["hash"] = 3443333696,
+					["id"] = 10140,
+					["start"] = "Amish Wildhammer",
+					["finish"] = "Marshal Isildor",
+				},
+				["Arrival in Outland"] = {
+					["hash"] = 3300075556,
+					["id"] = 10288,
+					["start"] = "Commander Duron",
+					["finish"] = "Amish Wildhammer",
+				},
+			},
+			[58] = {
+				["Fel Orc Scavengers"] = {
+					["start"] = "Lieutenant Amadi",
+					["id"] = 10482,
+					["hash"] = 1211306988,
+				},
+			},
+		}, -- [1]
+	},
+}
+QuestHelper_Objectives = {
+	["0.59 on 2.4.3"] = {
+		["monster"] = {
+			["Galendror Whitewing"] = {
+			},
+			["Gryth Thurden"] = {
+			},
+			["Bibilfaz Featherwhistle"] = {
+			},
+			["Gurric"] = {
+			},
+			["Baldruc"] = {
+			},
+			["Nethergarde Soldier"] = {
+				["faction"] = 1,
+				["id"] = 5999,
+				["level"] = 49,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6567690372467041, -- [2]
+						0.1864553093910217, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Bilko Driftspark"] = {
+			},
+			["Halu"] = {
+			},
+			["Nutral"] = {
+				["id"] = 18940,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.6418278813362122, -- [2]
+						0.4111926853656769, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kara Thricestar"] = {
+			},
+			["Felicia Maline"] = {
+			},
+			["Aelin Vargos"] = {
+				["faction"] = 1,
+				["id"] = 247221,
+				["level"] = 71,
+				["levelw"] = 3,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6598405599594116, -- [2]
+						0.173079326748848, -- [3]
+						5, -- [4]
+					}, -- [1]
+				},
+			},
+			["Vesprystus"] = {
+			},
+			["Teloren"] = {
+			},
+			["Bera Stonehammer"] = {
+			},
+			["Alexandra Constantine"] = {
+				["faction"] = 1,
+				["id"] = 8609,
+				["level"] = 65,
+				["levelw"] = 3,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.655339777469635, -- [2]
+						0.2436161190271378, -- [3]
+						5, -- [4]
+					}, -- [1]
+				},
+			},
+			["Cloud Skydancer"] = {
+			},
+			["Rip Pedalslam"] = {
+			},
+			["Amish Wildhammer"] = {
+				["faction"] = 1,
+				["id"] = 18931,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.8738310635089874, -- [2]
+						0.524046778678894, -- [3]
+						4, -- [4]
+					}, -- [1]
+				},
+			},
+			["Mishellena"] = {
+			},
+			["Edna Mullby"] = {
+				["faction"] = 1,
+				["id"] = 1286,
+				["level"] = 30,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						36, -- [1]
+						0.5812010765075684, -- [2]
+						0.6060191988945007, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Grimwing"] = {
+			},
+			["Stephanos"] = {
+			},
+			["Baritanas Skyriver"] = {
+			},
+			["Baneflight"] = {
+			},
+			["Skizzle Slickslide"] = {
+			},
+			["Surristrasz"] = {
+			},
+			["Palena Silvercloud"] = {
+			},
+			["Razorfang Ravager"] = {
+				["id"] = 16933,
+				["levelw"] = 2,
+				["level"] = 61,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.3894962210847874, -- [2]
+						0.873929212189684, -- [3]
+						0.99, -- [4]
+					}, -- [1]
+				},
+			},
+			["Nethestrasz"] = {
+			},
+			["Thorgrum Borrelson"] = {
+			},
+			["Tomas Riverwell"] = {
+			},
+			["Furgu"] = {
+			},
+			["Runetog Wildhammer"] = {
+			},
+			["Adder"] = {
+				["id"] = 3300,
+			},
+			["Suralais Farwind"] = {
+			},
+			["Watch Commander Relthorn Netherwane"] = {
+				["faction"] = 1,
+				["id"] = 16841,
+				["level"] = 62,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.5835932095845541, -- [2]
+						0.5589030186335245, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Flightmaster Krill Bitterhue"] = {
+				["faction"] = 1,
+				["id"] = 16822,
+				["level"] = 65,
+				["levelw"] = 3,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5471297264610748, -- [2]
+						0.6247965429985471, -- [3]
+						2.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Tannysa"] = {
+				["faction"] = 1,
+				["id"] = 5566,
+				["level"] = 35,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						36, -- [1]
+						0.4432832896709442, -- [2]
+						0.780315637588501, -- [3]
+						0.89, -- [4]
+					}, -- [1]
+				},
+			},
+			["Unyielding Sorcerer"] = {
+				["quest"] = true,
+			},
+			["Unyielding Knight"] = {
+				["quest"] = true,
+			},
+			["Furnan Skysoar"] = {
+			},
+			["Marauding Crust Burster"] = {
+				["id"] = 16857,
+				["levelw"] = 2,
+				["level"] = 59.5,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.4812072813510895, -- [2]
+						0.6600884795188903, -- [3]
+						0.66, -- [4]
+					}, -- [1]
+				},
+			},
+			["Greer Orehammer"] = {
+			},
+			["James Ormsby"] = {
+			},
+			["Dumphry"] = {
+				["faction"] = 1,
+				["id"] = 21209,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.512943834066391, -- [2]
+						0.601496160030365, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Warmage Adami"] = {
+			},
+			["Unyielding Footman"] = {
+				["quest"] = true,
+			},
+			["Maethrya"] = {
+			},
+			["Honor Guard Wesilow"] = {
+				["faction"] = 1,
+				["id"] = 16827,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5091152191162109, -- [2]
+						0.6033496856689453, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Bonechewer Orc"] = {
+				["quest"] = true,
+			},
+			["Chero"] = {
+				["faction"] = 1,
+				["id"] = 5508,
+				["level"] = 71,
+				["levelw"] = 5,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6603483472551618, -- [2]
+						0.172746941447258, -- [3]
+						7, -- [4]
+					}, -- [1]
+				},
+			},
+			["Gremni Longbeard"] = {
+			},
+			["Kip Trawlskip"] = {
+			},
+			["Sid Limbardi"] = {
+				["faction"] = 1,
+				["id"] = 16826,
+				["level"] = 55,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5426721572875977, -- [2]
+						0.6357522010803223, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Father Malgor Devidicus"] = {
+				["faction"] = 1,
+				["id"] = 16825,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5428271889686585, -- [2]
+						0.6355057060718536, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Karrina Mekenda"] = {
+				["faction"] = 1,
+				["id"] = 2879,
+				["level"] = 40,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6481517553329468, -- [2]
+						0.1842121332883835, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Auctioneer Jaxon"] = {
+				["faction"] = 1,
+				["id"] = 15659,
+				["level"] = 50,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						36, -- [1]
+						0.5347077548503876, -- [2]
+						0.5974177122116089, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Lanie Reed"] = {
+			},
+			["Marshal Isildor"] = {
+				["faction"] = 1,
+				["id"] = 19308,
+				["level"] = 71,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5465989112854004, -- [2]
+						0.6266999840736389, -- [3]
+						4, -- [4]
+					}, -- [1]
+				},
+			},
+			["Caylais Moonfeather"] = {
+			},
+			["Thurman Mullby"] = {
+				["faction"] = 1,
+				["id"] = 1285,
+				["level"] = 30,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						36, -- [1]
+						0.5821298956871033, -- [2]
+						0.6137065887451172, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Gyll"] = {
+			},
+			["Penumbrius"] = {
+			},
+			["Sten Stoutarm"] = {
+				["faction"] = 1,
+				["id"] = 658,
+				["level"] = 5,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						28, -- [1]
+						0.298981249332428, -- [2]
+						0.712435245513916, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Shattered Hand Berserker"] = {
+				["id"] = 16878,
+				["level"] = 62,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.4343913495540619, -- [2]
+						0.7454009652137756, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Derek Rammel"] = {
+			},
+			["Bragok"] = {
+			},
+			["Black Slayer"] = {
+				["id"] = 5982,
+				["level"] = 47,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.5610918402671814, -- [2]
+						0.3677941858768463, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Lieutenant Amadi"] = {
+				["faction"] = 1,
+				["id"] = 16820,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5093555450439453, -- [2]
+						0.6022170186042786, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Thyssiana"] = {
+			},
+			["Fhyn Leafshadow"] = {
+			},
+			["Spackle Thornberry"] = {
+				["faction"] = 1,
+				["id"] = 5520,
+				["level"] = 40,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6481517553329468, -- [2]
+						0.1842121332883835, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Gorrim"] = {
+			},
+			["Alieshor"] = {
+			},
+			["Sindrayl"] = {
+			},
+			["Silva Fil'naveth"] = {
+			},
+			["Maaka"] = {
+			},
+			["Rafae"] = {
+			},
+			["Amerun Leafshade"] = {
+			},
+			["Brubeck Stormfoot"] = {
+			},
+			["Fyldren Moonfeather"] = {
+			},
+			["Laando"] = {
+			},
+			["Ohura"] = {
+			},
+			["Morlia Doomwing"] = {
+			},
+			["Jarrodenus"] = {
+			},
+			["Darla Harris"] = {
+			},
+			["Dyslix Silvergrub"] = {
+			},
+			["Cedrik Prose"] = {
+			},
+			["The Spirit of Gnomeregan"] = {
+			},
+			["Samuel Clearbook"] = {
+			},
+			["Kiz Coilspanner"] = {
+			},
+			["Khaelyn Steelwing"] = {
+			},
+			["Vana Grey"] = {
+			},
+			["Commander Duron"] = {
+				["faction"] = 1,
+				["id"] = 19229,
+				["level"] = 70,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.8733260035514832, -- [2]
+						0.507829025387764, -- [3]
+						4, -- [4]
+					}, -- [1]
+				},
+			},
+			["Crier Goodman"] = {
+				["faction"] = 1,
+				["id"] = 2198,
+				["level"] = 3,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						36, -- [1]
+						0.555635392665863, -- [2]
+						0.6218439340591431, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kuma"] = {
+			},
+			["A'dal"] = {
+				["id"] = 18481,
+				["level"] = 73,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.5591967105865479, -- [2]
+						0.5061019659042358, -- [3]
+						0.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Faldorf Bitterchill"] = {
+			},
+			["Force Commander Danath Trollbane"] = {
+			},
+			["Harpax"] = {
+			},
+			["Danica Saint"] = {
+			},
+			["Overy"] = {
+				["faction"] = 1,
+				["id"] = 247223,
+				["level"] = 71,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6479919850826263, -- [2]
+						0.1845128647983074, -- [3]
+						4, -- [4]
+					}, -- [1]
+				},
+			},
+			["Borgus Stoutarm"] = {
+			},
+			["Arzo Safeflight"] = {
+			},
+			["Munci"] = {
+			},
+			["Krexcil"] = {
+			},
+			["Aludane Whitecloud"] = {
+			},
+			["Deranged Helboar"] = {
+				["id"] = 16863,
+				["levelw"] = 2,
+				["level"] = 60.5,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.4591919332742691, -- [2]
+						0.7040734887123108, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Shellei Brondir"] = {
+			},
+			["Daelyshia"] = {
+			},
+			["Nizzle"] = {
+			},
+			["Aedan Moran"] = {
+			},
+			["Gryfe"] = {
+			},
+			["Thor"] = {
+			},
+			["Maddix"] = {
+			},
+			["Guthrum Thunderfist"] = {
+			},
+			["Razorfang Hatchling"] = {
+				["id"] = 16932,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.4251498878002167, -- [2]
+						0.8122007846832275, -- [3]
+						0.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Cid Flounderfix"] = {
+			},
+			["Ariena Stormfeather"] = {
+			},
+			["Dungar Longdrink"] = {
+				["faction"] = 1,
+				["id"] = 352,
+				["level"] = 65,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						36, -- [1]
+						0.65998821366917, -- [2]
+						0.6259042024612427, -- [3]
+						1.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Rodney Wells"] = {
+			},
+			["Pricilla Winterwind"] = {
+			},
+			["Grennik"] = {
+			},
+		},
+		["item"] = {
+			[""] = {
+				["id"] = 28105,
+			},
+			["Stoneshatter"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Arcane Powder"] = {
+				["id"] = 17020,
+			},
+			["Clefthoof Ribs"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Blademaster Leggings"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Stromgarde Muenster"] = {
+				["id"] = 30458,
+			},
+			["Slavedriver's Cane"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Bludstone Hammer"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Amethyst War Staff"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Protector's Sword"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+				["id"] = 10613,
+			},
+			["Jagged Throwing Axe"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Brigam Girdle"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 3247,
+			},
+			["Spitfire Bracers"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Sunderseer Mantle"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Sublime Wristguards"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Doombringer"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Frostweaver Cape"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Xorothian Firestick"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Rune Thread"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Clutch of Andros"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Helm of the Executioner"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 13796,
+			},
+			["Crystalline Threaded Cape"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Witchblade"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Denwatcher's Shoulders"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Blue Ribboned Wrapping Paper"] = {
+				["id"] = 5048,
+			},
+			["Scarlet Kris"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Gargoyle Slashers"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Salvaged Wood"] = {
+				["quest"] = true,
+			},
+			["Nightbrace Tunic"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Salvaged Metal"] = {
+				["quest"] = true,
+			},
+			["Blacksteel Throwing Dagger"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Kayser's Boots of Precision"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Ironbite Shell"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Mysteries of the Light"] = {
+				["quest"] = true,
+			},
+			["Blackflight Arrow"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Recruit's Boots"] = {
+				["id"] = 40,
+			},
+			["Truesilver Commander's Ring"] = {
+				["id"] = 29158,
+			},
+			["Red Ribboned Wrapping Paper"] = {
+				["id"] = 5042,
+			},
+			["Accurate Slugs"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Bright Baubles"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Simple Wood"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Tome of the Lost"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Tristam Legguards"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Roasted Quail"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Deep Rooted Ring"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Serathil"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Morning Glory Dew"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Dust of Decay"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Mind Carver"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Gordok Bracers of Power"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 13744,
+			},
+			["Recipe: Ravager Dog"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Bonecreeper Stylus"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Smoked Talbuk Venison"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Purified Draenic Water"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Breastplate of the Chosen"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Dracorian Gauntlets"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Armswake Cloak"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 1354,
+			},
+			["Death's Clutch"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Wicked Arrow"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+					"Sid Limbardi", -- [2]
+				},
+			},
+			["Duron's Report"] = {
+				["id"] = 28105,
+			},
+			["Hyjal Nectar"] = {
+				["id"] = 18300,
+			},
+			["Crown of Tyranny"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Windreaver Greaves"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Enchanted Thorium Breastplate"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 12615,
+			},
+			["Screeching Bow"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Brightspark Gloves"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Worn Wooden Shield"] = {
+				["id"] = 2362,
+			},
+			["Blackmist Armguards"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Dreadmaster's Shroud"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Draconian Aegis of the Legion"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Band of Flesh"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 16067,
+			},
+			["Hearthstone"] = {
+				["id"] = 6948,
+			},
+			["Barrage Girdle"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Soothing Spices"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Barrier Shield"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+				["id"] = 3988,
+			},
+			["Slamshot Shoulders"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 20140,
+			},
+			["Flightblade Throwing Axe"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Painweaver Band"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 20290,
+			},
+			["Malicious Axe"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Mongoose Boots"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Gauntlets of Deftness"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Tough Jerky"] = {
+				["id"] = 117,
+			},
+			["Impact Shot"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+					"Sid Limbardi", -- [2]
+				},
+			},
+			["Green Mechanostrider"] = {
+				["id"] = 13321,
+			},
+			["The Needler"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Diana's Pearl Necklace"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Jagged Arrow"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Unyielding Maul"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+				["id"] = 2814,
+			},
+			["Recruit's Pants"] = {
+				["id"] = 39,
+			},
+			["Stratholme Militia Shoulderguard"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Imbued Vial"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Worn Shortsword"] = {
+				["id"] = 25,
+			},
+			["Belt of the Trickster"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Emberfury Talisman"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 16123,
+			},
+			["Backusarian Gauntlets"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 20284,
+			},
+			["Ribsteel Footguards"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 16030,
+			},
+			["Silvermoon Leggings"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Demon Howl Wristguards"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Eldritch Reinforced Legplates"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+				["id"] = 16028,
+			},
+			["Bone Ring Helm"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Lefty's Brass Knuckle"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+			["Chiselbrand Girdle"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Mooncloth Vest"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Nolkai's Bag"] = {
+				["id"] = 23852,
+			},
+			["Spiritshroud Leggings"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Filtered Draenic Water"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Advisor's Ring"] = {
+				["vendor"] = {
+					"Chero", -- [1]
+				},
+			},
+			["Mastersmith's Hammer"] = {
+				["vendor"] = {
+					"Aelin Vargos", -- [1]
+				},
+			},
+		},
+	},
+}
+QuestHelper_FlightInstructors = {
+	["0.59 on 2.4.3"] = {
+		{
+			["Stormwind, Elwynn"] = "Dungar Longdrink",
+		}, -- [1]
+	},
+}
+QuestHelper_FlightRoutes = {
+	["0.59 on 2.4.3"] = {
+		{
+			["Nethergarde Keep, Blasted Lands"] = {
+				["Stormwind, Elwynn"] = {
+					[0] = true,
+				},
+			},
+			["Ironforge, Dun Morogh"] = {
+				["Stormwind, Elwynn"] = {
+					[0] = true,
+				},
+			},
+			["Stormwind, Elwynn"] = {
+				["Ironforge, Dun Morogh"] = {
+					[0] = true,
+				},
+				["Nethergarde Keep, Blasted Lands"] = {
+					[0] = true,
+				},
+			},
+		}, -- [1]
+	},
+}
+QuestHelper_Pref = {
+	["track"] = true,
+	["filter_zone"] = false,
+	["scale"] = 1,
+	["comm"] = false,
+	["locale"] = "enUS",
+	["track_level"] = true,
+	["hide"] = false,
+	["show_ants"] = true,
+	["track_size"] = 8,
+	["perf_scale"] = 1,
+	["level"] = 2,
+	["map_button"] = true,
+	["solo"] = false,
+	["filter_level"] = true,
+	["filter_blocked"] = false,
+	["track_minimized"] = false,
+	["cart_wp"] = true,
+	["track_qcolour"] = true,
+	["tomtom_wp"] = true,
+	["tooltip"] = true,
+	["share"] = true,
+	["filter_watched"] = false,
+	["track_ocolour"] = true,
+	["filter_done"] = false,
+	["flight_time"] = true,
+	["track_scale"] = 1,
+}
+QuestHelper_UID = "KS3dr6dco58yYBf9vHdDmKI7FUUUoApm"
+QuestHelper_SaveDate = 1515107793
+QuestHelper_SeenRealms = {
+	["Ares"] = true,
+}
+QuestHelper_Errors = {
+	["crashes"] = {
+	},
+}

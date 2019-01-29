@@ -1,0 +1,49 @@
+
+SSPVP_Config = {
+	["leave"] = {
+		["enabled"] = true,
+		["timeout"] = 0.1,
+		["confirm"] = true,
+	},
+	["general"] = {
+		["enabled"] = true,
+		["killingblowColor"] = {
+			0.5, -- [1]
+			0.5, -- [2]
+			1, -- [3]
+		},
+		["killingblow"] = true,
+		["sound"] = "",
+		["lockAlways"] = true,
+	},
+	["join"] = {
+		["enabled"] = true,
+		["timeout"] = 20,
+		["afktimeout"] = 110,
+		["window"] = false,
+		["afk"] = false,
+		["grouped"] = true,
+		["bg"] = false,
+	},
+	["version"] = "2.3.8",
+	["overlay"] = {
+		["eta"] = true,
+		["inbg"] = false,
+		["etaformat"] = "mmss",
+		["queue"] = true,
+	},
+	["bg"] = {
+		["ignoress"] = false,
+		["groupAdmin"] = true,
+		["minimap"] = true,
+		["hideCIcon"] = true,
+		["release"] = true,
+		["classColor"] = true,
+		["skip"] = true,
+		["autoss"] = false,
+	},
+	["auto"] = {
+		["group"] = true,
+		["solo"] = true,
+	},
+}

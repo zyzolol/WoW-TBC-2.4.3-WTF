@@ -1,0 +1,10 @@
+
+SoundAlerterDB = {
+	["profileKeys"] = {
+		["Subtletyy - Netherwing"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,11 @@
+
+EnergyWatch_Save = {
+	["Subtletyy of Netherwing"] = {
+		["show"] = 0,
+		["alpha"] = 1,
+		["status"] = 0,
+		["text"] = "Energy",
+		["sound"] = "",
+		["scale"] = 1,
+	},
+}

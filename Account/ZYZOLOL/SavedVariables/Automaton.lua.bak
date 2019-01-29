@@ -1,0 +1,89 @@
+
+AutomatonDB = {
+	["disabledModules"] = {
+		["Default"] = {
+			["Loner"] = true,
+			["Plates"] = true,
+			["Dismount"] = true,
+			["Rez"] = true,
+			["Summon"] = true,
+			["Release"] = true,
+			["Wuss"] = true,
+			["Ding"] = true,
+			["Gossip"] = true,
+		},
+	},
+	["namespaces"] = {
+		["Loner"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Plates"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Dismount"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Queue"] = {
+			["profiles"] = {
+				["Default"] = {
+					["restrict"] = false,
+				},
+			},
+		},
+		["Summon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Mailer"] = {
+			["profiles"] = {
+				["Default"] = {
+					["lastSent"] = "Herbz",
+				},
+			},
+		},
+		["Ding"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Rez"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Wuss"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimapPosition"] = 264.2410500529367,
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+}

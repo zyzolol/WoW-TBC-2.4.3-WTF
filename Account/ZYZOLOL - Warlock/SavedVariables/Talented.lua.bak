@@ -1,0 +1,17 @@
+
+TalentedDB = {
+	["profiles"] = {
+		["Default"] = {
+			["templates"] = {
+				["Empty"] = {
+					["class"] = "WARLOCK",
+					["name"] = "Empty",
+					["code"] = "pZAu31pA1Zyt0tC21mmF",
+				},
+			},
+			["offsety"] = -1.887881994247437,
+			["last_template"] = "Empty",
+			["offsetx"] = -2.666920185089111,
+		},
+	},
+}

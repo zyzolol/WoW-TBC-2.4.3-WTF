@@ -1,0 +1,72 @@
+
+AutomatonDB = {
+	["namespaces"] = {
+		["Summon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Wuss"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Plates"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Rez"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Ding"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Dismount"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+		["Loner"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disabled"] = false,
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["Rez"] = true,
+			["Plates"] = true,
+			["Loner"] = true,
+			["Ding"] = true,
+			["Dismount"] = true,
+			["Wuss"] = true,
+			["Summon"] = true,
+		},
+	},
+}

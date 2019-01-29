@@ -1,0 +1,59 @@
+
+AfflictedDB = {
+	["profileKeys"] = {
+		["Beztworld - Ares"] = "Beztworld - Ares",
+	},
+	["profiles"] = {
+		["Beztworld - Ares"] = {
+			["showAnchors"] = true,
+			["anchors"] = {
+				["cooldowns"] = {
+					["announce"] = true,
+				},
+				["buffs"] = {
+					["announce"] = true,
+				},
+				["spells"] = {
+					["announce"] = true,
+				},
+			},
+			["spells"] = {
+				[31687] = {
+					["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
+					["text"] = "Summon Water Elemental",
+				},
+				[19503] = {
+					["icon"] = "Interface\\Icons\\Ability_GolemStormBolt",
+				},
+				[1044] = {
+					["icon"] = "Interface\\Icons\\Spell_Holy_SealOfValor",
+				},
+				[10060] = {
+					["icon"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
+				},
+				[38768] = {
+					["icon"] = "Interface\\Icons\\Ability_Kick",
+				},
+				[45438] = {
+					["icon"] = "Interface\\Icons\\Spell_Frost_Frost",
+				},
+				[33206] = {
+					["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
+				},
+				[27018] = {
+					["icon"] = "Interface\\Icons\\Ability_Hunter_AimedShot",
+				},
+				[19647] = {
+					["icon"] = "Interface\\Icons\\Spell_Shadow_MindRot",
+				},
+				[15487] = {
+					["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+				},
+				[10278] = {
+					["icon"] = "Interface\\Icons\\Spell_Holy_SealOfProtection",
+				},
+			},
+			["version"] = 690,
+		},
+	},
+}

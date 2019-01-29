@@ -1,0 +1,6 @@
+
+SellJunkDBPC = {
+	["global"] = {
+		["auto"] = true,
+	},
+}

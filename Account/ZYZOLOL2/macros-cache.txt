@@ -1,0 +1,105 @@
+MACRO 54 "Blind" INV_Misc_QuestionMark
+#showtooltip Blind
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Blind
+/focus [target=mouseover, exists, harm][target=target,  exists, harm][] Blind
+/party Blinding %t 10 seconds.
+END
+MACRO 77 "DefStep" INV_Misc_QuestionMark
+#showtooltip Shadowstep
+/cast [target=party2] Shadowstep
+END
+MACRO 64 "Envenom" INV_Misc_QuestionMark
+#showtooltip Envenom
+/equipslot 17 Relentless Gladiator's Dirk
+/targetlastenemy [@target, noexists]
+/cast [@target, harm] Envenom
+/startattack
+END
+MACRO 62 "Eviscerate" INV_Misc_QuestionMark
+#showtooltip Eviscerate
+/equipslot 17 Relentless Gladiator's Dirk
+/targetlastenemy [noexists]
+/cast [target=target, harm] Eviscerate
+/startattack
+END
+MACRO 72 "Expose" INV_Misc_QuestionMark
+#showtooltip Expose Armor
+/stopattack
+/cast [target=target, exists, harm] Expose Armor
+/stopattack
+/stopmacro
+END
+MACRO 59 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Shadow Dance
+/cast [stance:0, @focus, exists, harm] Shadow Dance
+/cast [stance:1, @focus, exists, harm] Sap
+/cast [stance:2, @focus, exists, harm] Sap
+/cast [stance:3, @focus, exists, harm] Sap
+/use 14
+/party Dancing!
+/stopattack
+/stopmacro
+END
+MACRO 18 "FOCUS" Ability_Druid_ChallangingRoar
+/focus [target=mouseover, nodead, exists]; [target=target, nodead, ,exists]
+END
+MACRO 53 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Blind
+/cast [target=focus, exists, harm] Blind
+/party Blinding %t 10 seconds !!!
+/stopmacro
+END
+MACRO 56 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Dismantle
+/stopattack
+/cast [target=focus, exists, harm] Dismantle
+/stopattack
+END
+MACRO 52 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Kick
+/stopattack
+/cast [target=focus, exists, harm] Kick
+/stopattack
+END
+MACRO 68 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Tricks of the Trade
+/cast [target=focus, exists, help][target=target, exists, help][target=party2, exists, help][] Tricks of the Trade
+END
+MACRO 69 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Kidney Shot
+/cast [target=focus, exists, harm] Kidney Shot
+END
+MACRO 75 "INV" INV_Misc_QuestionMark
+/invite
+END
+MACRO 51 "Kick" INV_Misc_QuestionMark
+#showtooltip Kick
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Kick
+/cast [harm] Sap
+END
+MACRO 67 "Kidney Shot" INV_Misc_QuestionMark
+#showtooltip Kidney Shot
+/targetlastenemy [target=target, noexists]
+/cast [stance:0/3,[target=target, exists, harm] Kidney Shot
+/cast [stance:1/2, [target=target, exists, harm] Garrote
+/stopmacro
+END
+MACRO 71 "Party plz" INV_Misc_QuestionMark
+/say INV please
+END
+MACRO 76 "ShadowStep Sap" INV_Misc_QuestionMark
+#showtooltip Shadowstep
+/cast [target=focus] Shadowstep
+/cast [target=focus] Sap
+END
+MACRO 55 "Vanish" INV_Misc_QuestionMark
+#showtooltip Vanish
+/cast [nocombat] !Stealth
+/cast [combat] Vanish
+/console targetNearestDistance 10.000000 
+/targetenemyplayer [noharm][dead] 
+/console targetNearestDistance 18.000000
+/cast [harm] Sap
+/cast Perception(Racial)
+/stopattack
+END

@@ -1,0 +1,44 @@
+
+BeanCounterDB = {
+	["Ares"] = {
+		["Amazingx"] = {
+			["vendorsell"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 4099740,
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["version"] = 2.02,
+			["faction"] = "Alliance",
+			["postedBids"] = {
+				["2452"] = {
+					["item:2452:0:0:0:0:0:0:0"] = {
+						"4;7641;Danuezzbank;boolean false;4;1515935161;resale", -- [1]
+					},
+				},
+			},
+			["failedBids"] = {
+			},
+			["completedBids/Buyouts"] = {
+			},
+			["mailbox"] = {
+			},
+		},
+	},
+	["ItemIDArray"] = {
+		["2452:0"] = "|cffffffff|Hitem:2452:0:0:0:0:0:0:0|h[Swiftthistle]|h|r",
+	},
+	["settings"] = {
+		["profile.Default"] = {
+			["configator.left"] = 453.3334350585938,
+			["util.beancounter.integrityCheckComplete"] = true,
+			["configator.top"] = 705.0000610351563,
+		},
+	},
+}
+BeanCounterAccountDB = nil

@@ -1,0 +1,28 @@
+
+ProcodileDB = {
+	["profileKeys"] = {
+		["Subletygodx - Ares"] = "Subletygodx - Ares",
+	},
+	["char"] = {
+		["Subletygodx - Ares"] = {
+			["tracked"] = {
+				{
+					["seconds"] = 0,
+					["started"] = 0,
+					["id"] = 28093,
+					["totaltime"] = 0,
+					["found"] = true,
+					["name"] = "Lightning Speed",
+					["custom"] = true,
+					["laststarted"] = 0,
+					["cooldown"] = 0,
+					["icon"] = "Interface\\Icons\\Spell_Nature_UnrelentingStorm",
+					["count"] = 0,
+				}, -- [1]
+			},
+			["movablecooldowns"] = false,
+			["barwidth"] = 151,
+			["barheight"] = 15,
+		},
+	},
+}

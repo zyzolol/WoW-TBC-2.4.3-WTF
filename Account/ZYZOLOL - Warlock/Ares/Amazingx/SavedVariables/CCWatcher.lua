@@ -1,0 +1,6 @@
+
+CCWatcherDBPC = {
+	["global"] = {
+		["showCasterName"] = true,
+	},
+}

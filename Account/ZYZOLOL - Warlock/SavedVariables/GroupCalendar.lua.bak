@@ -1,0 +1,2694 @@
+
+gGroupCalendar_Settings = {
+	["ShowEventsInLocalTime"] = false,
+	["StartOnMonday"] = false,
+	["Debug"] = false,
+	["TwentyFourHourTime"] = false,
+	["PlayerSettings"] = {
+		["Ares_Amazingx"] = {
+			["UI"] = {
+				["LockWindow"] = false,
+			},
+			["Channel"] = {
+				["AutoConfig"] = true,
+				["UseGuildChannel"] = 1,
+				["GuildAdmin"] = false,
+			},
+			["SavedTemplates"] = {
+				{
+					["mDuration"] = 300,
+					["mMinLevel"] = 70,
+					["mTime"] = 1140,
+					["mType"] = "Karazhan",
+					["mRoleConfirm"] = true,
+					["mLimits"] = {
+						["mRoleLimits"] = {
+							["MD"] = {
+								["mMax"] = 3,
+								["mMin"] = 2,
+							},
+							["OT"] = {
+								["mMax"] = 0,
+							},
+							["OH"] = {
+								["mMax"] = 0,
+							},
+							["MT"] = {
+								["mMax"] = 3,
+								["mMin"] = 2,
+							},
+							["MH"] = {
+								["mMax"] = 3,
+								["mMin"] = 2,
+							},
+							["RD"] = {
+								["mMax"] = 3,
+								["mMin"] = 2,
+							},
+						},
+						["mMaxAttendance"] = 10,
+					},
+					["mDescription"] = "Saturday Karazhan. 10&s;11",
+					["mMaxLevel"] = 70,
+				}, -- [1]
+				{
+					["mType"] = "RSKara",
+					["mTime"] = 477,
+					["mRoleConfirm"] = true,
+				}, -- [2]
+			},
+			["Security"] = {
+				["Player"] = {
+				},
+				["MinTrustedRank"] = 1,
+			},
+		},
+	},
+	["Format"] = 3,
+	["DebugSettings"] = {
+	},
+	["RealmSettings"] = {
+		["Ares"] = {
+			["GuildRanks"] = {
+				["Immersion"] = {
+					"Officer", -- [1]
+					"Veteran", -- [2]
+					"Core Raider", -- [3]
+					"Member", -- [4]
+					"Trial", -- [5]
+					"Social/Alt", -- [6]
+					[0] = "Dreadpirate",
+				},
+			},
+		},
+	},
+}
+gGroupCalendar_Database = {
+	["Format"] = 19,
+	["Backups"] = {
+		["Ares_Amazingx"] = {
+		},
+	},
+	["Databases"] = {
+		["Ares_Marzek"] = {
+			["Guild"] = "Immersion",
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Marzek",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569510320,
+				["Revision"] = 1,
+				["ChangeList"] = {
+					{
+						"EVT:Voluptuous,9,6591,51520,Y,DH70,,Immersion,1,RD", -- [1]
+					}, -- [1]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Piper"] = {
+			["Guild"] = "Immersion",
+			["AddonVersionUpdated"] = 569732520,
+			["RSVPs"] = {
+				["ID"] = 569728997,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["Changes"] = {
+				["ID"] = 567963731,
+				["Revision"] = 12,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:52/DEL", -- [1]
+					},
+					[12] = {
+						"EVT:65/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 12,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Piper",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["HighestKnownRSVPID"] = 569728997,
+			["AddonVersion"] = "4.1",
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Rethik"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 567614499,
+				["Revision"] = 7,
+				["ChangeList"] = {
+					{
+						"EVT:9/NEW:ShatteredH,6581,1020,120,,", -- [1]
+						"EVT:9/DSC:Shh trial run Need CC", -- [2]
+						"EVT:9/GLD:Immersion", -- [3]
+						"EVT:9/CNF:ROLE/MAX:5/MD:1,2/OT:,0/OH:,0/MT:1,1/MH:1,1/RD:1,2", -- [4]
+						"EVT:9/END", -- [5]
+					}, -- [1]
+					{
+						"EVT:9/ATT:Jaheira,6581,55266,Y,ND70,,Immersion,5,,,MH", -- [1]
+					}, -- [2]
+					{
+						"EVT:11/NEW:ShatteredH,6582,1050,120,,", -- [1]
+						"EVT:11/DSC:Shh trial run Need CC", -- [2]
+						"EVT:11/GLD:Immersion", -- [3]
+						"EVT:11/CNF:ROLE/MAX:5/MD:1,2/OT:,0/OH:,0/MT:1,1/MH:1,1/RD:1,2", -- [4]
+						"EVT:11/END", -- [5]
+					}, -- [3]
+					{
+						"EVT:14/NEW:ShatteredH,6584,1050,120,,", -- [1]
+						"EVT:14/DSC:Rethik terry and Jaheira needs Aind in Shh HC come help! &cn;D", -- [2]
+						"EVT:14/GLD:Immersion", -- [3]
+						"EVT:14/CNF:ROLE/MAX:5/MD:1,2/OT:,0/OH:,0/MT:1,1/MH:1,1/RD:1,2", -- [4]
+						"EVT:14/END", -- [5]
+					}, -- [4]
+					{
+						"EVT:14/UPD:ShatteredH,6584,1020,120,,", -- [1]
+						"EVT:14/END", -- [2]
+					}, -- [5]
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Rethik",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+				[6582] = {
+					{
+						["mDuration"] = 120,
+						["mTime"] = 1050,
+						["mType"] = "ShatteredH",
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 2,
+									["mMin"] = 1,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 1,
+									["mMin"] = 1,
+								},
+								["MH"] = {
+									["mMax"] = 1,
+									["mMin"] = 1,
+								},
+								["RD"] = {
+									["mMax"] = 2,
+									["mMin"] = 1,
+								},
+							},
+							["mMaxAttendance"] = 5,
+						},
+						["mGuild"] = "Immersion",
+						["mDescription"] = "Shh trial run Need CC",
+						["mDate"] = 6582,
+						["mID"] = 11,
+					}, -- [1]
+				},
+				[6581] = {
+					{
+						["mDuration"] = 120,
+						["mTime"] = 1020,
+						["mType"] = "ShatteredH",
+						["mAttendance"] = {
+							["Jaheira"] = "6581,55266,Y,ND70,,Immersion,5,,,MH",
+						},
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 2,
+									["mMin"] = 1,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 1,
+									["mMin"] = 1,
+								},
+								["MH"] = {
+									["mMax"] = 1,
+									["mMin"] = 1,
+								},
+								["RD"] = {
+									["mMax"] = 2,
+									["mMin"] = 1,
+								},
+							},
+							["mMaxAttendance"] = 5,
+						},
+						["mGuild"] = "Immersion",
+						["mDescription"] = "Shh trial run Need CC",
+						["mDate"] = 6581,
+						["mID"] = 9,
+					}, -- [1]
+				},
+				[6584] = {
+					{
+						["mDuration"] = 120,
+						["mTime"] = 1020,
+						["mType"] = "ShatteredH",
+						["mDescription"] = "Rethik terry and Jaheira needs Aind in Shh HC come help! &cn;D",
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 2,
+									["mMin"] = 1,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 1,
+									["mMin"] = 1,
+								},
+								["MH"] = {
+									["mMax"] = 1,
+									["mMin"] = 1,
+								},
+								["RD"] = {
+									["mMax"] = 2,
+									["mMin"] = 1,
+								},
+							},
+							["mMaxAttendance"] = 5,
+						},
+						["mGuild"] = "Immersion",
+						["mDate"] = 6584,
+						["mID"] = 14,
+					}, -- [1]
+				},
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 14,
+			["Realm"] = "Ares",
+		},
+		["Ares_Verse"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 565217590,
+				["Revision"] = 4,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:8/DEL", -- [1]
+					},
+					[4] = {
+						"EVT:50/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Verse",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Yoruichi"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 566924328,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:1/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Yoruichi",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Gbaby"] = {
+			["Guild"] = "Immersion",
+			["AddonVersionUpdated"] = 569732520,
+			["RSVPs"] = {
+				["ID"] = 569728997,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Gbaby",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["HighestKnownRSVPID"] = 569728997,
+			["AddonVersion"] = "4.1",
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Froztitute"] = {
+			["Guild"] = "Immersion",
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Froztitute",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569455138,
+				["Revision"] = 1,
+				["ChangeList"] = {
+					{
+						"EVT:Voluptuous,9,6590,82738,S,HM70,,Immersion,4,RD", -- [1]
+					}, -- [1]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Aciu"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 567954425,
+				["Revision"] = 18,
+				["ChangeList"] = {
+					{
+						"EVT:44/NEW:RP,6573,1080,60,,", -- [1]
+						"EVT:44/TIT:Gonna RP in steamvaults heroic &sc; )", -- [2]
+						"EVT:44/END", -- [3]
+					}, -- [1]
+					{
+						"EVT:44/UPD:RP,6573,1050,60,,", -- [1]
+						"EVT:44/END", -- [2]
+					}, -- [2]
+					{
+						"EVT:44/ATT:Hinduna,6573,51092,S,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [3]
+					{
+						"EVT:44/ATT:Hinduna,6573,51099,S,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [4]
+					{
+						"EVT:44/ATT:Hinduna,6573,51107,S,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [5]
+					{
+						"EVT:44/ATT:Aciu,6573,51120,S,ND70,,Immersion,2,,,MT", -- [1]
+					}, -- [6]
+					{
+						"EVT:44/ATT:Aciu,6573,51949,S,ND70,,Immersion,2,,,MT", -- [1]
+					}, -- [7]
+					{
+						"EVT:44/ATT:Slim,6573,53454,S,DH70,,Immersion,5,,,RD", -- [1]
+					}, -- [8]
+					{
+						"EVT:44/ATT:Slim,6573,53456,S,DH70,,Immersion,5,,,RD", -- [1]
+					}, -- [9]
+					{
+						"EVT:44/ATT:Slim,6573,53470,S,DH70,,Immersion,5,,,RD", -- [1]
+					}, -- [10]
+					{
+						"EVT:44/ATT:Hinduna,6573,54667,S,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [11]
+					{
+						"EVT:44/ATT:Hinduna,6573,54678,S,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [12]
+					[18] = {
+						"EVT:44/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Aciu",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 567870926,
+				["Revision"] = 1,
+				["ChangeList"] = {
+					{
+						"EVT:Voluptuous,9,6572,53726,S,ND70,,Immersion,5,MT", -- [1]
+					}, -- [1]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Button"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 564778905,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:55/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Button",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569347522,
+				["Revision"] = 3,
+				["ChangeList"] = {
+					{
+						"EVT:Alell,147,6593,66566,Y,AP70,,Immersion,4,MH", -- [1]
+					}, -- [1]
+					{
+						"EVT:Alell,148,6593,66571,Y,AP70,,Immersion,4,MH", -- [1]
+					}, -- [2]
+					{
+						"EVT:Alell,149,6593,66574,Y,AP70,,Immersion,4,MH", -- [1]
+					}, -- [3]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Alell"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 569723058,
+				["Revision"] = 4,
+				["ChangeList"] = {
+					{
+						"EVT:139/NEW:Hyjal,6585,1125,240,70,70", -- [1]
+						"EVT:139/TIT:SSC TK GRUUL", -- [2]
+						"EVT:139/DSC:Bring consumes!", -- [3]
+						"EVT:139/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [4]
+						"EVT:139/ATT:Jaxson,6575,68420,Y,HW70,,Immersion,2,,,MD", -- [5]
+						"EVT:139/ATT:Dispassion,6582,66216,Y,HL70,,Immersion,4,,,MT", -- [6]
+						"EVT:139/ATT:Ibex,6583,56811,Y,AL70,,Immersion,2,,,MH", -- [7]
+						"EVT:139/ATT:Slim,6583,3790,Y,DH70,,Immersion,5,,,RD", -- [8]
+						"EVT:139/ATT:Jaheira,6576,63443,Y,ND70,,Immersion,5,6576,63311,MH", -- [9]
+						"EVT:139/ATT:Alell,6581,63476,Y,HK70,,Immersion,1,,,RD", -- [10]
+						"EVT:139/ATT:Fellock,6575,68616,M,GK70,,Immersion,5,,,RD", -- [11]
+						"EVT:139/ATT:Button,6582,47318,Y,AP70,,Immersion,4,,,MH", -- [12]
+						"EVT:139/ATT:Alyesia,6585,7728,Y,AP70,,Immersion,5,,,MD", -- [13]
+						"EVT:139/ATT:Tpyo,6581,63566,Y,GW70,,Immersion,1,,,MT", -- [14]
+						"EVT:139/ATT:Froztitute,6583,44868,Y,HM70,,Immersion,4,,,RD", -- [15]
+						"EVT:139/ATT:Czako,6584,83923,N,ND70,,Immersion,5,,,MH", -- [16]
+						"EVT:139/ATT:Magicwand,6590,66633,Y,HM70,,Immersion,4,,,RD", -- [17]
+						"EVT:139/ATT:Parvati,6582,82339,Y,AS70,,Immersion,2,,,MH", -- [18]
+						"EVT:139/ATT:Verse,6581,73826,Y,HL70,,Immersion,2,,,MT", -- [19]
+						"EVT:139/ATT:Rethik,6585,64827,Y,DW70,,Immersion,5,,,MT", -- [20]
+						"EVT:139/ATT:Remkin,6589,59954,Y,AS70,Exams,Immersion,4,6587,53758,MD", -- [21]
+						"EVT:139/ATT:Fathergoo,6581,68937,Y,HP70,,Immersion,5,,,MH", -- [22]
+						"EVT:139/ATT:Gbaby,6583,26683,Y,AS70,,Immersion,4,,,RD", -- [23]
+						"EVT:139/ATT:Mmrkva,6575,76675,Y,HW70,,Immersion,5,,,MD", -- [24]
+						"EVT:139/ATT:Piper,6582,68750,M,NH70,,Immersion,5,,,RD", -- [25]
+						"EVT:139/ATT:Rakuh,6582,61815,M,HR70,,Immersion,5,,,MD", -- [26]
+						"EVT:139/ATT:Hnidka,6584,85557,Y,HP70,Ten drop system je uplne napicu,Immersion,5,,,RD", -- [27]
+						"EVT:139/ATT:Ciyaa,6589,72204,M,AS70,,Immersion,4,,,MD", -- [28]
+						"EVT:139/ATT:Flashy,6585,57622,Y,HR70,might have to go at 21pm,Immersion,5,,,MD", -- [29]
+						"EVT:139/END", -- [30]
+						"EVT:150/NEW:Hyjal,6604,1125,240,70,70", -- [31]
+						"EVT:150/TIT:SSC TK GRUUL", -- [32]
+						"EVT:150/DSC:Bring consumes!", -- [33]
+						"EVT:150/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [34]
+						"EVT:150/ATT:Jaheira,6582,56724,Y,ND70,,Immersion,5,,,MH", -- [35]
+						"EVT:150/ATT:Fellock,6577,77917,M,GK70,,Immersion,5,,,RD", -- [36]
+						"EVT:150/ATT:Alyesia,6592,56739,Y,AP70,,Immersion,4,,,MD", -- [37]
+						"EVT:150/ATT:Piper,6581,83274,C,NH70,,Immersion,5,,,RD", -- [38]
+						"EVT:150/ATT:Jaxson,6576,4080,Y,HW70,,Immersion,2,,,MD", -- [39]
+						"EVT:150/END", -- [40]
+						"EVT:151/NEW:Hyjal,6605,1125,240,70,70", -- [41]
+						"EVT:151/TIT:SSC TK GRUUL", -- [42]
+						"EVT:151/DSC:Bring consumes!", -- [43]
+						"EVT:151/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [44]
+						"EVT:151/ATT:Jaheira,6582,56728,Y,ND70,,Immersion,5,,,MH", -- [45]
+						"EVT:151/ATT:Fellock,6577,77922,M,GK70,,Immersion,5,,,RD", -- [46]
+						"EVT:151/ATT:Alyesia,6592,56743,Y,AP70,,Immersion,4,,,MD", -- [47]
+						"EVT:151/ATT:Piper,6581,83279,C,NH70,,Immersion,5,,,RD", -- [48]
+						"EVT:151/ATT:Jaxson,6576,4083,Y,HW70,,Immersion,2,,,MD", -- [49]
+						"EVT:151/END", -- [50]
+						"EVT:141/NEW:Hyjal,6591,1125,240,70,70", -- [51]
+						"EVT:141/TIT:SSC TK GRUUL", -- [52]
+						"EVT:141/DSC:Bring consumes!", -- [53]
+						"EVT:141/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [54]
+						"EVT:141/ATT:Jaxson,6575,68426,Y,HW70,,Immersion,2,,,MD", -- [55]
+						"EVT:141/ATT:Dispassion,6582,66225,Y,HL70,,Immersion,4,,,MT", -- [56]
+						"EVT:141/ATT:Gbaby,6590,8415,Y,AS70,,Immersion,3,,,RD", -- [57]
+						"EVT:141/ATT:Ciyaa,6591,59717,N,AS70,,Immersion,4,,,MD", -- [58]
+						"EVT:141/ATT:Kakio,6587,43275,Y,ND70,,Immersion,2,6586,86127,MD", -- [59]
+						"EVT:141/ATT:Hyper,6591,5552,Y,NH70,not attuned to ssc&s;tk,Immersion,5,6590,62242,RD", -- [60]
+						"EVT:141/ATT:Jaheira,6576,63317,Y,ND70,,Immersion,5,,,MH", -- [61]
+						"EVT:141/ATT:Slim,6591,55092,Y,DH70,,Immersion,5,,,RD", -- [62]
+						"EVT:141/ATT:Alell,6587,55667,Y,HK70,,Immersion,1,,,RD", -- [63]
+						"EVT:141/ATT:Fellock,6575,68620,M,GK70,,Immersion,5,,,RD", -- [64]
+						"EVT:141/ATT:Button,6587,49481,Y,AP70,,Immersion,4,,,MH", -- [65]
+						"EVT:141/ATT:Alyesia,6592,56756,Y,AP70,,Immersion,4,,,MD", -- [66]
+						"EVT:141/ATT:Tpyo,6587,61646,Y,GW70,,Immersion,1,,,MT", -- [67]
+						"EVT:141/ATT:Gludan,6591,34519,N,AS70,work,Immersion,5,,,MH", -- [68]
+						"EVT:141/ATT:Froztitute,6590,82725,Y,HM70,,Immersion,4,,,RD", -- [69]
+						"EVT:141/ATT:Monsignore,6591,67479,Y,NP70,,Immersion,5,,,RD", -- [70]
+						"EVT:141/ATT:Magicwand,6590,65810,M,HM70,,Immersion,4,,,RD", -- [71]
+						"EVT:141/ATT:Parvati,6590,6005,Y,AS70,,Immersion,2,,,MH", -- [72]
+						"EVT:141/ATT:Mmrkva,6590,68026,Y,HW70,,Immersion,5,,,MD", -- [73]
+						"EVT:141/ATT:Alysia,6591,66717,Y,AP70,,Immersion,4,,,MH", -- [74]
+						"EVT:141/ATT:Verse,6591,63815,Y,HL70,,Immersion,2,,,MT", -- [75]
+						"EVT:141/ATT:Rethik,6591,63702,Y,DW70,,Immersion,4,,,MT", -- [76]
+						"EVT:141/ATT:Marzek,6591,42184,Y,DH70,,Immersion,1,,,RD", -- [77]
+						"EVT:141/ATT:Ramparts,6590,66538,Y,ND70,,Immersion,5,,,RD", -- [78]
+						"EVT:141/ATT:Shambahbahla,6591,31292,Y,AS70,,Immersion,5,,,MH", -- [79]
+						"EVT:141/ATT:Piper,6581,83244,C,NH70,,Immersion,5,,,RD", -- [80]
+						"EVT:141/ATT:Ibex,6590,46390,Y,AL70,,Immersion,2,,,MH", -- [81]
+						"EVT:141/ATT:Fathergoo,6590,67574,Y,HP70,,Immersion,4,,,MH", -- [82]
+						"EVT:141/ATT:Hnidka,6591,59225,Y,HP70,,Immersion,5,,,RD", -- [83]
+						"EVT:141/ATT:Flashy,6591,68139,Y,HR70,exam&c; half raid prolly,Immersion,5,6590,82801,MD", -- [84]
+						"EVT:141/END", -- [85]
+						"EVT:142/NEW:Hyjal,6592,1125,240,70,70", -- [86]
+						"EVT:142/TIT:SSC TK GRUUL", -- [87]
+						"EVT:142/DSC:Bring consumes!", -- [88]
+						"EVT:142/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [89]
+						"EVT:142/ATT:Jaxson,6575,68429,Y,HW70,,Immersion,2,,,MD", -- [90]
+						"EVT:142/ATT:Dispassion,6582,66231,Y,HL70,,Immersion,4,,,MT", -- [91]
+						"EVT:142/ATT:Gbaby,6590,8419,Y,AS70,,Immersion,3,,,RD", -- [92]
+						"EVT:142/ATT:Ciyaa,6591,60089,Y,AS70,,Immersion,4,,,MD", -- [93]
+						"EVT:142/ATT:Kakio,6587,43275,Y,ND70,,Immersion,2,6586,86131,MD", -- [94]
+						"EVT:142/ATT:Hyper,6591,5548,Y,NH70,not attuned to ssc&s;tk,Immersion,5,6590,62247,RD", -- [95]
+						"EVT:142/ATT:Jaheira,6576,63319,Y,ND70,,Immersion,5,,,MH", -- [96]
+						"EVT:142/ATT:Ibex,6590,46392,Y,AL70,,Immersion,2,,,MH", -- [97]
+						"EVT:142/ATT:Flashy,6591,85866,Y,HR70,exam,Immersion,5,6591,85785,MD", -- [98]
+						"EVT:142/ATT:Fellock,6575,68624,M,GK70,,Immersion,5,,,RD", -- [99]
+						"EVT:142/ATT:Button,6587,49485,Y,AP70,,Immersion,4,,,MH", -- [100]
+						"EVT:142/ATT:Alyesia,6592,56594,Y,AP70,,Immersion,4,,,MD", -- [101]
+						"EVT:142/ATT:Tpyo,6587,61653,Y,GW70,,Immersion,1,,,MT", -- [102]
+						"EVT:142/ATT:Gludan,6586,68778,Y,AS70,,Immersion,5,,,MH", -- [103]
+						"EVT:142/ATT:Froztitute,6590,82729,Y,HM70,,Immersion,4,,,RD", -- [104]
+						"EVT:142/ATT:Remkin,6592,68713,S,AS70,,Immersion,4,,,MD", -- [105]
+						"EVT:142/ATT:Magicwand,6590,65815,M,HM70,,Immersion,4,,,RD", -- [106]
+						"EVT:142/ATT:Parvati,6590,6008,Y,AS70,,Immersion,2,,,MH", -- [107]
+						"EVT:142/ATT:Mmrkva,6592,63889,Y,HW70,exam,Immersion,5,,,MD", -- [108]
+						"EVT:142/ATT:Monsignore,6592,66919,Y,NP70,but&c; i gotta go around 20&cn;20 for about 20-30 mins,Immersion,5,,,RD", -- [109]
+						"EVT:142/ATT:Rethik,6592,64304,Y,DW70,,Immersion,4,,,MT", -- [110]
+						"EVT:142/ATT:Verse,6591,63819,Y,HL70,,Immersion,2,,,MT", -- [111]
+						"EVT:142/ATT:Marzek,6591,42220,Y,DH70,,Immersion,1,,,RD", -- [112]
+						"EVT:142/ATT:Ramparts,6592,54741,Y,ND70,,Immersion,5,,,RD", -- [113]
+						"EVT:142/ATT:Dangerdank,6592,67406,S,HW70,gruul,Immersion,6,,,MD", -- [114]
+						"EVT:142/ATT:Piper,6591,68161,Y,NH70,,Immersion,4,,,RD", -- [115]
+						"EVT:142/ATT:Rakuh,6591,16466,M,HR70,,Immersion,5,,,MD", -- [116]
+						"EVT:142/ATT:Fathergoo,6590,67579,Y,HP70,,Immersion,4,,,MH", -- [117]
+						"EVT:142/ATT:Alell,6587,55672,Y,HK70,,Immersion,1,,,RD", -- [118]
+						"EVT:142/ATT:Hnidka,6587,59269,Y,HP70,,Immersion,5,,,RD", -- [119]
+						"EVT:142/END", -- [120]
+						"EVT:137/NEW:Hyjal,6583,1125,240,70,70", -- [121]
+						"EVT:137/TIT:SSC TK GRUUL", -- [122]
+						"EVT:137/DSC:Bring your consumes! &n;&n;", -- [123]
+						"EVT:137/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [124]
+						"EVT:137/ATT:Jaxson,6575,68415,Y,HW70,,Immersion,2,,,MD", -- [125]
+						"EVT:137/ATT:Dispassion,6582,66205,Y,HL70,,Immersion,4,,,MT", -- [126]
+						"EVT:137/ATT:Ibex,6583,56811,M,AL70,Might be late.,Immersion,2,,,MH", -- [127]
+						"EVT:137/ATT:Slim,6583,3790,Y,DH70,not attuned to tk,Immersion,5,6581,55675,RD", -- [128]
+						"EVT:137/ATT:Jaheira,6576,63443,Y,ND70,,Immersion,5,6576,63305,MH", -- [129]
+						"EVT:137/ATT:Alell,6575,68083,Y,HK70,,Immersion,1,,,RD", -- [130]
+						"EVT:137/ATT:Fathergoo,6581,68929,Y,HP70,,Immersion,5,,,MH", -- [131]
+						"EVT:137/ATT:Button,6580,66654,Y,AP70,,Immersion,4,,,MH", -- [132]
+						"EVT:137/ATT:Alyesia,6585,7716,Y,AP70,,Immersion,5,,,MD", -- [133]
+						"EVT:137/ATT:Tpyo,6581,63541,Y,GW70,,Immersion,1,,,MT", -- [134]
+						"EVT:137/ATT:Remkin,6583,69455,Y,AS70,Exams,Immersion,4,,,MD", -- [135]
+						"EVT:137/ATT:Czako,6583,62804,Y,ND70,,Immersion,5,,,MH", -- [136]
+						"EVT:137/ATT:Magicwand,6582,69880,M,HM70,,Immersion,4,,,RD", -- [137]
+						"EVT:137/ATT:Parvati,6582,82317,Y,AS70,,Immersion,2,,,MH", -- [138]
+						"EVT:137/ATT:Verse,6581,73819,Y,HL70,,Immersion,2,,,MT", -- [139]
+						"EVT:137/ATT:Froztitute,6583,44839,Y,HM70,,Immersion,4,,,RD", -- [140]
+						"EVT:137/ATT:Rethik,6582,72205,Y,DW70,,Immersion,5,,,MT", -- [141]
+						"EVT:137/ATT:Mmrkva,6579,56089,N,HW70,last exam,Immersion,5,,,MD", -- [142]
+						"EVT:137/ATT:Monsignore,6582,82337,Y,NP70,<3,Immersion,6,,,RD", -- [143]
+						"EVT:137/ATT:Fellock,6582,69504,M,GK70,,Immersion,5,,,RD", -- [144]
+						"EVT:137/ATT:Flashy,6582,1493,Y,HR70,,Immersion,5,,,MD", -- [145]
+						"EVT:137/ATT:Piper,6582,68718,Y,NH70,,Immersion,5,,,RD", -- [146]
+						"EVT:137/ATT:Rakuh,6582,61781,Y,HR70,,Immersion,5,,,MD", -- [147]
+						"EVT:137/ATT:Hnidka,6583,61020,Y,HP70,i was in work 24hours maybe i will go sleep... =D ,Immersion,5,6583,60840,RD", -- [148]
+						"EVT:137/ATT:Ciyaa,6582,82396,Y,AS70,,Immersion,4,,,MD", -- [149]
+						"EVT:137/ATT:Gbaby,6583,26673,Y,AS70,,Immersion,4,,,RD", -- [150]
+						"EVT:137/END", -- [151]
+						"EVT:138/NEW:Hyjal,6584,1125,240,70,70", -- [152]
+						"EVT:138/TIT:SSC TK GRUUL", -- [153]
+						"EVT:138/DSC:Bring consumes!", -- [154]
+						"EVT:138/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [155]
+						"EVT:138/ATT:Jaxson,6575,68417,Y,HW70,,Immersion,2,,,MD", -- [156]
+						"EVT:138/ATT:Dispassion,6582,66212,Y,HL70,,Immersion,4,,,MT", -- [157]
+						"EVT:138/ATT:Ibex,6583,56811,Y,AL70,,Immersion,2,,,MH", -- [158]
+						"EVT:138/ATT:Slim,6583,3790,Y,DH70,,Immersion,5,,,RD", -- [159]
+						"EVT:138/ATT:Jaheira,6576,63443,Y,ND70,,Immersion,5,6576,63308,MH", -- [160]
+						"EVT:138/ATT:Flashy,6583,3785,Y,HR70,,Immersion,5,,,MD", -- [161]
+						"EVT:138/ATT:Fathergoo,6581,68934,Y,HP70,,Immersion,5,,,MH", -- [162]
+						"EVT:138/ATT:Button,6582,47315,Y,AP70,,Immersion,4,,,MH", -- [163]
+						"EVT:138/ATT:Alyesia,6585,7724,Y,AP70,,Immersion,5,,,MD", -- [164]
+						"EVT:138/ATT:Tpyo,6581,63550,Y,GW70,,Immersion,1,,,MT", -- [165]
+						"EVT:138/ATT:Remkin,6584,70084,Y,AS70,Exams,Immersion,4,,,MD", -- [166]
+						"EVT:138/ATT:Czako,6584,67676,Y,ND70,,Immersion,5,,,MH", -- [167]
+						"EVT:138/ATT:Magicwand,6584,66820,Y,HM70,,Immersion,4,,,RD", -- [168]
+						"EVT:138/ATT:Parvati,6582,82334,Y,AS70,,Immersion,2,,,MH", -- [169]
+						"EVT:138/ATT:Mmrkva,6575,76672,Y,HW70,,Immersion,5,,,MD", -- [170]
+						"EVT:138/ATT:Froztitute,6583,44863,Y,HM70,,Immersion,4,,,RD", -- [171]
+						"EVT:138/ATT:Verse,6581,73823,Y,HL70,,Immersion,2,,,MT", -- [172]
+						"EVT:138/ATT:Alell,6581,63472,Y,HK70,,Immersion,1,,,RD", -- [173]
+						"EVT:138/ATT:Rethik,6583,83777,Y,DW70,,Immersion,5,,,MT", -- [174]
+						"EVT:138/ATT:Gbaby,6583,26678,Y,AS70,,Immersion,4,,,RD", -- [175]
+						"EVT:138/ATT:Fellock,6575,68613,M,GK70,,Immersion,5,,,RD", -- [176]
+						"EVT:138/ATT:Piper,6582,68733,Y,NH70,,Immersion,5,,,RD", -- [177]
+						"EVT:138/ATT:Rakuh,6584,66666,Y,HR70,,Immersion,5,6582,61804,MD", -- [178]
+						"EVT:138/ATT:Ciyaa,6583,84186,Y,AS70,,Immersion,4,,,MD", -- [179]
+						"EVT:138/ATT:Hnidka,6584,61515,C,HP70,,Immersion,5,,,RD", -- [180]
+						"EVT:138/ATT:Monsignore,6584,55936,Y,NP70,i'd do the possible to be there!,Immersion,5,,,RD", -- [181]
+						"EVT:138/END", -- [182]
+						"EVT:147/NEW:Hyjal,6597,1125,240,70,70", -- [183]
+						"EVT:147/TIT:SSC TK GRUUL", -- [184]
+						"EVT:147/DSC:Bring consumes!", -- [185]
+						"EVT:147/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [186]
+						"EVT:147/ATT:Jaheira,6582,56714,Y,ND70,,Immersion,5,,,MH", -- [187]
+						"EVT:147/ATT:Dispassion,6592,76200,Y,HL70,,Immersion,4,,,MT", -- [188]
+						"EVT:147/ATT:Flashy,6593,2072,Y,HR70,,Immersion,5,,,MD", -- [189]
+						"EVT:147/ATT:Fellock,6577,77899,M,GK70,,Immersion,5,,,RD", -- [190]
+						"EVT:147/ATT:Alyesia,6592,56728,Y,AP70,,Immersion,4,,,MD", -- [191]
+						"EVT:147/ATT:Piper,6581,83255,C,NH70,,Immersion,5,,,RD", -- [192]
+						"EVT:147/ATT:Jaxson,6576,3845,Y,HW70,,Immersion,2,,,MD", -- [193]
+						"EVT:147/END", -- [194]
+						"EVT:148/NEW:Hyjal,6598,1125,240,70,70", -- [195]
+						"EVT:148/TIT:SSC TK GRUUL", -- [196]
+						"EVT:148/DSC:Bring consumes!", -- [197]
+						"EVT:148/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [198]
+						"EVT:148/ATT:Jaheira,6582,56718,Y,ND70,,Immersion,5,,,MH", -- [199]
+						"EVT:148/ATT:Dispassion,6592,76205,Y,HL70,,Immersion,4,,,MT", -- [200]
+						"EVT:148/ATT:Flashy,6593,2076,Y,HR70,,Immersion,5,,,MD", -- [201]
+						"EVT:148/ATT:Fellock,6577,77904,M,GK70,,Immersion,5,,,RD", -- [202]
+						"EVT:148/ATT:Alyesia,6592,56732,Y,AP70,,Immersion,4,,,MD", -- [203]
+						"EVT:148/ATT:Piper,6581,83262,C,NH70,,Immersion,5,,,RD", -- [204]
+						"EVT:148/ATT:Jaxson,6576,3849,Y,HW70,,Immersion,2,,,MD", -- [205]
+						"EVT:148/END", -- [206]
+						"EVT:149/NEW:Hyjal,6599,1125,240,70,70", -- [207]
+						"EVT:149/TIT:SSC TK GRUUL", -- [208]
+						"EVT:149/DSC:Bring consumes!", -- [209]
+						"EVT:149/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [210]
+						"EVT:149/ATT:Jaheira,6582,56721,Y,ND70,,Immersion,5,,,MH", -- [211]
+						"EVT:149/ATT:Dispassion,6592,76209,Y,HL70,,Immersion,4,,,MT", -- [212]
+						"EVT:149/ATT:Flashy,6593,2079,Y,HR70,,Immersion,5,,,MD", -- [213]
+						"EVT:149/ATT:Fellock,6577,77912,M,GK70,,Immersion,5,,,RD", -- [214]
+						"EVT:149/ATT:Alyesia,6592,56736,Y,AP70,,Immersion,4,,,MD", -- [215]
+						"EVT:149/ATT:Piper,6581,83268,C,NH70,,Immersion,5,,,RD", -- [216]
+						"EVT:149/ATT:Jaxson,6576,3893,Y,HW70,,Immersion,2,,,MD", -- [217]
+						"EVT:149/END", -- [218]
+						"EVT:140/NEW:Hyjal,6590,1125,240,70,70", -- [219]
+						"EVT:140/TIT:SSC TK GRUUL", -- [220]
+						"EVT:140/DSC:Bring consumes!", -- [221]
+						"EVT:140/CNF:ROLE/MAX:25/MD:4,14/OT:,0/OH:,0/MT:4,6/MH:4,6/RD:4,14", -- [222]
+						"EVT:140/ATT:Jaxson,6575,68424,Y,HW70,,Immersion,2,,,MD", -- [223]
+						"EVT:140/ATT:Dispassion,6582,66221,Y,HL70,,Immersion,4,,,MT", -- [224]
+						"EVT:140/ATT:Hnidka,6587,59263,Y,HP70,,Immersion,5,,,RD", -- [225]
+						"EVT:140/ATT:Ciyaa,6589,61118,Y,AS70,,Immersion,4,,,MD", -- [226]
+						"EVT:140/ATT:Kakio,6587,43275,Y,ND70,,Immersion,2,6586,86123,MD", -- [227]
+						"EVT:140/ATT:Hyper,6590,62238,N,NH70,,Immersion,5,,,RD", -- [228]
+						"EVT:140/ATT:Jaheira,6576,63314,Y,ND70,,Immersion,5,,,MH", -- [229]
+						"EVT:140/ATT:Alell,6587,55656,Y,HK70,,Immersion,1,,,RD", -- [230]
+						"EVT:140/ATT:Fellock,6575,68618,M,GK70,,Immersion,5,,,RD", -- [231]
+						"EVT:140/ATT:Button,6587,49477,Y,AP70,,Immersion,4,,,MH", -- [232]
+						"EVT:140/ATT:Alyesia,6590,5095,Y,AP70,,Immersion,4,,,MD", -- [233]
+						"EVT:140/ATT:Tpyo,6587,61627,Y,GW70,,Immersion,1,,,MT", -- [234]
+						"EVT:140/ATT:Gludan,6586,68760,Y,AS70,,Immersion,5,,,MH", -- [235]
+						"EVT:140/ATT:Remkin,6589,50973,Y,AS70,,Immersion,4,,,MD", -- [236]
+						"EVT:140/ATT:Verse,6591,63812,Y,HL70,,Immersion,2,,,MT", -- [237]
+						"EVT:140/ATT:Magicwand,6588,70421,M,HM70,,Immersion,4,,,RD", -- [238]
+						"EVT:140/ATT:Parvati,6590,6001,Y,AS70,,Immersion,2,,,MH", -- [239]
+						"EVT:140/ATT:Mmrkva,6575,74891,Y,HW70,,Immersion,5,,,MD", -- [240]
+						"EVT:140/ATT:Rethik,6590,57363,Y,DW70,,Immersion,4,,,MT", -- [241]
+						"EVT:140/ATT:Froztitute,6590,82730,Y,HM70,,Immersion,4,,,RD", -- [242]
+						"EVT:140/ATT:Ibex,6591,85106,S,AL70,,Immersion,2,,,MH", -- [243]
+						"EVT:140/ATT:Fathergoo,6590,67580,Y,HP70,,Immersion,4,,,MH", -- [244]
+						"EVT:140/ATT:Ramparts,6590,66511,Y,ND70,,Immersion,5,,,RD", -- [245]
+						"EVT:140/ATT:Shambahbahla,6590,67333,Y,AS70,,Immersion,5,,,MH", -- [246]
+						"EVT:140/ATT:Piper,6590,15166,Y,NH70,,Immersion,4,,,RD", -- [247]
+						"EVT:140/ATT:Monsignore,6590,63565,Y,NP70,,Immersion,6,,,RD", -- [248]
+						"EVT:140/ATT:Marzek,6590,63074,Y,DH70,,Immersion,1,,,RD", -- [249]
+						"EVT:140/ATT:Flashy,6588,65223,Y,HR70,,Immersion,5,,,MD", -- [250]
+						"EVT:140/ATT:Gbaby,6590,8410,Y,AS70,,Immersion,3,,,RD", -- [251]
+						"EVT:140/END", -- [252]
+					}, -- [1]
+					{
+						"EVT:147/ATT:Button,6593,66566,Y,AP70,,Immersion,4,,,MH", -- [1]
+					}, -- [2]
+					{
+						"EVT:148/ATT:Button,6593,66571,Y,AP70,,Immersion,4,,,MH", -- [1]
+					}, -- [3]
+					{
+						"EVT:149/ATT:Button,6593,66574,Y,AP70,,Immersion,4,,,MH", -- [1]
+					}, -- [4]
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Alell",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+				[6585] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Rethik"] = "6585,64827,Y,DW70,,Immersion,5,,,MT",
+							["Dispassion"] = "6582,66216,Y,HL70,,Immersion,4,,,MT",
+							["Ibex"] = "6583,56811,Y,AL70,,Immersion,2,,,MH",
+							["Slim"] = "6583,3790,Y,DH70,,Immersion,5,,,RD",
+							["Jaheira"] = "6576,63443,Y,ND70,,Immersion,5,6576,63311,MH",
+							["Alell"] = "6581,63476,Y,HK70,,Immersion,1,,,RD",
+							["Fellock"] = "6575,68616,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6582,47318,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6585,7728,Y,AP70,,Immersion,5,,,MD",
+							["Tpyo"] = "6581,63566,Y,GW70,,Immersion,1,,,MT",
+							["Froztitute"] = "6583,44868,Y,HM70,,Immersion,4,,,RD",
+							["Czako"] = "6584,83923,N,ND70,,Immersion,5,,,MH",
+							["Magicwand"] = "6590,66633,Y,HM70,,Immersion,4,,,RD",
+							["Parvati"] = "6582,82339,Y,AS70,,Immersion,2,,,MH",
+							["Verse"] = "6581,73826,Y,HL70,,Immersion,2,,,MT",
+							["Flashy"] = "6585,57622,Y,HR70,might have to go at 21pm,Immersion,5,,,MD",
+							["Ciyaa"] = "6589,72204,M,AS70,,Immersion,4,,,MD",
+							["Hnidka"] = "6584,85557,Y,HP70,Ten drop system je uplne napicu,Immersion,5,,,RD",
+							["Gbaby"] = "6583,26683,Y,AS70,,Immersion,4,,,RD",
+							["Mmrkva"] = "6575,76675,Y,HW70,,Immersion,5,,,MD",
+							["Piper"] = "6582,68750,M,NH70,,Immersion,5,,,RD",
+							["Rakuh"] = "6582,61815,M,HR70,,Immersion,5,,,MD",
+							["Fathergoo"] = "6581,68937,Y,HP70,,Immersion,5,,,MH",
+							["Remkin"] = "6589,59954,Y,AS70,Exams,Immersion,4,6587,53758,MD",
+							["Jaxson"] = "6575,68420,Y,HW70,,Immersion,2,,,MD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6585,
+						["mID"] = 139,
+					}, -- [1]
+				},
+				[6604] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaheira"] = "6582,56724,Y,ND70,,Immersion,5,,,MH",
+							["Fellock"] = "6577,77917,M,GK70,,Immersion,5,,,RD",
+							["Alyesia"] = "6592,56739,Y,AP70,,Immersion,4,,,MD",
+							["Jaxson"] = "6576,4080,Y,HW70,,Immersion,2,,,MD",
+							["Piper"] = "6581,83274,C,NH70,,Immersion,5,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6604,
+						["mID"] = 150,
+					}, -- [1]
+				},
+				[6605] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaheira"] = "6582,56728,Y,ND70,,Immersion,5,,,MH",
+							["Fellock"] = "6577,77922,M,GK70,,Immersion,5,,,RD",
+							["Alyesia"] = "6592,56743,Y,AP70,,Immersion,4,,,MD",
+							["Jaxson"] = "6576,4083,Y,HW70,,Immersion,2,,,MD",
+							["Piper"] = "6581,83279,C,NH70,,Immersion,5,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6605,
+						["mID"] = 151,
+					}, -- [1]
+				},
+				[6591] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaxson"] = "6575,68426,Y,HW70,,Immersion,2,,,MD",
+							["Dispassion"] = "6582,66225,Y,HL70,,Immersion,4,,,MT",
+							["Gbaby"] = "6590,8415,Y,AS70,,Immersion,3,,,RD",
+							["Ciyaa"] = "6591,59717,N,AS70,,Immersion,4,,,MD",
+							["Kakio"] = "6587,43275,Y,ND70,,Immersion,2,6586,86127,MD",
+							["Hyper"] = "6591,5552,Y,NH70,not attuned to ssc&s;tk,Immersion,5,6590,62242,RD",
+							["Jaheira"] = "6576,63317,Y,ND70,,Immersion,5,,,MH",
+							["Flashy"] = "6591,68139,Y,HR70,exam&c; half raid prolly,Immersion,5,6590,82801,MD",
+							["Alell"] = "6587,55667,Y,HK70,,Immersion,1,,,RD",
+							["Fellock"] = "6575,68620,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6587,49481,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6592,56756,Y,AP70,,Immersion,4,,,MD",
+							["Tpyo"] = "6587,61646,Y,GW70,,Immersion,1,,,MT",
+							["Gludan"] = "6591,34519,N,AS70,work,Immersion,5,,,MH",
+							["Froztitute"] = "6590,82725,Y,HM70,,Immersion,4,,,RD",
+							["Hnidka"] = "6591,59225,Y,HP70,,Immersion,5,,,RD",
+							["Magicwand"] = "6590,65810,M,HM70,,Immersion,4,,,RD",
+							["Monsignore"] = "6591,67479,Y,NP70,,Immersion,5,,,RD",
+							["Mmrkva"] = "6590,68026,Y,HW70,,Immersion,5,,,MD",
+							["Fathergoo"] = "6590,67574,Y,HP70,,Immersion,4,,,MH",
+							["Ibex"] = "6590,46390,Y,AL70,,Immersion,2,,,MH",
+							["Rethik"] = "6591,63702,Y,DW70,,Immersion,4,,,MT",
+							["Shambahbahla"] = "6591,31292,Y,AS70,,Immersion,5,,,MH",
+							["Ramparts"] = "6590,66538,Y,ND70,,Immersion,5,,,RD",
+							["Marzek"] = "6591,42184,Y,DH70,,Immersion,1,,,RD",
+							["Piper"] = "6581,83244,C,NH70,,Immersion,5,,,RD",
+							["Verse"] = "6591,63815,Y,HL70,,Immersion,2,,,MT",
+							["Alysia"] = "6591,66717,Y,AP70,,Immersion,4,,,MH",
+							["Parvati"] = "6590,6005,Y,AS70,,Immersion,2,,,MH",
+							["Slim"] = "6591,55092,Y,DH70,,Immersion,5,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6591,
+						["mID"] = 141,
+					}, -- [1]
+				},
+				[6592] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaxson"] = "6575,68429,Y,HW70,,Immersion,2,,,MD",
+							["Dispassion"] = "6582,66231,Y,HL70,,Immersion,4,,,MT",
+							["Gbaby"] = "6590,8419,Y,AS70,,Immersion,3,,,RD",
+							["Ciyaa"] = "6591,60089,Y,AS70,,Immersion,4,,,MD",
+							["Kakio"] = "6587,43275,Y,ND70,,Immersion,2,6586,86131,MD",
+							["Hyper"] = "6591,5548,Y,NH70,not attuned to ssc&s;tk,Immersion,5,6590,62247,RD",
+							["Jaheira"] = "6576,63319,Y,ND70,,Immersion,5,,,MH",
+							["Hnidka"] = "6587,59269,Y,HP70,,Immersion,5,,,RD",
+							["Flashy"] = "6591,85866,Y,HR70,exam,Immersion,5,6591,85785,MD",
+							["Fellock"] = "6575,68624,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6587,49485,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6592,56594,Y,AP70,,Immersion,4,,,MD",
+							["Tpyo"] = "6587,61653,Y,GW70,,Immersion,1,,,MT",
+							["Gludan"] = "6586,68778,Y,AS70,,Immersion,5,,,MH",
+							["Froztitute"] = "6590,82729,Y,HM70,,Immersion,4,,,RD",
+							["Alell"] = "6587,55672,Y,HK70,,Immersion,1,,,RD",
+							["Magicwand"] = "6590,65815,M,HM70,,Immersion,4,,,RD",
+							["Parvati"] = "6590,6008,Y,AS70,,Immersion,2,,,MH",
+							["Mmrkva"] = "6592,63889,Y,HW70,exam,Immersion,5,,,MD",
+							["Fathergoo"] = "6590,67579,Y,HP70,,Immersion,4,,,MH",
+							["Rethik"] = "6592,64304,Y,DW70,,Immersion,4,,,MT",
+							["Verse"] = "6591,63819,Y,HL70,,Immersion,2,,,MT",
+							["Marzek"] = "6591,42220,Y,DH70,,Immersion,1,,,RD",
+							["Ramparts"] = "6592,54741,Y,ND70,,Immersion,5,,,RD",
+							["Dangerdank"] = "6592,67406,S,HW70,gruul,Immersion,6,,,MD",
+							["Piper"] = "6591,68161,Y,NH70,,Immersion,4,,,RD",
+							["Rakuh"] = "6591,16466,M,HR70,,Immersion,5,,,MD",
+							["Monsignore"] = "6592,66919,Y,NP70,but&c; i gotta go around 20&cn;20 for about 20-30 mins,Immersion,5,,,RD",
+							["Ibex"] = "6590,46392,Y,AL70,,Immersion,2,,,MH",
+							["Remkin"] = "6592,68713,S,AS70,,Immersion,4,,,MD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6592,
+						["mID"] = 142,
+					}, -- [1]
+				},
+				[6590] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaxson"] = "6575,68424,Y,HW70,,Immersion,2,,,MD",
+							["Dispassion"] = "6582,66221,Y,HL70,,Immersion,4,,,MT",
+							["Hnidka"] = "6587,59263,Y,HP70,,Immersion,5,,,RD",
+							["Ciyaa"] = "6589,61118,Y,AS70,,Immersion,4,,,MD",
+							["Kakio"] = "6587,43275,Y,ND70,,Immersion,2,6586,86123,MD",
+							["Hyper"] = "6590,62238,N,NH70,,Immersion,5,,,RD",
+							["Jaheira"] = "6576,63314,Y,ND70,,Immersion,5,,,MH",
+							["Alell"] = "6587,55656,Y,HK70,,Immersion,1,,,RD",
+							["Fellock"] = "6575,68618,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6587,49477,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6590,5095,Y,AP70,,Immersion,4,,,MD",
+							["Tpyo"] = "6587,61627,Y,GW70,,Immersion,1,,,MT",
+							["Gludan"] = "6586,68760,Y,AS70,,Immersion,5,,,MH",
+							["Remkin"] = "6589,50973,Y,AS70,,Immersion,4,,,MD",
+							["Gbaby"] = "6590,8410,Y,AS70,,Immersion,3,,,RD",
+							["Magicwand"] = "6588,70421,M,HM70,,Immersion,4,,,RD",
+							["Parvati"] = "6590,6001,Y,AS70,,Immersion,2,,,MH",
+							["Verse"] = "6591,63812,Y,HL70,,Immersion,2,,,MT",
+							["Flashy"] = "6588,65223,Y,HR70,,Immersion,5,,,MD",
+							["Marzek"] = "6590,63074,Y,DH70,,Immersion,1,,,RD",
+							["Monsignore"] = "6590,63565,Y,NP70,,Immersion,6,,,RD",
+							["Fathergoo"] = "6590,67580,Y,HP70,,Immersion,4,,,MH",
+							["Ramparts"] = "6590,66511,Y,ND70,,Immersion,5,,,RD",
+							["Shambahbahla"] = "6590,67333,Y,AS70,,Immersion,5,,,MH",
+							["Piper"] = "6590,15166,Y,NH70,,Immersion,4,,,RD",
+							["Ibex"] = "6591,85106,S,AL70,,Immersion,2,,,MH",
+							["Froztitute"] = "6590,82730,Y,HM70,,Immersion,4,,,RD",
+							["Rethik"] = "6590,57363,Y,DW70,,Immersion,4,,,MT",
+							["Mmrkva"] = "6575,74891,Y,HW70,,Immersion,5,,,MD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6590,
+						["mID"] = 140,
+					}, -- [1]
+				},
+				[6599] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaheira"] = "6582,56721,Y,ND70,,Immersion,5,,,MH",
+							["Dispassion"] = "6592,76209,Y,HL70,,Immersion,4,,,MT",
+							["Flashy"] = "6593,2079,Y,HR70,,Immersion,5,,,MD",
+							["Fellock"] = "6577,77912,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6593,66574,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6592,56736,Y,AP70,,Immersion,4,,,MD",
+							["Jaxson"] = "6576,3893,Y,HW70,,Immersion,2,,,MD",
+							["Piper"] = "6581,83268,C,NH70,,Immersion,5,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6599,
+						["mID"] = 149,
+					}, -- [1]
+				},
+				[6597] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaheira"] = "6582,56714,Y,ND70,,Immersion,5,,,MH",
+							["Dispassion"] = "6592,76200,Y,HL70,,Immersion,4,,,MT",
+							["Flashy"] = "6593,2072,Y,HR70,,Immersion,5,,,MD",
+							["Fellock"] = "6577,77899,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6593,66566,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6592,56728,Y,AP70,,Immersion,4,,,MD",
+							["Jaxson"] = "6576,3845,Y,HW70,,Immersion,2,,,MD",
+							["Piper"] = "6581,83255,C,NH70,,Immersion,5,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6597,
+						["mID"] = 147,
+					}, -- [1]
+				},
+				[6583] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaxson"] = "6575,68415,Y,HW70,,Immersion,2,,,MD",
+							["Dispassion"] = "6582,66205,Y,HL70,,Immersion,4,,,MT",
+							["Ibex"] = "6583,56811,M,AL70,Might be late.,Immersion,2,,,MH",
+							["Slim"] = "6583,3790,Y,DH70,not attuned to tk,Immersion,5,6581,55675,RD",
+							["Jaheira"] = "6576,63443,Y,ND70,,Immersion,5,6576,63305,MH",
+							["Alell"] = "6575,68083,Y,HK70,,Immersion,1,,,RD",
+							["Fathergoo"] = "6581,68929,Y,HP70,,Immersion,5,,,MH",
+							["Button"] = "6580,66654,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6585,7716,Y,AP70,,Immersion,5,,,MD",
+							["Tpyo"] = "6581,63541,Y,GW70,,Immersion,1,,,MT",
+							["Remkin"] = "6583,69455,Y,AS70,Exams,Immersion,4,,,MD",
+							["Czako"] = "6583,62804,Y,ND70,,Immersion,5,,,MH",
+							["Magicwand"] = "6582,69880,M,HM70,,Immersion,4,,,RD",
+							["Parvati"] = "6582,82317,Y,AS70,,Immersion,2,,,MH",
+							["Verse"] = "6581,73819,Y,HL70,,Immersion,2,,,MT",
+							["Gbaby"] = "6583,26673,Y,AS70,,Immersion,4,,,RD",
+							["Ciyaa"] = "6582,82396,Y,AS70,,Immersion,4,,,MD",
+							["Hnidka"] = "6583,61020,Y,HP70,i was in work 24hours maybe i will go sleep... =D ,Immersion,5,6583,60840,RD",
+							["Monsignore"] = "6582,82337,Y,NP70,<3,Immersion,6,,,RD",
+							["Fellock"] = "6582,69504,M,GK70,,Immersion,5,,,RD",
+							["Flashy"] = "6582,1493,Y,HR70,,Immersion,5,,,MD",
+							["Piper"] = "6582,68718,Y,NH70,,Immersion,5,,,RD",
+							["Rakuh"] = "6582,61781,Y,HR70,,Immersion,5,,,MD",
+							["Mmrkva"] = "6579,56089,N,HW70,last exam,Immersion,5,,,MD",
+							["Rethik"] = "6582,72205,Y,DW70,,Immersion,5,,,MT",
+							["Froztitute"] = "6583,44839,Y,HM70,,Immersion,4,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring your consumes! &n;&n;",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6583,
+						["mID"] = 137,
+					}, -- [1]
+				},
+				[6584] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaxson"] = "6575,68417,Y,HW70,,Immersion,2,,,MD",
+							["Dispassion"] = "6582,66212,Y,HL70,,Immersion,4,,,MT",
+							["Ibex"] = "6583,56811,Y,AL70,,Immersion,2,,,MH",
+							["Slim"] = "6583,3790,Y,DH70,,Immersion,5,,,RD",
+							["Jaheira"] = "6576,63443,Y,ND70,,Immersion,5,6576,63308,MH",
+							["Flashy"] = "6583,3785,Y,HR70,,Immersion,5,,,MD",
+							["Fathergoo"] = "6581,68934,Y,HP70,,Immersion,5,,,MH",
+							["Button"] = "6582,47315,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6585,7724,Y,AP70,,Immersion,5,,,MD",
+							["Tpyo"] = "6581,63550,Y,GW70,,Immersion,1,,,MT",
+							["Remkin"] = "6584,70084,Y,AS70,Exams,Immersion,4,,,MD",
+							["Czako"] = "6584,67676,Y,ND70,,Immersion,5,,,MH",
+							["Magicwand"] = "6584,66820,Y,HM70,,Immersion,4,,,RD",
+							["Parvati"] = "6582,82334,Y,AS70,,Immersion,2,,,MH",
+							["Mmrkva"] = "6575,76672,Y,HW70,,Immersion,5,,,MD",
+							["Monsignore"] = "6584,55936,Y,NP70,i'd do the possible to be there!,Immersion,5,,,RD",
+							["Hnidka"] = "6584,61515,C,HP70,,Immersion,5,,,RD",
+							["Ciyaa"] = "6583,84186,Y,AS70,,Immersion,4,,,MD",
+							["Rethik"] = "6583,83777,Y,DW70,,Immersion,5,,,MT",
+							["Gbaby"] = "6583,26678,Y,AS70,,Immersion,4,,,RD",
+							["Fellock"] = "6575,68613,M,GK70,,Immersion,5,,,RD",
+							["Piper"] = "6582,68733,Y,NH70,,Immersion,5,,,RD",
+							["Rakuh"] = "6584,66666,Y,HR70,,Immersion,5,6582,61804,MD",
+							["Alell"] = "6581,63472,Y,HK70,,Immersion,1,,,RD",
+							["Verse"] = "6581,73823,Y,HL70,,Immersion,2,,,MT",
+							["Froztitute"] = "6583,44863,Y,HM70,,Immersion,4,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6584,
+						["mID"] = 138,
+					}, -- [1]
+				},
+				[6598] = {
+					{
+						["mTitle"] = "SSC TK GRUUL",
+						["mMinLevel"] = 70,
+						["mTime"] = 1125,
+						["mType"] = "Hyjal",
+						["mAttendance"] = {
+							["Jaheira"] = "6582,56718,Y,ND70,,Immersion,5,,,MH",
+							["Dispassion"] = "6592,76205,Y,HL70,,Immersion,4,,,MT",
+							["Flashy"] = "6593,2076,Y,HR70,,Immersion,5,,,MD",
+							["Fellock"] = "6577,77904,M,GK70,,Immersion,5,,,RD",
+							["Button"] = "6593,66571,Y,AP70,,Immersion,4,,,MH",
+							["Alyesia"] = "6592,56732,Y,AP70,,Immersion,4,,,MD",
+							["Jaxson"] = "6576,3849,Y,HW70,,Immersion,2,,,MD",
+							["Piper"] = "6581,83262,C,NH70,,Immersion,5,,,RD",
+						},
+						["mDuration"] = 240,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["MH"] = {
+									["mMax"] = 6,
+									["mMin"] = 4,
+								},
+								["RD"] = {
+									["mMax"] = 14,
+									["mMin"] = 4,
+								},
+							},
+							["mMaxAttendance"] = 25,
+						},
+						["mDescription"] = "Bring consumes!",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6598,
+						["mID"] = 148,
+					}, -- [1]
+				},
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 151,
+			["Realm"] = "Ares",
+		},
+		["Ares_Lyendra"] = {
+			["Guild"] = "Immersion",
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Lyendra",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 566152227,
+				["Revision"] = 1,
+				["ChangeList"] = {
+					{
+						"EVT:Voluptuous,9,6552,63027,Y,HR70,,Immersion,5,MD", -- [1]
+					}, -- [1]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Rakuh"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 566753395,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:1/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Rakuh",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Vynora"] = {
+			["Guild"] = "Immersion",
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Vynora",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 567691423,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					{
+						"EVT:Alell,111,6570,47206,N,HK70,,Immersion,5,RD", -- [1]
+					}, -- [1]
+					{
+						"EVT:Alell,110,6570,47215,N,HK70,,Immersion,5,RD", -- [1]
+					}, -- [2]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Amazingx"] = {
+			["DefaultRole"] = "RD",
+			["PlayerClassCode"] = "K",
+			["Guild"] = "Immersion",
+			["HighestKnownDatabaseID"] = 569728981,
+			["PlayerLevel"] = 70,
+			["RSVPs"] = {
+				["ID"] = 569728982,
+				["Revision"] = 16,
+				["ChangeList"] = {
+					{
+						"EVT:Alell,147,6594,11166,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [1]
+					{
+						"EVT:Alell,148,6594,11178,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [2]
+					{
+						"EVT:Alell,149,6594,11182,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [3]
+					{
+						"EVT:Alell,150,6594,11188,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [4]
+					{
+						"EVT:Alell,151,6594,11191,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [5]
+					{
+						"EVT:Alell,142,6594,11203,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [6]
+					{
+						"EVT:Alell,141,6594,11206,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [7]
+					{
+						"EVT:Alell,140,6594,11209,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [8]
+					{
+						"EVT:Alell,139,6594,11213,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [9]
+					{
+						"EVT:Alell,137,6594,11218,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [10]
+					{
+						"EVT:Keg,1,6594,11221,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [11]
+					{
+						"EVT:Keg,4,6594,11224,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [12]
+					{
+						"EVT:Alell,138,6594,11229,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [13]
+					{
+						"EVT:Rethik,14,6594,11231,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [14]
+					{
+						"EVT:Rethik,11,6594,11234,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [15]
+					{
+						"EVT:Rethik,9,6594,11237,Y,GK70,,Immersion,5,RD", -- [1]
+					}, -- [16]
+				},
+				["AuthRevision"] = 0,
+			},
+			["Changes"] = {
+				["ID"] = 569728981,
+				["Revision"] = 1,
+				["ChangeList"] = {
+					{
+						"EVT:1/UPD:RSKara,6597,477,,,", -- [1]
+						"EVT:1/END", -- [2]
+					}, -- [1]
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = true,
+			["UserName"] = "Amazingx",
+			["LocalUsers"] = {
+			},
+			["Events"] = {
+				[6597] = {
+					{
+						["mTime"] = 477,
+						["mType"] = "RSKara",
+						["mAttendanceMode"] = "ROLE",
+						["mPrivate"] = false,
+						["mRoleConfirm"] = true,
+						["mDate"] = 6597,
+						["mID"] = 1,
+					}, -- [1]
+				},
+			},
+			["Faction"] = "Alliance",
+			["HighestKnownRSVPID"] = 569728982,
+			["PlayerRaceCode"] = "G",
+			["CurrentEventID"] = 1,
+			["Realm"] = "Ares",
+		},
+		["Ares_Monsignore"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 566272133,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:5/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Monsignore",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Keg"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 568518525,
+				["Revision"] = 33,
+				["ChangeList"] = {
+					{
+						"EVT:1/NEW:Karazhan,6580,1140,300,70,70", -- [1]
+						"EVT:1/DSC:Saturday Karazhan. 10&s;11", -- [2]
+						"EVT:1/CNF:ROLE/MAX:10/MD:2,3/OT:,0/OH:,0/MT:2,3/MH:2,3/RD:2,3", -- [3]
+						"EVT:1/END", -- [4]
+					}, -- [1]
+					{
+						"EVT:1/ATT:Keg,6580,10136,Y,AW70,,Immersion,2,,,MT", -- [1]
+					}, -- [2]
+					{
+						"EVT:1/ATT:Terrysgolden,6580,10153,Y,GK70,,Immersion,5,,,RD", -- [1]
+					}, -- [3]
+					{
+						"EVT:1/ATT:Djheal,6580,10174,Y,HL70,,,,,,MH", -- [1]
+					}, -- [4]
+					{
+						"EVT:1/ATT:Rethik,6580,10194,Y,DW70,,Immersion,5,,,MT", -- [1]
+					}, -- [5]
+					{
+						"EVT:1/ATT:Hnidka,6580,44458,Y,HP70,,Immersion,5,,,RD", -- [1]
+					}, -- [6]
+					{
+						"EVT:1/ATT:Alyesia,6580,18167,Y,AP70,,Immersion,5,,,MD", -- [1]
+					}, -- [7]
+					{
+						"EVT:1/ATT:Alyesia,6580,18229,N,AP70,,Immersion,5,,,MD", -- [1]
+					}, -- [8]
+					{
+						"EVT:1/ATT:Alyesia,6580,18242,Y,AP70,,Immersion,5,,,MD", -- [1]
+					}, -- [9]
+					{
+						"EVT:1/ATT:Aiseyla,6580,55933,Y,AS70,,Immersion,6,,,MD", -- [1]
+					}, -- [10]
+					{
+						"EVT:1/ATT:Alyesia,6580,18242,C,AP70,,Immersion,5,,,MD", -- [1]
+					}, -- [11]
+					{
+						"EVT:1/ATT:Rethik,6580,64800,M,DW70,,Immersion,5,,,MT", -- [1]
+					}, -- [12]
+					{
+						"EVT:1/ATT:Rethik,6580,64803,M,DW70,,Immersion,5,,,MT", -- [1]
+					}, -- [13]
+					{
+						"EVT:1/ATT:Rethik,6580,64809,M,DW70,,Immersion,5,,,MT", -- [1]
+					}, -- [14]
+					{
+						"EVT:1/ATT:Rethik,6580,64823,M,DW70,,Immersion,5,,,MT", -- [1]
+					}, -- [15]
+					[18] = {
+						"EVT:4/NEW:Karazhan,6594,1140,300,70,70", -- [1]
+						"EVT:4/DSC:Saturday Karazhan.", -- [2]
+						"EVT:4/CNF:ROLE/MAX:10/MD:2,3/OT:,0/OH:,0/MT:2,3/MH:2,3/RD:2,3", -- [3]
+						"EVT:4/END", -- [4]
+					},
+					[19] = {
+						"EVT:4/ATT:Keg,6592,76105,Y,AW70,,Immersion,2,,,MT", -- [1]
+					},
+					[20] = {
+						"EVT:4/ATT:Angar,6592,76174,Y,HR70,,Immersion,6,,,MD", -- [1]
+					},
+					[22] = {
+						"EVT:4/ATT:Yorveth,6593,9888,Y,AS70,,Immersion,5,,,MH", -- [1]
+					},
+					[24] = {
+						"EVT:4/ATT:Yorveth,6593,9888,Y,AS70,,Immersion,5,,,MH", -- [1]
+					},
+					[26] = {
+						"EVT:4/ATT:Parvati,6593,68535,Y,AS70,,Immersion,2,,,MH", -- [1]
+					},
+					[28] = {
+						"EVT:4/ATT:Yorveth,6593,72629,N,AS70,Locked to friday's run,Immersion,5,,,MH", -- [1]
+					},
+					[29] = {
+						"EVT:4/ATT:Hnidka,6593,70134,Y,HP70,,Immersion,5,,,RD", -- [1]
+					},
+					[30] = {
+						"EVT:4/ATT:Dispassion,6593,69342,Y,HL70,,Immersion,4,,,MT", -- [1]
+					},
+					[33] = {
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Keg",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+				[6580] = {
+					{
+						["mDuration"] = 300,
+						["mMinLevel"] = 70,
+						["mTime"] = 1140,
+						["mType"] = "Karazhan",
+						["mAttendance"] = {
+							["Rethik"] = "6580,64823,M,DW70,,Immersion,5,,,MT",
+							["Hnidka"] = "6580,44458,Y,HP70,,Immersion,5,,,RD",
+							["Aiseyla"] = "6580,55933,Y,AS70,,Immersion,6,,,MD",
+							["Terrysgolden"] = "6580,10153,Y,GK70,,Immersion,5,,,RD",
+							["Keg"] = "6580,10136,Y,AW70,,Immersion,2,,,MT",
+							["Djheal"] = "6580,10174,Y,HL70,,,,,,MH",
+							["Alyesia"] = "6580,18242,C,AP70,,Immersion,5,,,MD",
+						},
+						["mPrivate"] = false,
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+								["MH"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+								["RD"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+							},
+							["mMaxAttendance"] = 10,
+						},
+						["mDescription"] = "Saturday Karazhan. 10&s;11",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6580,
+						["mID"] = 1,
+					}, -- [1]
+				},
+				[6594] = {
+					{
+						["mDuration"] = 300,
+						["mMinLevel"] = 70,
+						["mTime"] = 1140,
+						["mType"] = "Karazhan",
+						["mAttendance"] = {
+							["Dispassion"] = "6593,69342,Y,HL70,,Immersion,4,,,MT",
+							["Yorveth"] = "6593,72629,N,AS70,Locked to friday's run,Immersion,5,,,MH",
+							["Parvati"] = "6593,68535,Y,AS70,,Immersion,2,,,MH",
+							["Keg"] = "6592,76105,Y,AW70,,Immersion,2,,,MT",
+							["Angar"] = "6592,76174,Y,HR70,,Immersion,6,,,MD",
+							["Hnidka"] = "6593,70134,Y,HP70,,Immersion,5,,,RD",
+						},
+						["mRoleConfirm"] = true,
+						["mLimits"] = {
+							["mRoleLimits"] = {
+								["MD"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+								["OT"] = {
+									["mMax"] = 0,
+								},
+								["OH"] = {
+									["mMax"] = 0,
+								},
+								["MT"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+								["MH"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+								["RD"] = {
+									["mMax"] = 3,
+									["mMin"] = 2,
+								},
+							},
+							["mMaxAttendance"] = 10,
+						},
+						["mDescription"] = "Saturday Karazhan.",
+						["mMaxLevel"] = 70,
+						["mDate"] = 6594,
+						["mID"] = 4,
+					}, -- [1]
+				},
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 4,
+			["Realm"] = "Ares",
+		},
+		["Ares_Gludan"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 565179455,
+				["Revision"] = 11,
+				["ChangeList"] = {
+					[5] = {
+						"EVT:14/DEL", -- [1]
+					},
+					[7] = {
+						"EVT:16/DEL", -- [1]
+					},
+					[9] = {
+						"EVT:17/DEL", -- [1]
+					},
+					[11] = {
+						"EVT:34/DEL", -- [1]
+					},
+					[3] = {
+						"EVT:7/DEL", -- [1]
+					},
+					[8] = {
+						"EVT:17/UPD:RSKara,6555,479,,,", -- [1]
+						"EVT:17/END", -- [2]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Gludan",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569524921,
+				["Revision"] = 1,
+				["ChangeList"] = {
+					{
+						"EVT:Greyz,73,6591,66121,Y,AS70,,Lost and Found,3,MH", -- [1]
+						"EVT:Greyz,74,6591,66121,Y,AS70,,Lost and Found,3,MH", -- [2]
+						"EVT:Greyz,75,6591,66121,Y,AS70,,Lost and Found,3,MH", -- [3]
+					}, -- [1]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Parvati"] = {
+			["Guild"] = "Immersion",
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Parvati",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569378461,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					{
+						"EVT:Voluptuous,9,6590,6061,Y,AS70,,Immersion,2,MH", -- [1]
+					}, -- [1]
+					{
+						"EVT:Keg,4,6593,68535,Y,AS70,,Immersion,2,MH", -- [1]
+					}, -- [2]
+				},
+				["AuthRevision"] = 0,
+			},
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Voluptuous"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 566054797,
+				["Revision"] = 204,
+				["ChangeList"] = {
+					nil, -- [1]
+					{
+						"EVT:9/DEL", -- [1]
+					}, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					nil, -- [5]
+					nil, -- [6]
+					nil, -- [7]
+					nil, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					nil, -- [15]
+					nil, -- [16]
+					nil, -- [17]
+					nil, -- [18]
+					nil, -- [19]
+					nil, -- [20]
+					nil, -- [21]
+					nil, -- [22]
+					nil, -- [23]
+					nil, -- [24]
+					nil, -- [25]
+					nil, -- [26]
+					nil, -- [27]
+					nil, -- [28]
+					nil, -- [29]
+					nil, -- [30]
+					nil, -- [31]
+					nil, -- [32]
+					nil, -- [33]
+					nil, -- [34]
+					nil, -- [35]
+					nil, -- [36]
+					nil, -- [37]
+					nil, -- [38]
+					nil, -- [39]
+					nil, -- [40]
+					nil, -- [41]
+					nil, -- [42]
+					nil, -- [43]
+					nil, -- [44]
+					nil, -- [45]
+					{
+						"EVT:10/DEL", -- [1]
+					}, -- [46]
+					{
+						"EVT:13/NEW:Karazhan,6559,1140,300,70,70", -- [1]
+						"EVT:13/DSC:Setting up a weekend group for Karazhan. We aim to clear 10&s;11 with the exception of Netherspite. Nightbane will also be cleared if we have time.", -- [2]
+						"EVT:13/CNF:MAN", -- [3]
+						"EVT:13/END", -- [4]
+					}, -- [47]
+					{
+						"EVT:13/ATT:Voluptuous,6556,86019,S,DH70,,Immersion,2,,,RD", -- [1]
+					}, -- [48]
+					{
+						"EVT:13/ATT:Voluptuous,6556,86027,S,DH70,,Immersion,2,6556,86019,RD", -- [1]
+					}, -- [49]
+					{
+						"EVT:13/ATT:Voluptuous,6556,86028,S,DH70,,Immersion,2,6556,86019,RD", -- [1]
+					}, -- [50]
+					{
+						"EVT:13/ATT:Voluptuous,6557,141,S,DH70,,Immersion,2,6556,86019,RD", -- [1]
+					}, -- [51]
+					nil, -- [52]
+					{
+						"EVT:13/ATT:Voluptuous,6557,141,Y,DH70,,Immersion,2,6556,86019,RD", -- [1]
+					}, -- [53]
+					nil, -- [54]
+					{
+						"EVT:13/ATT:Slim,6557,51000,N,DH70,,Immersion,5,,,RD", -- [1]
+					}, -- [55]
+					nil, -- [56]
+					nil, -- [57]
+					{
+						"EVT:13/ATT:Remkin,6558,1424,S,AS70,,Immersion,4,,,MD", -- [1]
+					}, -- [58]
+					nil, -- [59]
+					{
+						"EVT:13/ATT:Mmrkva,6558,189,S,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [60]
+					{
+						"EVT:13/ATT:Mmrkva,6558,189,Y,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [61]
+					{
+						"EVT:13/ATT:Remkin,6558,1424,Y,AS70,,Immersion,4,,,MD", -- [1]
+					}, -- [62]
+					{
+						"EVT:13/ATT:Jaheira,6557,82949,S,ND70,,Immersion,5,,,MH", -- [1]
+					}, -- [63]
+					{
+						"EVT:13/ATT:Kakio,6558,1509,S,ND70,,Immersion,2,,,MD", -- [1]
+					}, -- [64]
+					{
+						"EVT:13/ATT:Kakio,6558,1509,Y,ND70,,Immersion,2,,,MD", -- [1]
+					}, -- [65]
+					{
+						"EVT:13/ATT:Jaheira,6557,82949,Y,ND70,,Immersion,5,,,MH", -- [1]
+					}, -- [66]
+					{
+						"EVT:13/ATT:Hinduna,6558,2428,M,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [67]
+					{
+						"EVT:13/ATT:Hinduna,6558,2432,S,HP70,,Immersion,6,,,MH", -- [1]
+					}, -- [68]
+					{
+						"EVT:13/ATT:Hinduna,6558,2449,S,HP70,,Immersion,6,6558,2432,MH", -- [1]
+					}, -- [69]
+					{
+						"EVT:13/ATT:Hinduna,6558,2449,Y,HP70,,Immersion,6,6558,2432,MH", -- [1]
+					}, -- [70]
+					nil, -- [71]
+					nil, -- [72]
+					{
+						"EVT:13/ATT:Hakuren,6558,47602,S,HR70,,Immersion,5,,,MD", -- [1]
+					}, -- [73]
+					{
+						"EVT:13/ATT:Yoruichi,6558,46321,S,ND70,can also OT,Immersion,5,,,MD", -- [1]
+					}, -- [74]
+					{
+						"EVT:13/ATT:Fellock,6558,68454,S,GK70,,Immersion,5,,,RD", -- [1]
+					}, -- [75]
+					{
+						"EVT:13/ATT:Yoruichi,6558,68715,S,ND70,can also OT,Immersion,5,6558,46321,MD", -- [1]
+					}, -- [76]
+					{
+						"EVT:13/ATT:Jaxson,6558,71189,S,HW70,,Immersion,2,,,MD", -- [1]
+					}, -- [77]
+					{
+						"EVT:13/ATT:Hakuren,6558,68246,S,HR70,,Immersion,5,6558,47602,MD", -- [1]
+					}, -- [78]
+					{
+						"EVT:13/ATT:Fellock,6558,68454,Y,GK70,,Immersion,5,,,RD", -- [1]
+					}, -- [79]
+					{
+						"EVT:13/ATT:Yoruichi,6558,68715,Y,ND70,can also OT,Immersion,5,6558,46321,MD", -- [1]
+					}, -- [80]
+					{
+						"EVT:13/ATT:Jaxson,6558,71189,M,HW70,,Immersion,2,,,MD", -- [1]
+					}, -- [81]
+					{
+						"EVT:13/ATT:Hakuren,6558,68246,M,HR70,,Immersion,5,6558,47602,MD", -- [1]
+					}, -- [82]
+					{
+						"EVT:13/ATT:Mmrkva,6558,189,M,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [83]
+					nil, -- [84]
+					{
+						"EVT:13/ATT:Mmrkva,6559,54616,S,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [85]
+					{
+						"EVT:13/ATT:Jaxson,6559,41953,S,HW70,,Immersion,2,,,MD", -- [1]
+					}, -- [86]
+					{
+						"EVT:13/ATT:Hakuren,6559,48104,S,HR70,,Immersion,5,,,MD", -- [1]
+					}, -- [87]
+					nil, -- [88]
+					{
+						"EVT:13/ATT:Mmrkva,6559,57004,S,HW70,,Immersion,5,6559,54616,MD", -- [1]
+					}, -- [89]
+					{
+						"EVT:13/ATT:Mmrkva,6559,57022,S,HW70,,Immersion,5,6559,54616,MD", -- [1]
+					}, -- [90]
+					{
+						"EVT:13/ATT:Mmrkva,6559,57022,M,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [91]
+					{
+						"EVT:13/ATT:Jaxson,6559,41953,M,HW70,,Immersion,2,,,MD", -- [1]
+					}, -- [92]
+					{
+						"EVT:13/ATT:Hakuren,6559,48104,M,HR70,,Immersion,5,,,MD", -- [1]
+					}, -- [93]
+					{
+						"EVT:13/ATT:Oli,6559,58904,N,AM70,,Immersion,6,,,RD", -- [1]
+					}, -- [94]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61626,M,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [95]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61627,S,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [96]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61632,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [97]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61643,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [98]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61654,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [99]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61674,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [100]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61680,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [101]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61683,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [102]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61779,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [103]
+					{
+						"EVT:13/ATT:Mmrkva,6559,61800,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [104]
+					{
+						"EVT:13/ATT:Mmrkva,6559,62388,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [105]
+					{
+						"EVT:13/ATT:Mmrkva,6559,62399,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [106]
+					{
+						"EVT:13/ATT:Mmrkva,6559,63950,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [107]
+					{
+						"EVT:13/ATT:Mmrkva,6559,63959,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [108]
+					{
+						"EVT:13/ATT:Slim,6559,64995,S,DH70,,Immersion,5,,,RD", -- [1]
+					}, -- [109]
+					{
+						"EVT:13/ATT:Mmrkva,6559,65158,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [110]
+					{
+						"EVT:13/ATT:Mmrkva,6559,65187,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [111]
+					{
+						"EVT:13/ATT:Jaxson,6559,65398,M,HW70,,Immersion,2,,,MD", -- [1]
+					}, -- [112]
+					{
+						"EVT:13/ATT:Slim,6559,65576,S,DH70,,Immersion,5,6559,64995,RD", -- [1]
+					}, -- [113]
+					{
+						"EVT:13/ATT:Slim,6559,65921,S,DH70,,Immersion,5,6559,64995,RD", -- [1]
+					}, -- [114]
+					{
+						"EVT:13/ATT:Mmrkva,6559,66025,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [115]
+					{
+						"EVT:13/ATT:Mmrkva,6559,66157,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [116]
+					{
+						"EVT:13/ATT:Hakuren,6559,66573,S,HR70,,Immersion,5,,,MD", -- [1]
+					}, -- [117]
+					{
+						"EVT:13/ATT:Hakuren,6559,67358,S,HR70,,Immersion,5,6559,66573,MD", -- [1]
+					}, -- [118]
+					{
+						"EVT:13/ATT:Hakuren,6559,67367,S,HR70,,Immersion,5,6559,66573,MD", -- [1]
+					}, -- [119]
+					{
+						"EVT:13/ATT:Slim,6559,67678,S,DH70,,Immersion,5,6559,64995,RD", -- [1]
+					}, -- [120]
+					{
+						"EVT:13/ATT:Slim,6559,67685,S,DH70,,Immersion,5,6559,64995,RD", -- [1]
+					}, -- [121]
+					{
+						"EVT:13/ATT:Mmrkva,6559,67701,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [122]
+					{
+						"EVT:13/ATT:Hakuren,6559,67704,S,HR70,,Immersion,5,6559,66573,MD", -- [1]
+					}, -- [123]
+					{
+						"EVT:13/ATT:Mmrkva,6559,67719,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [124]
+					{
+						"EVT:13/ATT:Hakuren,6559,67735,S,HR70,,Immersion,5,6559,66573,MD", -- [1]
+					}, -- [125]
+					{
+						"EVT:13/ATT:Mmrkva,6559,68087,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [126]
+					{
+						"EVT:13/ATT:Mmrkva,6559,68088,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [127]
+					{
+						"EVT:13/ATT:Slim,6559,68235,S,DH70,,Immersion,5,6559,64995,RD", -- [1]
+					}, -- [128]
+					{
+						"EVT:13/ATT:Slim,6559,68239,S,DH70,,Immersion,5,6559,64995,RD", -- [1]
+					}, -- [129]
+					{
+						"EVT:13/ATT:Mmrkva,6559,68986,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [130]
+					{
+						"EVT:13/ATT:Mmrkva,6559,68988,S,HW70,,Immersion,5,6559,61627,MD", -- [1]
+					}, -- [131]
+					{
+						"EVT:13/ATT:Hakuren,6560,46447,S,HR70,,Immersion,5,6559,66573,MD", -- [1]
+					}, -- [132]
+					nil, -- [133]
+					nil, -- [134]
+					{
+						"EVT:13/DEL", -- [1]
+					}, -- [135]
+					{
+						"EVT:17/NEW:Karazhan,6566,1140,300,70,70", -- [1]
+						"EVT:17/DSC:We will attempt to Pug this Karazhan raid.", -- [2]
+						"EVT:17/CNF:ROLE/MAX:10/MD:2,3/OT:,0/OH:,0/MT:2,3/MH:2,3/RD:2,3", -- [3]
+						"EVT:17/END", -- [4]
+					}, -- [136]
+					{
+						"EVT:17/ATT:Voluptuous,6565,69569,Y,DH70,,Immersion,2,,,RD", -- [1]
+					}, -- [137]
+					{
+						"EVT:17/ATT:Vynora,6565,69592,Y,HK70,,Immersion,5,,,RD", -- [1]
+					}, -- [138]
+					{
+						"EVT:17/ATT:Mmrkva,6565,69606,Y,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [139]
+					{
+						"EVT:17/ATT:Fellock,6565,69612,Y,GK70,,Immersion,5,,,RD", -- [1]
+					}, -- [140]
+					{
+						"EVT:17/ATT:Fathergoo,6565,69622,Y,HP70,,Immersion,5,,,MH", -- [1]
+					}, -- [141]
+					{
+						"EVT:17/ATT:Carty,6565,69861,Y,GM70,,Immersion,5,,,RD", -- [1]
+					}, -- [142]
+					{
+						"EVT:17/ATT:Rakuh,6565,70037,N,HR70,,Immersion,7,,,MD", -- [1]
+					}, -- [143]
+					{
+						"EVT:17/ATT:Bearpong,6565,72495,Y,ND70,,,,,,", -- [1]
+					}, -- [144]
+					{
+						"EVT:17/ATT:Bearpong,6565,72495,Y,ND70,,,,,,MH", -- [1]
+					}, -- [145]
+					{
+						"EVT:17/ATT:Dziga,6565,72495,Y,?D70,,Immersion,5,,,MT", -- [1]
+					}, -- [146]
+					{
+						"EVT:17/ATT:Terrysgolden,6565,73681,S,GK70,,Immersion,6,,,RD", -- [1]
+					}, -- [147]
+					{
+						"EVT:17/ATT:Terrysgolden,6565,73681,M,GK70,,Immersion,6,,,RD", -- [1]
+					}, -- [148]
+					nil, -- [149]
+					nil, -- [150]
+					{
+						"EVT:17/ATT:Terrysgolden,6566,67500,M,GK70,,Immersion,6,,,RD", -- [1]
+					}, -- [151]
+					nil, -- [152]
+					nil, -- [153]
+					{
+						"EVT:45/NEW:Karazhan,6573,1140,300,70,70", -- [1]
+						"EVT:45/DSC:For anyone who needs it. 10&s;11 is mostly guaranteed.", -- [2]
+						"EVT:45/CNF:ROLE/MAX:10/MD:2,3/OT:,0/OH:,0/MT:2,3/MH:2,3/RD:2,3", -- [3]
+						"EVT:45/END", -- [4]
+					}, -- [154]
+					{
+						"EVT:45/ATT:Voluptuous,6571,83186,Y,DH70,,Immersion,2,,,RD", -- [1]
+					}, -- [155]
+					nil, -- [156]
+					{
+						"EVT:45/ATT:Mmrkva,6572,58374,Y,HW70,,Immersion,5,,,MD", -- [1]
+					}, -- [157]
+					nil, -- [158]
+					nil, -- [159]
+					nil, -- [160]
+					{
+						"EVT:45/ATT:Rethik,6573,43520,Y,DW70,,Immersion,5,,,MD", -- [1]
+					}, -- [161]
+					nil, -- [162]
+					nil, -- [163]
+					{
+						"EVT:45/ATT:Rakuh,6573,49323,N,HR70,,Immersion,5,,,MD", -- [1]
+					}, -- [164]
+					nil, -- [165]
+					nil, -- [166]
+					nil, -- [167]
+					nil, -- [168]
+					{
+						"EVT:45/DEL", -- [1]
+					}, -- [169]
+					{
+						"EVT:17/DEL", -- [1]
+					}, -- [170]
+					{
+						"EVT:51/NEW:Karazhan,6587,1140,300,70,70", -- [1]
+						"EVT:51/DSC:For anyone who needs it. 10&s;11 is mostly guaranteed.", -- [2]
+						"EVT:51/CNF:ROLE/MAX:10/MD:2,3/OT:,0/OH:,0/MT:2,3/MH:2,3/RD:2,3", -- [3]
+						"EVT:51/END", -- [4]
+					}, -- [171]
+					{
+						"EVT:51/ATT:Voluptuous,6587,43251,Y,DH70,,Immersion,2,,,RD", -- [1]
+					}, -- [172]
+					{
+						"EVT:51/ATT:Kakio,6587,43274,Y,ND70,,Immersion,2,,,MD", -- [1]
+					}, -- [173]
+					{
+						"EVT:51/ATT:Kaldur,6587,43325,Y,NW70,,Immersion,6,,,MT", -- [1]
+					}, -- [174]
+					{
+						"EVT:51/ATT:Kaldur,6587,43325,Y,NW70,,Immersion,6,,,MD", -- [1]
+					}, -- [175]
+					{
+						"EVT:51/ATT:Rethik,6587,43325,Y,DW70,,Immersion,4,,,MD", -- [1]
+					}, -- [176]
+					{
+						"EVT:51/ATT:Rethik,6587,43325,Y,DW70,,Immersion,4,,,MT", -- [1]
+					}, -- [177]
+					{
+						"EVT:51/ATT:Aiseyla,6587,47916,Y,AS70,,Immersion,6,,,MD", -- [1]
+					}, -- [178]
+					nil, -- [179]
+					nil, -- [180]
+					nil, -- [181]
+					nil, -- [182]
+					nil, -- [183]
+					{
+						"EVT:51/ATT:Remkin,6587,53759,S,AS70,dps&s;heal,Immersion,4,,,MD", -- [1]
+					}, -- [184]
+					{
+						"EVT:51/ATT:Aiseyla,6587,47916,N,AS70,,Immersion,6,,,MD", -- [1]
+					}, -- [185]
+					{
+						"EVT:51/ATT:Remkin,6587,53759,Y,AS70,dps&s;heal,Immersion,4,,,MD", -- [1]
+					}, -- [186]
+					{
+						"EVT:51/ATT:Remkin,6587,53759,Y,AS70,dps&s;heal,Immersion,4,,,MD", -- [1]
+					}, -- [187]
+					nil, -- [188]
+					nil, -- [189]
+					{
+						"EVT:51/ATT:Jaheira,6587,66275,Y,ND70,,Immersion,5,,,MH", -- [1]
+					}, -- [190]
+					nil, -- [191]
+					nil, -- [192]
+					{
+						"EVT:51/ATT:Angar,6587,67043,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [193]
+					{
+						"EVT:51/ATT:Elirandiril,6587,67228,Y,HL70,,,,,,MT", -- [1]
+					}, -- [194]
+					nil, -- [195]
+					{
+						"EVT:51/ATT:Angar,6587,68070,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [196]
+					{
+						"EVT:51/ATT:Angar,6587,68081,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [197]
+					{
+						"EVT:51/ATT:Angar,6587,68518,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [198]
+					{
+						"EVT:51/ATT:Angar,6587,68530,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [199]
+					{
+						"EVT:51/ATT:Angar,6587,68996,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [200]
+					{
+						"EVT:51/ATT:Angar,6587,69015,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [201]
+					{
+						"EVT:51/ATT:Angar,6587,71504,S,HR70,,Immersion,6,,,MD", -- [1]
+					}, -- [202]
+					[204] = {
+						"EVT:51/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Voluptuous",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 51,
+			["Realm"] = "Ares",
+		},
+		["Ares_Yorveth"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 569602729,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					{
+						"EVT:3/UPD:RSGlass,6592,1066,,,", -- [1]
+						"EVT:3/END", -- [2]
+					}, -- [1]
+					{
+						"EVT:3/DEL", -- [1]
+					}, -- [2]
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Yorveth",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Dispassion"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 564206248,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:1/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Dispassion",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Tpyo"] = {
+			["Guild"] = "Immersion",
+			["AddonVersionUpdated"] = 569732520,
+			["RSVPs"] = {
+				["ID"] = 569728997,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["Changes"] = {
+				["ID"] = 566432379,
+				["Revision"] = 300,
+				["ChangeList"] = {
+					[292] = {
+						"EVT:62/DEL", -- [1]
+					},
+					[293] = {
+						"EVT:42/DEL", -- [1]
+					},
+					[294] = {
+						"EVT:44/DEL", -- [1]
+					},
+					[295] = {
+						"EVT:45/DEL", -- [1]
+					},
+					[296] = {
+						"EVT:46/DEL", -- [1]
+					},
+					[297] = {
+						"EVT:47/DEL", -- [1]
+					},
+					[298] = {
+						"EVT:48/DEL", -- [1]
+					},
+					[299] = {
+						"EVT:49/DEL", -- [1]
+					},
+					[300] = {
+						"EVT:50/DEL", -- [1]
+					},
+					[282] = {
+						"EVT:37/DEL", -- [1]
+					},
+					[252] = {
+						"EVT:65/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 300,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Tpyo",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["HighestKnownRSVPID"] = 569728997,
+			["AddonVersion"] = "4.1",
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Fellock"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 565811990,
+				["Revision"] = 4,
+				["ChangeList"] = {
+					{
+						"EVT:3/UPD:RSSpell,6550,740,,,", -- [1]
+						"EVT:3/END", -- [2]
+					}, -- [1]
+					{
+						"EVT:3/DEL", -- [1]
+					}, -- [2]
+					nil, -- [3]
+					{
+						"EVT:38/DEL", -- [1]
+					}, -- [4]
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Fellock",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+		["Ares_Jaheira"] = {
+			["Guild"] = "Immersion",
+			["Changes"] = {
+				["ID"] = 568650081,
+				["Revision"] = 2,
+				["ChangeList"] = {
+					[2] = {
+						"EVT:11/DEL", -- [1]
+					},
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Jaheira",
+			["LocalUsers"] = {
+				["Amazingx"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["RSVPs"] = {
+				["ID"] = 569729134,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["HighestKnownRSVPID"] = 569729134,
+			["CurrentEventID"] = 0,
+			["Realm"] = "Ares",
+		},
+	},
+}

@@ -1,0 +1,57 @@
+
+BtmScanData = {
+	["config"] = {
+		["Ares-Alliance"] = {
+			["logText"] = {
+				{
+					1515932356, -- [1]
+					"--- Welcome to BottomScanner ---", -- [2]
+				}, -- [1]
+				{
+					1515932404, -- [1]
+					"BottomScanner is now scanning", -- [2]
+				}, -- [2]
+				{
+					1515935161, -- [1]
+					"Bidding on |cffffffff|Hitem:2452:0:0:0:0:0:0:0|h[Swiftthistle]|h|rx4 at |cffe6e6e676s|r.|cffc8602c41c|r for resale", -- [2]
+				}, -- [3]
+			},
+			["enchLevel"] = 300,
+			["profile.Default"] = {
+				["bid.list"] = {
+				},
+				["itemconfig.list"] = {
+				},
+			},
+			["tooltipOn"] = true,
+		},
+	},
+	["version"] = 115,
+	["refresh"] = 30,
+	["profile.Default"] = {
+		["bid.list"] = {
+			["2452:0:0:0x4"] = {
+				"resale", -- [1]
+				7641, -- [2]
+				false, -- [3]
+				1515935161, -- [4]
+			},
+		},
+		["itemconfig.list"] = {
+			["8839:0:0"] = ";true",
+			["8169:0:0"] = ";true",
+			["20958:0:0"] = ";true",
+			["13077:0:0"] = ";true",
+			["23424:0:0"] = ";true",
+			["11139:0:0"] = ";true",
+			["7912:0:0"] = ";true",
+			["7078:0:0"] = ";true",
+			["11135:0:0"] = ";true",
+			["9973:1612:0"] = ";true",
+			["25744:0:0"] = ";true",
+			["3858:0:0"] = ";true",
+		},
+	},
+	["factions"] = {
+	},
+}

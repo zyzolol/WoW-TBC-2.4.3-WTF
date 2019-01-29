@@ -1,0 +1,69 @@
+
+QuestItemDBPC = {
+	["profileKeys"] = {
+		["Amazingx - Netherwing"] = "char",
+	},
+	["char"] = {
+		["Amazingx - Netherwing"] = {
+			["point"] = "BOTTOM",
+			["yOffset"] = 131.4690399169922,
+			["relativePoint"] = "BOTTOM",
+			["questbag"] = {
+				{
+					["bag"] = 1,
+					["itemLink"] = "|cffffffff|Hitem:24401:0:0:0:0:0:0:0|h[Unidentified Plant Parts]|h|r",
+					["slot"] = 1,
+				}, -- [1]
+				{
+					["bag"] = 1,
+					["itemLink"] = "|cffffffff|Hitem:10444:0:0:0:0:0:0:0|h[Standard Issue Flare Gun]|h|r",
+					["slot"] = 7,
+				}, -- [2]
+				{
+					["bag"] = 1,
+					["itemLink"] = "|cffffffff|Hitem:24449:0:0:0:0:0:0:0|h[Fertile Spores]|h|r",
+					["slot"] = 13,
+				}, -- [3]
+				{
+					["bag"] = 2,
+					["itemLink"] = "|cffffffff|Hitem:23588:0:0:0:0:0:0:0|h[Kaliri Feather]|h|r",
+					["slot"] = 7,
+				}, -- [4]
+				{
+					["bag"] = 3,
+					["itemLink"] = "|cffffffff|Hitem:31772:0:0:0:0:0:0:0|h[Anchorite Relic]|h|r",
+					["slot"] = 2,
+				}, -- [5]
+				{
+					["bag"] = 3,
+					["itemLink"] = "|cffffffff|Hitem:22615:0:0:0:0:0:0:0|h[Craftsman's Writ - Gnomish Battle Chicken]|h|r",
+					["slot"] = 5,
+				}, -- [6]
+				{
+					["bag"] = 4,
+					["itemLink"] = "|cffffffff|Hitem:23417:0:0:0:0:0:0:0|h[Sanctified Crystal]|h|r",
+					["slot"] = 12,
+				}, -- [7]
+				{
+					["bag"] = 4,
+					["itemLink"] = "|cffffffff|Hitem:23580:0:0:0:0:0:0:0|h[Avruu's Orb]|h|r",
+					["slot"] = 13,
+				}, -- [8]
+				{
+					["bag"] = 4,
+					["itemLink"] = "|cffffffff|Hitem:31739:0:0:0:0:0:0:0|h[Smoke Beacon]|h|r",
+					["slot"] = 14,
+				}, -- [9]
+				{
+					["bag"] = 4,
+					["itemLink"] = "|cffffffff|Hitem:26002:0:0:0:0:0:0:0|h[Flaming Torch]|h|r",
+					["slot"] = 15,
+				}, -- [10]
+				["count"] = 10,
+				["rows"] = 3,
+			},
+			["xOffset"] = 482.3700561523438,
+			["scale"] = 0.75,
+		},
+	},
+}

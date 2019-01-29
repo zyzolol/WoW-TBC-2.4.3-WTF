@@ -1,0 +1,76 @@
+MACRO 16777247 "1ARENA" Spell_Holy_ChampionsGrace
+/cast [target=arena1] Polymorph
+END
+MACRO 16777236 "1Target" Spell_Holy_EmpowerChampion
+/target [target=arena1]
+END
+MACRO 16777248 "2ARENA" Spell_Holy_ChampionsGrace
+/cast [target=arena2] Polymorph
+END
+MACRO 16777237 "2Target" Spell_Holy_EmpowerChampion
+/target [target=arena2]
+END
+MACRO 16777249 "3Arena" Spell_Holy_ChampionsGrace
+/cast [target=arena3] Polymorph
+END
+MACRO 16777238 "3Target" Spell_Holy_EmpowerChampion
+/target [target=arena3]
+END
+MACRO 16777228 "Arcane Missiles" INV_Misc_QuestionMark
+#showtooltip Arcane Missiles
+/console cameraSmoothTrackingStyle 0
+/cast [nochanneling: Arcane Missiles, target=target, exists] Arcane Missiles
+/console cameraSmoothTrackingStyle 0
+/petattack
+END
+MACRO 16777235 "Blizzard" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [mod:alt] !Blizzard(Rank 6); !Blizzard(Rank 1)
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+END
+MACRO 16777250 "Dampen Magic" INV_Misc_QuestionMark
+#showtooltip Dampen Magic
+/cast [target=player][target=target] Dampen Magic
+END
+MACRO 16777232 "Dismiss" Spell_Shadow_SacrificialShield
+/script PetDismiss()end
+END
+MACRO 16777245 "Evocation" INV_Misc_QuestionMark
+#showtooltip Evocation
+/cast [nochanneling: Evocation] Evocation
+/petfollow
+END
+MACRO 16777244 "Flamestrike" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/cast [mod:alt] !Flamestrike(Rank 6); !Flamestrike(Rank 1)
+END
+MACRO 16777243 "Frost Nova" INV_Misc_QuestionMark
+#showtooltip Frost Nova(Rank 1)
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/cast [nomod] Frost Nova(Rank 1)
+/cast [mod:shift, nopet] Summon Water Elemental; Freeze
+END
+MACRO 16777246 "Petnova" INV_Misc_QuestionMark
+#showtooltip Frost Nova
+/cast [nopet] Summon Water Elemental
+/stopmacro [nopet]
+/petpassive
+/click PetActionButton5
+/petattack
+END
+MACRO 16777251 "PvP Queue" Ability_BullRush
+/say .ab
+/say .eos
+/say .wsg
+END
+MACRO 16777240 "Regen" INV_Misc_QuestionMark
+#showtooltip Conjured Crystal Water
+/use Conjured Manna Biscuit
+/use Conjured Glacier Water
+/use Conjured Croissant
+END

@@ -1,0 +1,2 @@
+
+BADBOY_POPUP = nil

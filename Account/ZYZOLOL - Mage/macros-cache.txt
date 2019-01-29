@@ -1,0 +1,108 @@
+MACRO 38 "Blink" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Blink
+END
+MACRO 36 "Buff" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [target=player] Mage Armor, Arcane Intellect
+END
+MACRO 33 "Decurse" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover, exists, harm, pet:felhunter][target=target, exists, nodead][] Remove Lesser Curse
+END
+MACRO 44 "Fireball" INV_Misc_QuestionMark
+#showtooltip Fireball(Rank 1)
+/use Xi'ri's Gift
+/use Scryer's Bloodgem
+/use Icon of the Silver Crescent
+/target [target=Spitfire Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/cast Fireball(Rank 1)
+/startattack
+/petpassive
+/petassist
+/stopmacro
+END
+MACRO 18 "FOCUS" Ability_Druid_ChallangingRoar
+/focus
+END
+MACRO 41 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Spellsteal
+/cast [target=focus, exists, harm] Spellsteal
+/petattack [target=Grounding Totem] [harm]
+/cancelaura Ice Block
+/cancelaura Hand of Sacrifice
+END
+MACRO 32 "FOCUSILENCE" INV_Misc_QuestionMark
+#showtooltip Counterspell
+/cast [target=focus, exists, harm] Counterspell
+/petattack [target=Grounding Totem] [harm]
+/roar
+END
+MACRO 20 "FOCUSSHEEP" INV_Misc_QuestionMark
+#showtooltip Polymorph
+/cast [target=focus, exists, harm] Polymorph
+/petattack [target=Grounding Totem] [harm]
+/petfollow
+/roar
+END
+MACRO 12 "Frostbolt" INV_Misc_QuestionMark
+#showtooltip Frostbolt
+/use Xi'ri's Gift
+/use Scryer's Bloodgem
+/target [target=Spitfire Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/cast [mod:ctrl] Fireball; [nomod] Frostbolt
+/cancelaura Ice Block
+/cancelaura Hand of Sacrifice
+/petattack
+END
+MACRO 35 "IceLance" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/cast [mod:ctrl] Scorch; [nomod] Ice Lance
+END
+MACRO 28 "PvP" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=3 [target=player] Ice Armor, Arcane Intellect, Dampen Magic
+END
+MACRO 45 "Scorch" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/cast [mod:ctrl] Ice Lance; [nomod] Scorch
+END
+MACRO 34 "SELF" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl, target=party1][nomod, target=player] Remove Lesser Curse
+END
+MACRO 8 "Sheep" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Polymorph
+/focus [target=mouseover, exists, harm][target=target, exists, nodead, harm]
+/petattack [target=Grounding Totem] [harm]
+/petfollow
+/roar
+END
+MACRO 31 "Silence" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover, exists, harm][target=target, exists][] Counterspell
+/petattack [target=Grounding Totem] [harm]
+/cancelaura Ice Block
+/cancelaura Hand of Sacrifice
+/roar
+END
+MACRO 40 "SpellSteal" INV_Misc_QuestionMark
+#showtooltip Spellsteal
+/cast [target=mouseover, exists, harm][target=target, exists][] Spellsteal
+/petattack [target=Grounding Totem] [harm]
+/cancelaura Ice Block
+/cancelaura Hand of Sacrifice
+END
+MACRO 47 "SWAP" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Mage Armor, Ice Armor
+END
+MACRO 48 "TIDAL CHARM NPC" INV_Misc_QuestionMark
+/tar Prince Nazjak
+END

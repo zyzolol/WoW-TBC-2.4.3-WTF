@@ -1,0 +1,98 @@
+MACRO 16777248 "+TC+" Ability_Creature_Cursed_04
+/use Tainted Core
+/y <------- TAINTED CORE TO: %t ! ! !
+/s <------- TAINTED CORE TO: %t ! ! !
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
+END
+MACRO 16777236 "1Target" Spell_Holy_EmpowerChampion
+/cast [target=Rethik] Unending Breath
+END
+MACRO 16777237 "2Target" Spell_Holy_EmpowerChampion
+/target [target=arena2]
+END
+MACRO 16777238 "3Target" Spell_Holy_EmpowerChampion
+/target [target=arena3]
+END
+MACRO 16777242 "Banish" INV_Misc_QuestionMark
+#showtooltip Banish
+/cast [target=mouseover, exists][nomod, target=target] Banish; [mod:shift, target=focus] Banish
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor
+END
+MACRO 16777224 "Curse of Element" Spell_Shadow_ChillTouch
+#showtooltip Curse of the Elements
+/cast [target=mouseover, exists][nomod, target=target] Curse of the Elements; [mod:ctrl, target=focus] Curse of the Elements
+END
+MACRO 16777222 "Curse of Tongues" Spell_Shadow_CurseOfTounges
+#showtooltip Curse of Tongues
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/cast [target=mouseover, exists][nomod, target=target] Curse of Tongues; [mod:ctrl, target=focus] Curse of Tongues
+END
+MACRO 16777249 "dOOm" INV_Misc_QuestionMark
+/cast [target=mouseover, exists][nomod, target=target] Curse of Doom; [mod:ctrl, target=focus] Curse of Doom
+END
+MACRO 16777228 "Drain Life" Spell_Shadow_LifeDrain02
+#showtooltip Drain Life
+/console cameraSmoothTrackingStyle 0
+/cast [exists, harm, nodead] Drain Life
+/console cameraSmoothTrackingStyle 0
+/petattack
+END
+MACRO 16777229 "Drain Mana" Spell_Shadow_SiphonMana
+#showtooltip Drain Mana
+/console cameraSmoothTrackingStyle 0
+/cast [exists, harm, nodead] Drain Mana
+/console cameraSmoothTrackingStyle 0
+/petattack
+END
+MACRO 16777245 "Enslave" INV_Misc_QuestionMark
+#showtooltip Enslave Demon
+/cast [target=mouseover, exists][nomod, target=target] Enslave Demon; [mod:shift, target=focus] Enslave Demon
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor
+END
+MACRO 16777239 "Health Funnel" INV_Misc_QuestionMark
+#showtooltip Health Funnel
+/cast [nochanneling, nodead, target=pet] Health Funnel
+/petfollow
+END
+MACRO 16777234 "Hellfire R1" INV_Misc_QuestionMark
+#showtooltip Hellfire
+/stopcasting
+/cast !Hellfire(Rank 1)
+END
+MACRO 16777241 "Incinerate" INV_Misc_QuestionMark
+#showtooltip
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack [target=Windfury Totem ] [harm]
+/petattack [target=Earthbind Totem ]
+/cast [mod:ctrl] Soul Fire; [nomod] Incinerate
+/petattack
+END
+MACRO 16777235 "Rain of Fire R1" Spell_Shadow_RainOfFire
+#showtooltip
+/stopcasting
+/cast [mod:alt] !Rain of Fire(Rank 5); !Rain of Fire(Rank 1)
+/petattack [target=Grounding Totem] [harm]
+/petattack [target=Tremor Totem] [harm]
+/petattack
+END
+MACRO 16777240 "Regen" INV_Misc_QuestionMark
+/use Conjured Manna Biscuit
+/use Purified Draenic Water
+/use Telaari Grapes
+END
+MACRO 16777247 "SEED" INV_Misc_QuestionMark
+#showtooltip Seed of Corruption
+/use 13
+/use 14
+/cast [exists, harm] Seed of Corruption
+END
+MACRO 16777243 "Shadowfury" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover, exists][nomod, target=target] Curse of Recklessness; [mod:ctrl, target=focus] Curse of Recklessness
+END

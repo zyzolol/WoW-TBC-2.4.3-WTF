@@ -1,0 +1,11 @@
+
+AfflictedDB = {
+	["profileKeys"] = {
+		["Subtlety - Ares"] = "Subtlety - Ares",
+	},
+	["profiles"] = {
+		["Subtlety - Ares"] = {
+			["version"] = 690,
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+SoundAlerterDB = {
+	["profileKeys"] = {
+		["Amazingx - Netherwing"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

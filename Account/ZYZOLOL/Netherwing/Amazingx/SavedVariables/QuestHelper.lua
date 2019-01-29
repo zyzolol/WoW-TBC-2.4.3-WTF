@@ -1,0 +1,55 @@
+
+QuestHelper_KnownFlightRoutes = {
+	["Southshore, Hillsbrad"] = true,
+	["Sentinel Hill, Westfall"] = true,
+	["Theramore, Dustwallow Marsh"] = true,
+	["Shatter Point, Hellfire Peninsula"] = true,
+	["Talrendis Point, Azshara"] = true,
+	["Thelsamar, Loch Modan"] = true,
+	["Astranaar, Ashenvale"] = true,
+	["Forest Song, Ashenvale"] = true,
+	["Everlook, Winterspring"] = true,
+	["Shattrath, Terokkar Forest"] = true,
+	["Booty Bay, Stranglethorn"] = true,
+	["Gadgetzan, Tanaris"] = true,
+	["Thorium Point, Searing Gorge"] = true,
+	["Menethil Harbor, Wetlands"] = true,
+	["Ironforge, Dun Morogh"] = true,
+	["Rebel Camp, Stranglethorn Vale"] = true,
+	["Thalanaar, Feralas"] = true,
+	["Refuge Pointe, Arathi"] = true,
+	["Cenarion Hold, Silithus"] = true,
+	["Allerian Stronghold, Terokkar Forest"] = true,
+	["Marshal's Refuge, Un'Goro Crater"] = true,
+	["Auberdine, Darkshore"] = true,
+	["Nethergarde Keep, Blasted Lands"] = true,
+	["Nijel's Point, Desolace"] = true,
+	["Mudsprocket, Dustwallow Marsh"] = true,
+	["Moonglade"] = true,
+	["Aerie Peak, The Hinterlands"] = true,
+	["Chillwind Camp, Western Plaguelands"] = true,
+	["Stormwind, Elwynn"] = true,
+	["Rut'theran Village, Teldrassil"] = true,
+	["Temple of Telhamat, Hellfire Peninsula"] = true,
+	["Telaar, Nagrand"] = true,
+	["Honor Hold, Hellfire Peninsula"] = true,
+	["Ratchet, The Barrens"] = true,
+	["Morgan's Vigil, Burning Steppes"] = true,
+	["Talonbranch Glade, Felwood"] = true,
+	["Feathermoon, Feralas"] = true,
+	["Hellfire Peninsula, The Dark Portal, Alliance"] = true,
+	["Orebor Harborage, Zangarmarsh"] = true,
+	["Lakeshire, Redridge"] = true,
+	["Stonetalon Peak, Stonetalon Mountains"] = true,
+	["Telredor, Zangarmarsh"] = true,
+	["Darkshire, Duskwood"] = true,
+	["Emerald Sanctuary, Felwood"] = true,
+	["Light's Hope Chapel, Eastern Plaguelands"] = true,
+}
+QuestHelper_Home = {
+	58, -- [1]
+	0.5424033999443054, -- [2]
+	0.7608252763748169, -- [3]
+	"Telaar", -- [4]
+}
+QuestHelper_CharVersion = 1

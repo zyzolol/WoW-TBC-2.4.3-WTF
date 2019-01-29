@@ -1,0 +1,2036 @@
+
+QuestHelper_Version = "0.59"
+QuestHelper_SaveVersion = 10
+QuestHelper_Locale = "enUS"
+QuestHelper_Quests = {
+	["0.59 on 2.4.3"] = {
+		{
+			{
+				["Instant 60"] = {
+					["hash"] = 483986975,
+					["id"] = 100202,
+					["start"] = "Deputy Willem",
+					["finish"] = "Alexandra Constantine",
+				},
+			}, -- [1]
+			[63] = {
+				["Cruel Taskmasters"] = {
+					["start"] = "Ikan",
+					["hash"] = 4241828485,
+					["id"] = 9399,
+				},
+				["Leader of the Bloodscale"] = {
+					["hash"] = 4103809112,
+					["id"] = 9817,
+				},
+				["The Rock Flayer Matriarch"] = {
+					["start"] = "Ikan",
+					["hash"] = 1475949287,
+					["id"] = 9490,
+				},
+				["Plants of Zangarmarsh"] = {
+					["start"] = "Lauranna Thar'well",
+					["id"] = 9802,
+					["hash"] = 574366074,
+				},
+			},
+			[58] = {
+				["Fel Orc Scavengers"] = {
+					["hash"] = 1211306988,
+					["id"] = 10482,
+				},
+			},
+			[60] = {
+				["Hellfire Fortifications"] = {
+					["hash"] = 3084202055,
+					["id"] = 10106,
+				},
+				["Visit the Armorer"] = {
+					["hash"] = 1,
+					["id"] = 100208,
+					["start"] = "Aelin Vargos",
+					["finish"] = "Chero",
+				},
+				["Visit the Weapon Vendor"] = {
+					["hash"] = 1,
+					["id"] = 100206,
+					["start"] = "Overy",
+					["finish"] = "Aelin Vargos",
+				},
+				["The Dark Portal"] = {
+					["start"] = "Chero",
+					["id"] = 100210,
+					["hash"] = 1,
+				},
+				["Visit the Trainer"] = {
+					["hash"] = 1045825183,
+					["id"] = 100204,
+					["start"] = "Alexandra Constantine",
+					["finish"] = "Overy",
+				},
+			},
+			[61] = {
+				["The Path of Anguish"] = {
+					["hash"] = 3115989490,
+					["id"] = 10142,
+				},
+				["The Path of Glory"] = {
+					["hash"] = 997862110,
+					["id"] = 10047,
+				},
+				["An Old Gift"] = {
+					["hash"] = 2043879257,
+					["id"] = 10058,
+				},
+				["Unyielding Souls"] = {
+					["hash"] = 4213454332,
+					["id"] = 10050,
+				},
+				["Waste Not, Want Not"] = {
+					["hash"] = 1105337960,
+					["id"] = 10055,
+				},
+			},
+			[62] = {
+				["The Dying Balance"] = {
+					["start"] = "Lethyn Moonfire",
+					["id"] = 9895,
+					["hash"] = 2292718783,
+				},
+				["The Pools of Aggonar"] = {
+					["start"] = "Amaan the Wise",
+					["hash"] = 295838603,
+					["id"] = 9426,
+				},
+				["The Dead Mire"] = {
+					["start"] = "Vindicator Idaar",
+					["id"] = 9782,
+					["hash"] = 2628130211,
+				},
+				["The Longbeards"] = {
+					["hash"] = 3234277255,
+					["id"] = 9558,
+				},
+				["Too Many Mouths to Feed"] = {
+					["start"] = "Haalrun",
+					["id"] = 9781,
+					["hash"] = 3742700120,
+				},
+				["The Boha'mu Ruins"] = {
+					["start"] = "Anchorite Ahuurn",
+					["id"] = 9786,
+					["hash"] = 1702631638,
+				},
+				["The Umbrafen Tribe"] = {
+					["start"] = "Ikeyen",
+					["id"] = 9747,
+					["hash"] = 983184868,
+				},
+				["Menacing Marshfangs"] = {
+					["start"] = "Noraani",
+					["id"] = 9791,
+					["hash"] = 2102859084,
+				},
+				["Fulgor Spores"] = {
+					["start"] = "Ruam",
+					["id"] = 9777,
+					["hash"] = 928911024,
+				},
+				["Unfinished Business"] = {
+					["start"] = "Prospector Conall",
+					["id"] = 9901,
+					["hash"] = 2203850150,
+				},
+				["In Search of Sedai"] = {
+					["start"] = "Anchorite Obadei",
+					["hash"] = 542516212,
+					["id"] = 9390,
+				},
+				["Deadly Predators"] = {
+					["start"] = "Scout Vanura",
+					["hash"] = 3970116781,
+					["id"] = 9398,
+				},
+			},
+			[64] = {
+				["Leader of the Darkcrest"] = {
+					["hash"] = 2586454527,
+					["id"] = 9730,
+				},
+			},
+		}, -- [1]
+	},
+}
+QuestHelper_Objectives = {
+	["0.59 on 2.4.3"] = {
+		["monster"] = {
+			["Galendror Whitewing"] = {
+			},
+			["Gremni Longbeard"] = {
+			},
+			["Bibilfaz Featherwhistle"] = {
+			},
+			["Flamewaker Imp"] = {
+				["quest"] = true,
+			},
+			["Bilko Driftspark"] = {
+			},
+			["Halu"] = {
+			},
+			["Bogstrok Crusher"] = {
+			},
+			["Kataru"] = {
+				["quest"] = true,
+			},
+			["Maddix"] = {
+			},
+			["Alexandra Constantine"] = {
+				["faction"] = 1,
+				["id"] = 8609,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6552016139030457, -- [2]
+						0.2441753894090653, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Teloren"] = {
+			},
+			["Ohura"] = {
+			},
+			["Vana Grey"] = {
+			},
+			["Umbrafen Eel"] = {
+			},
+			["Warrant Officer Tracy Proudwell"] = {
+			},
+			["Bogflare Needler"] = {
+			},
+			["Surristrasz"] = {
+			},
+			["Palena Silvercloud"] = {
+			},
+			["Ariena Stormfeather"] = {
+			},
+			["Dyslix Silvergrub"] = {
+			},
+			["Suralais Farwind"] = {
+			},
+			["Karokka"] = {
+				["id"] = 19049,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.4696549773216248, -- [2]
+						0.1900854110717773, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Flightmaster Krill Bitterhue"] = {
+				["faction"] = 1,
+				["id"] = 16822,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5482875108718872, -- [2]
+						0.6266563534736633, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Bog Lord"] = {
+			},
+			["Bloodscale Overseer"] = {
+			},
+			["Darkcrest Sorceress"] = {
+			},
+			["Vicious Teromoth"] = {
+				["id"] = 18437,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						55, -- [1]
+						0.4289832413196564, -- [2]
+						0.2506118416786194, -- [3]
+						0.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kevin Browning"] = {
+				["id"] = 23699,
+				["level"] = 61,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7528113722801209, -- [2]
+						0.4875050187110901, -- [3]
+						0.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Unyielding Footman"] = {
+				["quest"] = true,
+			},
+			["Father Malgor Devidicus"] = {
+			},
+			["Dreadcaller"] = {
+				["quest"] = true,
+			},
+			["Underbog Lurker"] = {
+			},
+			["Umbrafen Oracle"] = {
+				["quest"] = true,
+			},
+			["Wind Trader Lathrai"] = {
+				["id"] = 18484,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7263243794441223, -- [2]
+						0.3294325470924377, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kylene"] = {
+				["id"] = 19186,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7616099715232849, -- [2]
+						0.330754965543747, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Dumphry"] = {
+			},
+			["Zephyr"] = {
+				["id"] = 25967,
+				["level"] = 70,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7495839595794678, -- [2]
+						0.3158435523509979, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Marsh Baron Brok"] = {
+			},
+			["Grennik"] = {
+			},
+			["Fungal Giant"] = {
+			},
+			["Darkcrest Slaver"] = {
+			},
+			["Haris Pilton"] = {
+				["id"] = 18756,
+				["level"] = 64,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7594448924064636, -- [2]
+						0.3221307694911957, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Telredor Guard"] = {
+				["faction"] = 1,
+				["id"] = 18922,
+				["level"] = 68,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6891606748104096, -- [2]
+						0.501471534371376, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kiz Coilspanner"] = {
+			},
+			["Provisioner Anir"] = {
+				["faction"] = 1,
+				["id"] = 16798,
+				["level"] = 60,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2399845364174449, -- [2]
+						0.4023183019537675, -- [3]
+						1.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Caylais Moonfeather"] = {
+			},
+			["Umbrafen Seer"] = {
+				["quest"] = true,
+			},
+			["Gyll"] = {
+			},
+			["Bogstrok Razorclaw"] = {
+			},
+			["Spore Bat"] = {
+			},
+			["Bogstrok Clacker"] = {
+			},
+			["Bonechewer Orc"] = {
+				["quest"] = true,
+			},
+			["Cedrik Prose"] = {
+			},
+			["Ikeyen"] = {
+				["id"] = 17956,
+				["levelw"] = 2,
+				["level"] = 62,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.8039209047953287, -- [2]
+						0.6420825521151224, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Refugee Kid"] = {
+				["id"] = 19163,
+				["level"] = 1,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7580726742744446, -- [2]
+						0.4996476769447327, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Arzo Safeflight"] = {
+			},
+			["Nicole Bartlett"] = {
+				["id"] = 19033,
+				["levelw"] = 3,
+				["level"] = 60,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7522025270895524, -- [2]
+						0.4894516459711782, -- [3]
+						1.43, -- [4]
+					}, -- [1]
+				},
+			},
+			["Chero"] = {
+				["faction"] = 1,
+				["id"] = 5508,
+				["level"] = 71,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6608207225799561, -- [2]
+						0.1729051520427068, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Noraani"] = {
+				["faction"] = 1,
+				["id"] = 18006,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6768514811992645, -- [2]
+						0.4796186834573746, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Alieshor"] = {
+			},
+			["Aludane Whitecloud"] = {
+			},
+			["Underbog Shambler"] = {
+			},
+			["Withered Giant"] = {
+			},
+			["Prospector Conall"] = {
+				["faction"] = 1,
+				["id"] = 18295,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6850925087928772, -- [2]
+						0.4935185462236404, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Rafae"] = {
+			},
+			["Nizzle"] = {
+			},
+			["Fyldren Moonfeather"] = {
+			},
+			["Ruam"] = {
+				["faction"] = 1,
+				["id"] = 18007,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6856660842895508, -- [2]
+						0.4877882748842239, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Vindicator Idaar"] = {
+				["faction"] = 1,
+				["id"] = 18004,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6834676861763001, -- [2]
+						0.5003354847431183, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Lagoon Walker"] = {
+			},
+			["Mudfin Frenzy"] = {
+			},
+			["Darla Harris"] = {
+			},
+			["K. Lee Smallfry"] = {
+				["faction"] = 1,
+				["id"] = 17634,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6872205138206482, -- [2]
+						0.4970522224903107, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Mragesh"] = {
+			},
+			["Marsh Walker"] = {
+			},
+			["Young Sporebat"] = {
+			},
+			["Innkeeper Coryth Stoktron"] = {
+				["id"] = 18907,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7854623794555664, -- [2]
+						0.6295266151428223, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Baneflight"] = {
+			},
+			["Naka"] = {
+				["id"] = 18993,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7856072187423706, -- [2]
+						0.6302528977394104, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Lethyn Moonfire"] = {
+				["id"] = 17834,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7860589921474457, -- [2]
+						0.6312229633331299, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Brubeck Stormfoot"] = {
+			},
+			["Morthis Whisperwing"] = {
+				["id"] = 22832,
+				["level"] = 70,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.8015913367271423, -- [2]
+						0.6474229097366333, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Sarinei Whitestar"] = {
+				["id"] = 21172,
+				["levelw"] = 2,
+				["level"] = 60,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7951272138975616, -- [2]
+						0.639505254146748, -- [3]
+						1.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Anchorite Alendar"] = {
+				["faction"] = 1,
+				["id"] = 17403,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2334116995334625, -- [2]
+						0.3705816864967346, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Rajis Fyashe"] = {
+				["quest"] = true,
+			},
+			["Rajah Haghazed"] = {
+				["quest"] = true,
+			},
+			["Tuurem Scavenger"] = {
+				["id"] = 18456,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						55, -- [1]
+						0.5073807835578919, -- [2]
+						0.2980728447437286, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Fenclaw Thrasher"] = {
+			},
+			["Darkcrest Siren"] = {
+			},
+			["Fen Strider"] = {
+			},
+			["Munci"] = {
+				["faction"] = 1,
+				["id"] = 18788,
+				["level"] = 65,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6786056340188909, -- [2]
+						0.5127185843044654, -- [3]
+						1.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Gryfe"] = {
+			},
+			["Feralfen Hunter"] = {
+			},
+			["Umbrafen Witchdoctor"] = {
+				["quest"] = true,
+			},
+			["Shellei Brondir"] = {
+			},
+			["Lauranna Thar'well"] = {
+				["id"] = 17909,
+				["levelw"] = 2,
+				["level"] = 68,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.8030905922253927, -- [2]
+						0.6420870621999105, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Amish Wildhammer"] = {
+			},
+			["Morlia Doomwing"] = {
+			},
+			["Greater Sporebat"] = {
+			},
+			["Marshlight Bleeder"] = {
+			},
+			["Marsh Dredger"] = {
+			},
+			["Umbraglow Stinger"] = {
+			},
+			["Outraged Raven's Wood Sapling"] = {
+			},
+			["Loolruna"] = {
+				["faction"] = 1,
+				["id"] = 19694,
+				["level"] = 62,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6859171986579895, -- [2]
+						0.501112163066864, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Peacekeeper Jadaar"] = {
+				["id"] = 23079,
+				["level"] = 70,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7576001882553101, -- [2]
+						0.2968907356262207, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Capture The Overlook"] = {
+				["quest"] = true,
+			},
+			["Mire Hydra"] = {
+				["quest"] = true,
+			},
+			["Pricilla Winterwind"] = {
+			},
+			["Ysiel Windsinger"] = {
+				["id"] = 17841,
+				["level"] = 68,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7864667773246765, -- [2]
+						0.631151556968689, -- [3]
+						0.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Warden Hamoot"] = {
+				["id"] = 17858,
+				["level"] = 57,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7904832363128662, -- [2]
+						0.6520913243293762, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Sergeant Altumus"] = {
+			},
+			["Gryth Thurden"] = {
+			},
+			["Lord Klaq"] = {
+			},
+			["Bog Overlord"] = {
+			},
+			["Unyielding Knight"] = {
+				["quest"] = true,
+			},
+			["Raliq the Drunk"] = {
+				["id"] = 18585,
+				["levelw"] = 2,
+				["level"] = 68,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.746048325842077, -- [2]
+						0.3182132596319371, -- [3]
+						1.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Baldruc"] = {
+			},
+			["Sedai's Corpse"] = {
+			},
+			["Thornfang Ravager"] = {
+				["id"] = 19349,
+				["levelw"] = 2,
+				["level"] = 62,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.09085364639759064, -- [2]
+						0.4999807178974152, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+					{
+						56, -- [1]
+						0.04726282134652138, -- [2]
+						0.5044980049133301, -- [3]
+						0.33, -- [4]
+					}, -- [2]
+				},
+			},
+			["Fenglow Stinger"] = {
+			},
+			["Rotting Forest-Rager"] = {
+			},
+			["Nutral"] = {
+			},
+			["Kara Thricestar"] = {
+			},
+			["Felicia Maline"] = {
+			},
+			["Aelin Vargos"] = {
+				["faction"] = 1,
+				["id"] = 247221,
+				["level"] = 71,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.659264862537384, -- [2]
+						0.1747934073209763, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Vesprystus"] = {
+			},
+			["Fhyn Leafshadow"] = {
+			},
+			["Sporewing"] = {
+				["quest"] = true,
+			},
+			["Terrorclaw"] = {
+			},
+			["Honor Guard Wesilow"] = {
+			},
+			["Rip Pedalslam"] = {
+			},
+			["Bera Stonehammer"] = {
+			},
+			["Mishellena"] = {
+			},
+			["Warmage Adami"] = {
+			},
+			["Silva Fil'naveth"] = {
+			},
+			["Young Spore Bat"] = {
+			},
+			["Faldorf Bitterchill"] = {
+			},
+			["Boglash"] = {
+				["quest"] = true,
+			},
+			["Amaan the Wise"] = {
+				["faction"] = 1,
+				["id"] = 16796,
+				["level"] = 65,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2338823725779851, -- [2]
+						0.3655423820018768, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Starving Bog Lord"] = {
+			},
+			["Telhamat Protector"] = {
+				["faction"] = 1,
+				["id"] = 18758,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2331221103668213, -- [2]
+						0.3802167177200317, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Capture the Stadium"] = {
+				["quest"] = true,
+			},
+			["Blacktalon the Savage"] = {
+			},
+			["Marshfang Slicer"] = {
+			},
+			["Tomas Riverwell"] = {
+			},
+			["Furgu"] = {
+			},
+			["Dungar Longdrink"] = {
+			},
+			["Investigator Asric"] = {
+				["id"] = 23719,
+				["level"] = 70,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7582823634147644, -- [2]
+						0.299580305814743, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Bloodscale Enchantress"] = {
+			},
+			["Marsh Lurker"] = {
+			},
+			["Daelyshia"] = {
+			},
+			["Terrorfiend"] = {
+				["quest"] = true,
+			},
+			["Anchorite Ahuurn"] = {
+				["faction"] = 1,
+				["id"] = 18003,
+				["level"] = 66,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6822924017906189, -- [2]
+						0.4942160248756409, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Caregiver Abidaar"] = {
+				["faction"] = 1,
+				["id"] = 18251,
+				["level"] = 62,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6773223876953125, -- [2]
+						0.4914844930171967, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Furnan Skysoar"] = {
+				["faction"] = 1,
+				["id"] = 18809,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						55, -- [1]
+						0.5946797132492065, -- [2]
+						0.5545091032981873, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Marshfang Ripper"] = {
+				["quest"] = true,
+			},
+			["Greer Orehammer"] = {
+			},
+			["Nethergarde Officer"] = {
+				["faction"] = 1,
+				["id"] = 6003,
+				["level"] = 51,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6659485697746277, -- [2]
+						0.2268670648336411, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Dreghood Drudge"] = {
+			},
+			["Maaka"] = {
+			},
+			["Bloodscale Wavecaller"] = {
+			},
+			["Maethrya"] = {
+			},
+			["Blacksting"] = {
+			},
+			["Fedryen Swiftspear"] = {
+				["id"] = 17904,
+				["levelw"] = 3,
+				["level"] = 60,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7928623017810639, -- [2]
+						0.6379085835956392, -- [3]
+						2.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Caregiver Ophera Windfury"] = {
+				["faction"] = 1,
+				["id"] = 18906,
+				["level"] = 61,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.233563169836998, -- [2]
+						0.3651681244373322, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Stonescythe Whelp"] = {
+				["quest"] = true,
+			},
+			["Kip Trawlskip"] = {
+			},
+			["Bloodscale Slavedriver"] = {
+			},
+			["Bog Giant"] = {
+			},
+			["Deputy Willem"] = {
+				["faction"] = 1,
+				["id"] = 823,
+				["level"] = 18,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						37, -- [1]
+						0.4811581671237946, -- [2]
+						0.4284554868936539, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Expedition Warden"] = {
+				["id"] = 17855,
+				["levelw"] = 3,
+				["level"] = 70,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7966711996962584, -- [2]
+						0.6427316386812234, -- [3]
+						2.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Lanie Reed"] = {
+			},
+			["Thornfang Venomspitter"] = {
+				["id"] = 19350,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.1115486100316048, -- [2]
+						0.4816634654998779, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["The Spirit of Gnomeregan"] = {
+			},
+			["Raging Colossus"] = {
+				["id"] = 19188,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.1998901218175888, -- [2]
+						0.4214788675308228, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Steam Pump Overseer"] = {
+			},
+			["Penumbrius"] = {
+			},
+			["Khaelyn Steelwing"] = {
+			},
+			["Jarrodenus"] = {
+			},
+			["Derek Rammel"] = {
+			},
+			["Stephanos"] = {
+			},
+			["Kameel Longstride"] = {
+				["id"] = 17896,
+				["levelw"] = 2,
+				["level"] = 56,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.7896771999292594, -- [2]
+						0.6375424224276876, -- [3]
+						0.4300000000000001, -- [4]
+					}, -- [1]
+				},
+			},
+			["Lieutenant Amadi"] = {
+			},
+			["Greater Spore Bat"] = {
+			},
+			["Elsaana"] = {
+				["faction"] = 1,
+				["id"] = 17006,
+				["level"] = 58,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2331379950046539, -- [2]
+						0.3648723065853119, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Sid Limbardi"] = {
+				["faction"] = 1,
+				["id"] = 16826,
+				["level"] = 55,
+				["levelw"] = 3,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.5427703261375427, -- [2]
+						0.6354660987854004, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Gorrim"] = {
+			},
+			["Karrina Mekenda"] = {
+				["faction"] = 1,
+				["id"] = 2879,
+				["level"] = 40,
+				["levelw"] = 3,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6480646729469299, -- [2]
+						0.1850997904936473, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Cloud Skydancer"] = {
+			},
+			["Warp-Scryer Kryv"] = {
+			},
+			["Shaarubo"] = {
+				["id"] = 19182,
+				["levelw"] = 2,
+				["level"] = 60,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7514922320842743, -- [2]
+						0.3319772332906723, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Spackle Thornberry"] = {
+				["faction"] = 1,
+				["id"] = 5520,
+				["level"] = 40,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6480546593666077, -- [2]
+						0.1851011067628861, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Amerun Leafshade"] = {
+			},
+			["Underbog Lord"] = {
+			},
+			["Kuma"] = {
+				["faction"] = 1,
+				["id"] = 18785,
+				["level"] = 65,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2512543797492981, -- [2]
+						0.3720932006835938, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Laando"] = {
+			},
+			["Blistering Rot"] = {
+				["quest"] = true,
+			},
+			["Sporebat"] = {
+			},
+			["Danica Saint"] = {
+			},
+			["Nethestrasz"] = {
+			},
+			["Thyssiana"] = {
+			},
+			["Parched Hydra"] = {
+			},
+			["Stonescythe Alpha"] = {
+				["quest"] = true,
+			},
+			["Samuel Clearbook"] = {
+			},
+			["Bragok"] = {
+			},
+			["Infernal Warbringer"] = {
+				["quest"] = true,
+			},
+			["Withered Bog Lord"] = {
+			},
+			["Skizzle Slickslide"] = {
+			},
+			["Capture Broken Hill"] = {
+				["quest"] = true,
+			},
+			["Leatei"] = {
+				["id"] = 19064,
+				["level"] = 50,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						60, -- [1]
+						0.7571493983268738, -- [2]
+						0.3260359466075897, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Thorgrum Borrelson"] = {
+			},
+			["Sindrayl"] = {
+			},
+			["Ikan"] = {
+				["faction"] = 1,
+				["id"] = 16799,
+				["level"] = 62,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2307039648294449, -- [2]
+						0.402981162071228, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Harpax"] = {
+			},
+			["Haalrun"] = {
+				["faction"] = 1,
+				["id"] = 18005,
+				["level"] = 63,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						57, -- [1]
+						0.6777846217155457, -- [2]
+						0.4798719584941864, -- [3]
+						2, -- [4]
+					}, -- [1]
+				},
+			},
+			["Overy"] = {
+				["faction"] = 1,
+				["id"] = 247223,
+				["level"] = 71,
+				["levelw"] = 3,
+				["pos"] = {
+					{
+						33, -- [1]
+						0.6484315365071109, -- [2]
+						0.1855259642658828, -- [3]
+						4.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Borgus Stoutarm"] = {
+			},
+			["Umbrafen Slavebinder"] = {
+			},
+			["Darkcrest Taskmaster"] = {
+			},
+			["Krexcil"] = {
+			},
+			["Rodney Wells"] = {
+			},
+			["James Ormsby"] = {
+			},
+			["Unyielding Sorcerer"] = {
+				["quest"] = true,
+			},
+			["Runetog Wildhammer"] = {
+			},
+			["Anchorite Obadei"] = {
+				["faction"] = 1,
+				["id"] = 16834,
+				["level"] = 65,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2306984762350718, -- [2]
+						0.4038042922814687, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Aedan Moran"] = {
+			},
+			["Illidari Taskmaster"] = {
+				["quest"] = true,
+			},
+			["Thor"] = {
+			},
+			["Grimwing"] = {
+			},
+			["Guthrum Thunderfist"] = {
+			},
+			["Starving Fungal Giant"] = {
+			},
+			["Cid Flounderfix"] = {
+			},
+			["Scout Vanura"] = {
+				["faction"] = 1,
+				["id"] = 16797,
+				["level"] = 60,
+				["levelw"] = 2,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2335081742915315, -- [2]
+						0.3812573398479541, -- [3]
+						2.89, -- [4]
+					}, -- [1]
+				},
+			},
+			["Baritanas Skyriver"] = {
+			},
+			["Xeleth"] = {
+			},
+			["Gurric"] = {
+			},
+			["Burko"] = {
+				["faction"] = 1,
+				["id"] = 18990,
+				["level"] = 60,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						56, -- [1]
+						0.2275399416685104, -- [2]
+						0.3901670277118683, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+				},
+			},
+		},
+		["event"] = {
+			["Explore the Boha'mu Ruins"] = {
+				["quest"] = true,
+			},
+		},
+		["item"] = {
+			[""] = {
+				["id"] = 25539,
+			},
+			["Mag'har Grainbread"] = {
+				["vendor"] = {
+					"Caregiver Abidaar", -- [1]
+				},
+			},
+			["Mining Sack"] = {
+				["vendor"] = {
+					"Caregiver Ophera Windfury", -- [1]
+				},
+			},
+			["Clefthoof Ribs"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Provisioner Anir", -- [2]
+					"Caregiver Ophera Windfury", -- [3]
+				},
+			},
+			["Blacksteel Throwing Dagger"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+				},
+			},
+			["Essence of Agony"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+			},
+			["Draenei Holy Water"] = {
+				["id"] = 25889,
+			},
+			["Heavy Toolbox"] = {
+				["vendor"] = {
+					"Caregiver Ophera Windfury", -- [1]
+				},
+			},
+			["Enchanter's Satchel"] = {
+				["vendor"] = {
+					"Caregiver Ophera Windfury", -- [1]
+				},
+			},
+			["Jagged Throwing Axe"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+				},
+			},
+			["Design: Nightseye Panther"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Ashyen's Gift"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Cenarion Expedition Tabard"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Pattern: Heavy Clefthoof Vest"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Windcaller's Orb"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Recipe: Major Nature Protection Potion"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Fulgor Spore"] = {
+				["quest"] = true,
+			},
+			["Plans: Wildguard Leggings"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Crystal Vial"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+				["id"] = 8925,
+			},
+			["Simple Wood"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+				},
+			},
+			["Dust of Deterioration"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+				["id"] = 8924,
+			},
+			["Skethyl Berries"] = {
+				["vendor"] = {
+					"Provisioner Anir", -- [1]
+				},
+			},
+			["Bladespire Bagel"] = {
+				["vendor"] = {
+					"Caregiver Abidaar", -- [1]
+				},
+			},
+			["Schematic: Green Smoke Flare"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Recipe: Transmute Primal Water to Air"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Flash Powder"] = {
+				["id"] = 5140,
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+			},
+			["Draenic Leather Pack"] = {
+				["vendor"] = {
+					"Caregiver Ophera Windfury", -- [1]
+				},
+			},
+			["Formula: Enchant Cloak - Stealth"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Morning Glory Dew"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Provisioner Anir", -- [2]
+					"Caregiver Ophera Windfury", -- [3]
+					"Caregiver Abidaar", -- [4]
+				},
+			},
+			["Thieves' Tools"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+				},
+			},
+			["Blacktalon's Claws"] = {
+				["quest"] = true,
+			},
+			["Refreshing Spring Water"] = {
+				["id"] = 159,
+			},
+			["Watcher's Cowl"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Mysteries of the Light"] = {
+				["quest"] = true,
+			},
+			["Plans: Wildguard Helm"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Telaari Grapes"] = {
+				["vendor"] = {
+					"Provisioner Anir", -- [1]
+				},
+			},
+			["Lethargy Root"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+			},
+			["Scout's Arrow"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Deep Fried Plantains"] = {
+				["vendor"] = {
+					"Provisioner Anir", -- [1]
+				},
+			},
+			["Recipe: Earthen Elixir"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Plans: Wildguard Breastplate"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Pattern: Heavy Clefthoof Boots"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Darnassian Bleu"] = {
+				["id"] = 2070,
+			},
+			["Reservoir Key"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Expedition Flare"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Potion of Water Breathing"] = {
+				["id"] = 25539,
+			},
+			["Infernal Stone"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+				},
+			},
+			["Recipe: Transmute Earthstorm Diamond"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Recipe: Ravager Dog"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Deathweed"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+			},
+			["Wicked Arrow"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+					"Loolruna", -- [3]
+				},
+			},
+			["Plans: Adamantite Weightstone"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Unidentified Plant Parts"] = {
+				["quest"] = true,
+			},
+			["Leaded Vial"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+				},
+			},
+			["Empty Vial"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+				},
+			},
+			["Maiden's Anguish"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+					"Karokka", -- [2]
+				},
+			},
+			["Essence of Pain"] = {
+				["vendor"] = {
+					"Noraani", -- [1]
+				},
+			},
+			["Rune Thread"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Homemade Cherry Pie"] = {
+				["vendor"] = {
+					"Caregiver Abidaar", -- [1]
+				},
+			},
+			["Dead Mire Soil Sample"] = {
+				["quest"] = true,
+			},
+			["Glyph of Nature Warding"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Recipe: Flask of Distilled Wisdom"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Salvaged Metal"] = {
+				["quest"] = true,
+			},
+			["Hearthstone"] = {
+				["id"] = 6948,
+			},
+			["Ironbite Shell"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+					"Loolruna", -- [3]
+				},
+			},
+			["Soothing Spices"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Formula: Enchant Gloves - Spell Strike"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Bright Baubles"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Salvaged Wood"] = {
+				["quest"] = true,
+			},
+			["Instant Poison VI"] = {
+				["id"] = 8928,
+			},
+			["Plans: Adamantite Sharpening Stone"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Pattern: Nethercleft Leg Armor"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Skinning Knife"] = {
+				["id"] = 7005,
+			},
+			["Glyph of Ferocity"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Impact Shot"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+					"Loolruna", -- [3]
+				},
+			},
+			["Roasted Quail"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Provisioner Anir", -- [2]
+					"Caregiver Ophera Windfury", -- [3]
+				},
+			},
+			["Earthwarden"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Explorer's Walking Stick"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Jagged Arrow"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+				},
+			},
+			["Blackflight Arrow"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+					"Loolruna", -- [3]
+				},
+			},
+			["Cenarion War Hippogryph"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Dust of Decay"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Noraani", -- [2]
+				},
+			},
+			["Imbued Vial"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+				},
+			},
+			["Accurate Slugs"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Sarinei Whitestar", -- [2]
+				},
+			},
+			["Warden's Hauberk"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Flint and Tinder"] = {
+				["vendor"] = {
+					"Sarinei Whitestar", -- [1]
+				},
+			},
+			["Plans: Greater Rune of Warding"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Smoked Talbuk Venison"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Provisioner Anir", -- [2]
+					"Caregiver Ophera Windfury", -- [3]
+				},
+				["id"] = 27854,
+			},
+			["Brown Horse Bridle"] = {
+				["id"] = 5656,
+			},
+			["Filtered Draenic Water"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Provisioner Anir", -- [2]
+					"Caregiver Ophera Windfury", -- [3]
+					"Caregiver Abidaar", -- [4]
+				},
+			},
+			["Warden's Arrow"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Design: The Natural Ward"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Purified Draenic Water"] = {
+				["vendor"] = {
+					"Sid Limbardi", -- [1]
+					"Provisioner Anir", -- [2]
+					"Caregiver Ophera Windfury", -- [3]
+					"Caregiver Abidaar", -- [4]
+				},
+			},
+			["Strength of the Untamed"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Preserver's Cudgel"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Nolkai's Bag"] = {
+				["id"] = 23852,
+			},
+			["Pattern: Heavy Clefthoof Leggings"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Swift Palomino"] = {
+				["id"] = 18776,
+			},
+			["Pattern: Clefthide Leg Armor"] = {
+				["vendor"] = {
+					"Fedryen Swiftspear", -- [1]
+				},
+			},
+			["Gem Pouch"] = {
+				["vendor"] = {
+					"Caregiver Ophera Windfury", -- [1]
+				},
+			},
+		},
+		["object"] = {
+			["Cleanse Trampled Skeleton"] = {
+				["quest"] = true,
+			},
+		},
+	},
+}
+QuestHelper_FlightInstructors = {
+	["0.59 on 2.4.3"] = {
+		{
+			["Nethergarde Keep, Blasted Lands"] = "Alexandra Constantine",
+			["Temple of Telhamat, Hellfire Peninsula"] = "Kuma",
+			["Telredor, Zangarmarsh"] = "Munci",
+			["Allerian Stronghold, Terokkar Forest"] = "Furnan Skysoar",
+			["Honor Hold, Hellfire Peninsula"] = "Flightmaster Krill Bitterhue",
+		}, -- [1]
+	},
+}
+QuestHelper_FlightRoutes = {
+	["0.59 on 2.4.3"] = {
+		{
+			["Honor Hold, Hellfire Peninsula"] = {
+				["Hellfire Peninsula, The Dark Portal, Alliance"] = {
+					[0] = true,
+				},
+				["Shattrath, Terokkar Forest"] = {
+					[0] = true,
+				},
+				["Allerian Stronghold, Terokkar Forest"] = {
+					[0] = true,
+				},
+				["Temple of Telhamat, Hellfire Peninsula"] = {
+					[0] = true,
+				},
+			},
+			["Temple of Telhamat, Hellfire Peninsula"] = {
+				["Honor Hold, Hellfire Peninsula"] = {
+					[0] = true,
+				},
+				["Telredor, Zangarmarsh"] = {
+					[0] = true,
+				},
+			},
+			["Allerian Stronghold, Terokkar Forest"] = {
+				["Honor Hold, Hellfire Peninsula"] = {
+					[0] = true,
+				},
+				["Shattrath, Terokkar Forest"] = {
+					[0] = 70.20000000001164,
+					["no_interrupt_count"] = 1,
+				},
+			},
+			["Hellfire Peninsula, The Dark Portal, Alliance"] = {
+				["Honor Hold, Hellfire Peninsula"] = {
+					[0] = true,
+				},
+			},
+			["Telredor, Zangarmarsh"] = {
+				["Shattrath, Terokkar Forest"] = {
+					[0] = 91.47800000000279,
+					["no_interrupt_count"] = 1,
+				},
+				["Temple of Telhamat, Hellfire Peninsula"] = {
+					[0] = true,
+				},
+			},
+			["Shattrath, Terokkar Forest"] = {
+				["Telredor, Zangarmarsh"] = {
+					[0] = true,
+				},
+				["Allerian Stronghold, Terokkar Forest"] = {
+					[0] = true,
+				},
+				["Honor Hold, Hellfire Peninsula"] = {
+					[0] = true,
+				},
+			},
+			["Nethergarde Keep, Blasted Lands"] = {
+				["Stormwind, Elwynn"] = {
+					[0] = true,
+				},
+			},
+			["Stormwind, Elwynn"] = {
+				["Nethergarde Keep, Blasted Lands"] = {
+					[0] = true,
+				},
+			},
+		}, -- [1]
+	},
+}
+QuestHelper_Pref = {
+	["track"] = true,
+	["filter_zone"] = false,
+	["scale"] = 1,
+	["comm"] = false,
+	["locale"] = "enUS",
+	["track_level"] = true,
+	["flight_time"] = true,
+	["show_ants"] = true,
+	["level"] = 2,
+	["perf_scale"] = 1,
+	["map_button"] = true,
+	["filter_blocked"] = false,
+	["solo"] = false,
+	["filter_level"] = true,
+	["track_size"] = 8,
+	["track_minimized"] = false,
+	["cart_wp"] = true,
+	["track_qcolour"] = true,
+	["tomtom_wp"] = true,
+	["tooltip"] = true,
+	["share"] = true,
+	["filter_watched"] = false,
+	["track_ocolour"] = true,
+	["filter_done"] = false,
+	["hide"] = false,
+	["track_scale"] = 1,
+}
+QuestHelper_UID = "rKda1RGoOTl9NjJV062cGkWZiU4bk8w0"
+QuestHelper_SaveDate = 1511813544
+QuestHelper_SeenRealms = {
+	["Ares"] = true,
+}
+QuestHelper_Errors = {
+	["crashes"] = {
+	},
+}

@@ -1,0 +1,107 @@
+MACRO 16777260 "1FOCUS" Spell_Holy_SummonChampion
+/focus [target=arena1]
+END
+MACRO 16777261 "2FOCUS" Spell_Holy_SummonChampion
+/focus [target=arena2]
+END
+MACRO 16777262 "3FOCUS" Spell_Holy_SummonChampion
+/focus [target=arena3]
+END
+MACRO 16777265 "Adrenaline Rush" INV_Misc_QuestionMark
+#showtooltip Adrenaline Rush
+/use [target=target, exists] 13
+/use [target=target, exists] 14
+/castsequence [target=player] reset=3 Adrenaline Rush, Blade Flurry
+/use [target=target, exists] Haste Potion
+/use [target=target, exists] Drums of War
+END
+MACRO 16777249 "Bandage" Spell_Nature_NullWard
+#showtooltip Heavy Netherweave Bandage
+/use [target=player] Heavy Netherweave Bandage
+END
+MACRO 16777266 "Blade Flurry" INV_Misc_QuestionMark
+#showtooltip Blade Flurry
+/cast [stealth] Garrote
+/cast [nostealth, harm, target=target, exists] Blade Flurry
+/startattack [target=Windfury Totem] [harm]
+/startattack [target=Mana Tide Totem] [harm]
+END
+MACRO 16777253 "DeadlyThrow" INV_Misc_QuestionMark
+#showtooltip Deadly Throw
+/cast [target=mouseover, exists, harm][target=target, exists, harm][] Deadly Throw
+/cast [target=Windfury Totem] [harm] Throw
+/cast [target=Mana Tide Totem] [harm] Throw
+/cast [target=target] [harm] Throw
+END
+MACRO 16777267 "Distract" INV_Misc_QuestionMark
+#showtooltip distract
+/cast !distract
+END
+MACRO 16777259 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Sap
+/cast [target=focus, exists, harm] Sap
+/stopattack
+END
+MACRO 16777251 "FOCUS" INV_Misc_QuestionMark
+#showtooltip Gouge
+#showtooltip Gouge
+/cast [nocombat] !Stealth
+/cast [target=focus, stealth, harm] Sap
+/cast [target=focus, nostealth, harm] Gouge
+/stopattack
+END
+MACRO 16777250 "Gouge" INV_Misc_QuestionMark
+#showtooltip Gouge
+/cast [nocombat] !Stealth
+/cast [stealth, harm] Sap
+/cast [nostealth, harm] Gouge
+/stopattack
+END
+MACRO 16777258 "MindNumb" INV_Misc_QuestionMark
+#showtooltip Shiv
+/equipslot 17 Ceremonial Warmaul Blood-blade
+/cast [combat, harm] Shiv
+/stopmacro
+END
+MACRO 16777264 "Preparation" INV_Misc_QuestionMark
+#showtooltip Preparation
+/cast [nostealth] evasion
+/cast sprint
+/cast Preparation
+END
+MACRO 16777255 "Regen" INV_Misc_QuestionMark
+#showtooltip Telaari Grapes
+/use Conjured Manna Biscuit
+/use Conjured Mana Bun
+/use Telaari Grapes
+END
+MACRO 16777268 "Sap" INV_Misc_QuestionMark
+#showtooltip Sap
+/cast [nostealth, harm] Gouge
+/cast [target=target, exists, harm] Sap
+/focus [target=target, exists, harm]
+/stopattack
+END
+MACRO 16777257 "Shiv" INV_Misc_QuestionMark
+#showtooltip Shiv
+/equipslot 17 Latro's Shifting Sword
+/cast [combat, harm] Shiv
+/stopmacro
+END
+MACRO 16777263 "SinisterStrike" INV_Misc_QuestionMark
+#showtooltip Sinister Strike
+/cast [stealth, harm] Cheap Shot
+/cast [nostealth, harm] Sinister Strike
+/equipslot 17 Latro's Shifting Sword
+/startattack [target=Windfury Totem] [harm]
+/startattack [target=Mana Tide Totem] [harm]
+/target Chain
+END
+MACRO 16777252 "Stealth" INV_Misc_QuestionMark
+/cast [nocombat] !Stealth
+/console targetNearestDistance 10.000000 
+/targetenemyplayer [noharm][dead] 
+/console targetNearestDistance 18.000000
+/cast [harm] Sap
+/stopattack
+END
